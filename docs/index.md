@@ -1,34 +1,24 @@
-# Blogging with VuePress - Part 1
+# Blogging with VuePress and Netlify CMS
+In this series of tutorials I will help you set up your blog with VuePress.
 
-## Create your initial project files
-1. Create a new folder for your project and open it in VS code
-2. Create `docs/.vuepress/config.js` and add
-```
-module.exports = {
-    title: "My First Vuepress Site", 
-    description: "Welcome to my first VuePress site"
-}
-```
-3. Create `docs/index.md` (this is your homepage) and add
-```
-# Home
-Welcome to my VuePress site
-```
-4. Open the terminal and run `git init`
-5. Create a `.gitignore` file and add
-```
-/node_modules
-```
-6. In the terminal run `npm init -y`
-7. In the terminal run `npm i vuepress -D`
-8. Edit `scripts` in packagee.json file like so and save everything
-```
-"scripts": {
-    "build": "vuepress build docs",
-    "dev": "vuepress dev docs"
-},
-```
-## Take a first look at your homepage
-You are all set for a first look at your VuePress site. Open the terminal (`Ctrl+'` in VS Code) and run `npm run dev`, wait for the success message and open the link shown in the terminal.
+1. [Setup VuePress](./.vuepress/_posts/blogging-with-vuepress-part-1.md)
+2. [Connect to Netlify CMS](./.vuepress/_posts/blogging-with-vuepress-part-2.md)
+3. [Navigation]()
+4. [Theming]()
+5. [Custom components]()
+6. [Hosting and SEO]()
 
-You should see your homepage. `npm run dev` launches a live server, so every time you save a .md files you will instantly see changes in your browser.
+## Why VuePress?
+VuePress is a site generator that combines speed, security and reliability of a static site with the slick user experiance of a single page app (SPA).
+
+There is no database or server-side code code to worry about, making development.
+
+VuePress is based on the much-loved Vue framework, which makes it easy to customise the theme and features of your site.
+
+## Why Netlify CMS?
+Netlify CMS adds content management interface to your site, making it easy to write, edit and publish your content without having to write any code.
+
+## Prerequisites
+Even if you are a beginner, you should be able to follow along with these tutorials successfully.
+
+However, you will be able to do much more with your blog if you have some knowledge of html, css, js, Vue.js and git.

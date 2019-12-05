@@ -1,8 +1,7 @@
-# Blogging with VuePress and Netlify - Part 2
-## Connect to Netlify CMS
+# Part 2: Connect to Netlify CMS
 
-Part 1 - Setup VuePress
-Part 2 - Connect GitHub and Netlify CMS
-Part 3 - Navigation, permalinks and theming
-Part 4 - Adding Vue components
+If you completed [part 1](./blogging-with-vuepress-part-1.md) you should have your initial VuePress files setup and pushed to GitHub.
 
+Now we're going to add content management and write our first blog post with Netlify CMS.
+
+1. 
