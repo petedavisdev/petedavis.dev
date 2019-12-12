@@ -6,12 +6,13 @@ Now we're going to add content management and write our first blog post with Net
 
 ## Deploy your site to Netlify
 1. Login to [Netlify](https://app.netlify.com/start) and follow the stape to creat a new 'Continuous Deployment' site from your GitHub
-2. Netlify will automatically pick up the build command and deployment path for VuePress, so go ahead and click 'Deploy'
+2. Netlify will automatically pick up the build command and deployment path for VuePress, so go ahead and click 'Deploy' <!-- IMAGE NEEDED -->
 3. After a short wait while Netlify rund your VuePress build, Netlify will deploy your site to a randomly generated url. You can change the name of your site in 'Site settings' or add your own domain name via 'Domain settings'
 4. Click the 'Identity' tab and click 'Enable identity' and the open 'Identity Settings'
 5. Set 'Regisration' to 'invite only'
 6. In 'Services', enable Git Gateway, authorise GitHub then open the Services settings and generate an access token.
-7. Go to your [developer settings on GitHub](https://github.com/settings/developers) and register a new OAuth application
+7. Go to your [developer settings on GitHub](https://github.com/settings/developers) and register a new OAuth application <!-- IMAGE NEEDED --> The next page includes details you need to copy, so keep it open.
+8. Go back to your site settings on Netlify, open 'Access control'. Under OAuth, click 'Install provider' and copy in the Client ID and Secret from GitHub.
 
 ## Add Netlify CMS admin files to your project
 In your `.vuepress` folder, add a `public` folder and within that, add an `admin` folder where you will add two files:
