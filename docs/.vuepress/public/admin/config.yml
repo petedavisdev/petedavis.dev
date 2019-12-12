@@ -8,6 +8,6 @@ collections:
     files:
       - label: "Home"
         name: "home"
-        file: "index.md"
+        file: "docs/index.md"
         fields:
           - {label: Body, name: body, widget: markdown}
