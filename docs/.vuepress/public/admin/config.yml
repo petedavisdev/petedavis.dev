@@ -1,3 +1,5 @@
 backend:
   name: github
 media_folder: ".vuepress/public/"
+collections:
+  - name: "home"
