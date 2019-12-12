@@ -7,11 +7,11 @@ Now we're going to add content management and write our first blog post with Net
 ## Deploy your site to Netlify
 1. Login to [Netlify](https://app.netlify.com/start) and follow the stape to creat a new 'Continuous Deployment' site from your GitHub
 2. Netlify will automatically pick up the build command and deployment path for VuePress, so go ahead and click 'Deploy'
-3. After a short wait Netlify will deploy your site to a randomly generated url. You can change the name of your site in 'Site settings' or add your own domain name via 'Domain settings'
-
-Once Netlify has finished building and deploying your site, click the link that it provides. Your blog is now live!
-
-
+3. After a short wait while Netlify rund your VuePress build, Netlify will deploy your site to a randomly generated url. You can change the name of your site in 'Site settings' or add your own domain name via 'Domain settings'
+4. Click the 'Identity' tab and click 'Enable identity' and the open 'Identity Settings'
+5. Set 'Regisration' to 'invite only'
+6. In 'Services', enable Git Gateway, authorise GitHub then open the Services settings and generate an access token.
+7. Go to your [developer settings on GitHub](https://github.com/settings/developers) and register a new OAuth application
 
 ## Add Netlify CMS admin files to your project
 In your `.vuepress` folder, add a `public` folder and within that, add an `admin` folder where you will add two files:
@@ -23,6 +23,7 @@ In your `.vuepress` folder, add a `public` folder and within that, add an `admin
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Netlify CMS</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
@@ -35,6 +36,6 @@ backend:
   name: github
 media_folder: ".vuepress/public/"
 ```
-Commit and push your changes. 'Continuous Deployment' means that Netlify will detect changes to your Master branch and deploy without you having to lift a finger.
+Commit and push your changes. 'Continuous Deployment' means that Netlify will detect changes to your Master branch, build the site and deploy it without you having to lift a finger.
 
 ## Login to your CMS admin
