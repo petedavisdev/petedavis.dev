@@ -1,5 +1,6 @@
 backend:
   name: github
+  repo: p440davis/vuepress-netlify-blog
 media_folder: ".vuepress/public/"
 collections:
   - label: "Pages"
