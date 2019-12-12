@@ -4,6 +4,6 @@ media_folder: ".vuepress/public/"
 collections:
   - name: "home"
     label: "Home"
-    folder: ""
+    file: "index.md"
     fields: 
       - {label: "Body", name: "body", widget: "markdown"}
