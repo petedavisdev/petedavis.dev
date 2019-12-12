@@ -11,7 +11,7 @@ Now we're going to add content management and write our first blog post with Net
 
 Once Netlify has finished building and deploying your site, click the link that it provides. Your blog is now live!
 
-'Continuous Deployment' means that Netlify will detect changes to your Master branch and deploy without you having to lift a finger.
+
 
 ## Add Netlify CMS admin files to your project
 In your `.vuepress` folder, add a `public` folder and within that, add an `admin` folder where you will add two files:
@@ -35,5 +35,6 @@ backend:
   name: github
 media_folder: ".vuepress/public/"
 ```
+Commit and push your changes. 'Continuous Deployment' means that Netlify will detect changes to your Master branch and deploy without you having to lift a finger.
 
 ## Login to your CMS admin

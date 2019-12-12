@@ -3,3 +3,7 @@ backend:
 media_folder: ".vuepress/public/"
 collections:
   - name: "home"
+    label: "Home"
+    folder: ""
+    fields: 
+      - {label: "Body", name: "body", widget: "markdown"}
