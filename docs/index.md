@@ -19,6 +19,6 @@ VuePress is based on the much-loved Vue framework, which makes it easy to custom
 Netlify CMS adds content management interface to your site, making it easy to write, edit and publish your content without having to write any code.
 
 ## Prerequisites
-Even if you are a beginner, you should be able to follow along with these tutorials successfully.
+Beginners should be able to follow along with these tutorials successfully.
 
 However, you will be able to do much more with your blog if you have some knowledge of html, css, js, Vue.js and git.
