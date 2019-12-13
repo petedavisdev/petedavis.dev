@@ -11,11 +11,13 @@ In this series of tutorials I will help you set up your blog with VuePress.
 
 ## Why VuePress?
 
+![Vue](/docs/.vuepress/public/vue.js_logo.png)
+
 VuePress is a site generator that combines speed, security and reliability of a static site with the slick user experiance of a single page app (SPA).
 
 There is no database or server-side code code to worry about, so you can focus on the front-end.
 
-VuePress is based on the much-loved Vue framework, which makes it easy to customise the theme and features of your site.
+VuePress is based on the much-loved Vue.js framework, which makes it easy to customise the theme and features of your site.
 
 ## Why Netlify CMS?
 
