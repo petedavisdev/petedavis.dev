@@ -1,6 +1,6 @@
 ---
 title: Blog post 2
-date: 2019-12-13T15:46:05.318Z
+date: 2019-12-13T15:46:47.996Z
 thumbnail: /media/vue.js_logo.png
 ---
 # Part 2: Connect to Netlify CMS
