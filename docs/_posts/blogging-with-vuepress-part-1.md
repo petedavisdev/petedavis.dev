@@ -1,3 +1,8 @@
+---
+title: Blog post 1
+date: 2019-12-13T15:45:10.662Z
+thumbnail: /media/vue.js_logo.png
+---
 # Part 1: Setup VuePress
 
 ## 10 steps (approx 15 minutes)
