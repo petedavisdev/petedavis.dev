@@ -1,3 +1,8 @@
+---
+title: Blog post 3
+date: 2019-12-13T15:47:39.399Z
+thumbnail: /media/vue.js_logo.png
+---
 # Part 3: Creating blog posts with and editorial workflow
 
 In [part 2](./blogging-with-vuepress-part-2.md) you got as far as editing your home page content in Netlify CMS. 
