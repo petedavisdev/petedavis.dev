@@ -11,7 +11,7 @@ In this series of tutorials I will help you set up your blog with VuePress.
 
 ## Why VuePress?
 
-![Vue](/docs/.vuepress/public/vue.js_logo.png)
+![Vue logo](/media/vue.js_logo.png)
 
 VuePress is a site generator that combines speed, security and reliability of a static site with the slick user experiance of a single page app (SPA).
 
