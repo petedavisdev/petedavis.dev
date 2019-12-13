@@ -2,8 +2,8 @@
 
 In this series of tutorials I will help you set up your blog with VuePress.
 
-1. [Setup VuePress](./.vuepress/_posts/blogging-with-vuepress-part-1.md)
-2. [Connect to Netlify CMS](./.vuepress/_posts/blogging-with-vuepress-part-2.md)
+1. [Setup VuePress](./_posts/blogging-with-vuepress-part-1.md)
+2. [Connect to Netlify CMS](./_posts/blogging-with-vuepress-part-2.md)
 3. [Navigation](<>)
 4. [Theming](<>)
 5. [Custom components](<>)

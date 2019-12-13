@@ -1,4 +1,4 @@
 module.exports = {
-    title: 'VuePress site',
-    description: 'Just playing around'
+    title: 'Blogging with VuePress and Netlify CMS',
+    description: 'Step-by-step guid to create your blog'
 }

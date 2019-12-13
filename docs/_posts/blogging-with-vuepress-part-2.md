@@ -42,9 +42,10 @@ In your `.vuepress` folder, add a `public` folder and within that, add an `admin
 backend:
   name: github
   repo: p440davis/vuepress-netlify-blog
-media_folder: "docs/.vuepress/public/"
+media_folder: "docs/.vuepress/public/media"
+public_folder: "/media"
 collections:
-  - label: "Pages"
+  - label: "Home"
     name: "pages"
     files:
       - label: "Home"
@@ -53,6 +54,10 @@ collections:
         fields:
           - {label: Body, name: body, widget: markdown}
 ```
-Commit and push your changes. 'Continuous Deployment' means that Netlify will detect changes to your Master branch, build the site and deploy it without you having to lift a finger.
+Commit and push your changes. 'Continuous Deployment' means that Netlify will detect changes to your GitHub Master branch, build the site and deploy it without you having to lift a finger.
 
 ## Login to your CMS admin
+You can now access your CMS. Simply add /admin to the end of your website url in the browser and you will be invited to login with GitHub. 
+Once logged in you will see a collection called Pages and inside it an item called Home. Now you can start using the CMS to edit the homepage and add images. We're almost ready to start blogging!
+
+## [Part 3: Creating blog posts &rarr;](./blogging-with-vuepress-part-3.md)
