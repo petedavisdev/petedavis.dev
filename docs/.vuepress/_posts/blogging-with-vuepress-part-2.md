@@ -42,7 +42,7 @@ In your `.vuepress` folder, add a `public` folder and within that, add an `admin
 backend:
   name: github
   repo: p440davis/vuepress-netlify-blog
-media_folder: ".vuepress/public/"
+media_folder: "docs/.vuepress/public/"
 collections:
   - label: "Pages"
     name: "pages"
