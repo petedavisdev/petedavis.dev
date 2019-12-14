@@ -5,6 +5,12 @@ thumbnail: /media/vue.js_logo.png
 ---
 # Part 1: Setup VuePress
 
+## Prerequisites
+
+Beginners should be able to follow along with these tutorials successfully. However, you will be able to do much more with your blog if you have some experience with CSS, JS and Git.
+
+Before you start, you will need the standard set of front-end development tools installed on your computer - [Node](<>), [Git](<>) and a code editor like [VS Code](<>).
+
 ## 10 steps (approx 15 minutes)
 
 By the end of this tutorial you will have a git repository for your blog with VuePress installed and a basic homepage to look at in your browser.
@@ -21,7 +27,7 @@ module.exports = {
 4. Create `docs/index.md` (this is your homepage) and add the
 ```
 # Home
-Welcome to my VuePress site
+Welcome to my VuePress blog
 ```
 6. Create a `.gitignore` file and add
 ```
