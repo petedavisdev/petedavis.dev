@@ -1,6 +1,6 @@
 ---
 title: Why VuePress + Netlify?
-date: 2019-12-13T16:30:01.640Z
+date: 2019-12-13T15:46:47.996Z
 thumbnail: /media/vue.js_logo.png
 ---
 In this series of tutorials I will help you set up your blog with VuePress.
