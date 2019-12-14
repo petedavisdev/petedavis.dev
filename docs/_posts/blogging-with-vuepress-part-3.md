@@ -1,7 +1,7 @@
 ---
 title: Blog post 3
 date: 2019-12-13T15:49:09.818Z
-thumbnail: /media/vue.js_logo.png
+thumbnail: /media/workflow.png
 ---
 # Part 3: Creating blog posts with and editorial workflow
 
@@ -10,11 +10,13 @@ In [part 2](./blogging-with-vuepress-part-2.md) you got as far as editing your h
 Now we're going to make blogging possible.
 
 ## Configure Netlify CMS
+
 We need to add a new collection called "Posts" within your admin config. This will include information about the content of posts and the folder they will be saved in.
 
 Now is also a goot time to add `publish_mode: editorial_workflow`. This means that you will be able to save draft posts before publishing them.
 
 Here is the resulting `docs/.vuepress/public/admin/config.yml`
+
 ```
 backend:
   name: github
@@ -41,8 +43,24 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 ```
+
 Commit and push this change. After it has deployed you will be able to see Posts in your CMS below Pages.
 
-## Setup VuePress posts frontmatter
+Try creating a post. You will now find that you have to fill in all the fields before saving and that you must set the status to 'Ready' before publishing. 
+
+![Netlify CMS workflow](/media/workflow.png)
+
+You also have a 'Workflow' tab a the top which gives you an overview of saved posts which you can drag between different states before publishing.
+
+## Permalinks
+Add `permalink: '/:slug'` to your .vuepress/config.js
+```
+module.exports = {
+    title: 'Blogging with VuePress and Netlify CMS',
+    description: 'Step-by-step guid to create your blog',
+    permalink: '/:slug'
+}
+```
+Setup VuePress posts frontmatter, permalinks, navigation
 
 ## [Part 4: Pages and navigation &rarr;](./blogging-with-vuepress-part-4.md)
