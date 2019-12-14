@@ -16,7 +16,7 @@ export default {
                     return page.regularPath.includes("/_posts/");
                 })
                 .sort((a, b) => {
-                    return a.frontmatter.date > b.frontmatter.date ? 1 : -1;
+                    return a.frontmatter.date < b.frontmatter.date ? 1 : -1;
                 });
         }
     }
