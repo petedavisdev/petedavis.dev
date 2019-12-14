@@ -1,6 +1,6 @@
 ---
 title: Blog post 3
-date: 2019-12-13T15:49:09.818Z
+date: 2019-12-14T15:49:09.818Z
 thumbnail: /media/workflow.png
 ---
 # Part 3: Creating blog posts with and editorial workflow
