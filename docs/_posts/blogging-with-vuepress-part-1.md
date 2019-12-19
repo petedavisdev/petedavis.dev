@@ -32,6 +32,7 @@ Welcome to my VuePress blog
 6. Create a `.gitignore` file and add
 ```
 /node_modules
+**/dist
 ```
 7. In the terminal run `npm init -y`.
 8. In the terminal run `npm i vuepress -D`.
