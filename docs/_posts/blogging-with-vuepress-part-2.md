@@ -29,36 +29,13 @@ https://api.netlify.com/auth/done
 ## Add Netlify CMS admin files to your project
 In your `.vuepress` folder, add a `public` folder and within that, add an `admin` folder where you will add two files:
 1. `index.html`
-``` html
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Netlify CMS</title>
-</head>
-<body>
-  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-</body>
-</html>
-```
+
+<<< @/docs/.vuepress/public/admin/index.html
+
 2. `config.yml`
-``` yml
-backend:
-  name: github
-  repo: p440davis/vuepress-netlify-blog
-media_folder: "docs/.vuepress/public/media"
-public_folder: "/media"
-collections:
-  - label: "Home"
-    name: "pages"
-    files:
-      - label: "Home"
-        name: "home"
-        file: "docs/index.md"
-        fields:
-          - {label: Body, name: body, widget: markdown}
-```
+
+<<< @/docs/.vuepress/public/snippets/admin.config.yml
+
 Commit and push your changes. 'Continuous Deployment' means that Netlify will detect changes to your GitHub Master branch, build the site and deploy it without you having to lift a finger.
 
 ## Login to your CMS admin

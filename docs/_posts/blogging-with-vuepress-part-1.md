@@ -37,12 +37,9 @@ Welcome to my VuePress blog
 7. In the terminal run `npm init -y`.
 8. In the terminal run `npm i vuepress -D`.
 9. Edit `scripts` in packagee.json file like so and save everything
-``` json
-"scripts": {
-    "build": "vuepress build docs",
-    "dev": "vuepress dev docs"
-},
-```
+
+<<< @/docs/.vuepress/public/snippets/.package.json{6-9}
+
 10. Take a first look at your homepage
 You are all set for a first look at your VuePress site. Open the terminal (`Ctrl+'` in VS Code) and run `npm run dev`, wait for the success message and open the link shown in the terminal.\
 \

@@ -1,0 +1,14 @@
+backend:
+  name: github
+  repo: p440davis/vuepress-netlify-blog
+media_folder: "docs/.vuepress/public/media"
+public_folder: "/media"
+collections:
+  - label: "Home"
+    name: "pages"
+    files:
+      - label: "Home"
+        name: "home"
+        file: "docs/index.md"
+        fields:
+          - {label: Body, name: body, widget: markdown}
