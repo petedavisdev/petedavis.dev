@@ -18,14 +18,14 @@ By the end of this tutorial you will have a git repository for your blog with Vu
 1. Login to your [GitHub](https://github.com/) account and create a new repository for your blog.
 2. Clone your repository on your computer and open the folder in [VS Code](https://code.visualstudio.com/) (or your preferred code editor).
 3. Create `docs/.vuepress/config.js` and add
-```
+``` js
 module.exports = {
     title: "My First Vuepress Site", 
     description: "Welcome to my first VuePress site"
 }
 ```
 4. Create `docs/index.md` (this is your homepage) and add the
-```
+``` md
 # Home
 Welcome to my VuePress blog
 ```
@@ -37,7 +37,7 @@ Welcome to my VuePress blog
 7. In the terminal run `npm init -y`.
 8. In the terminal run `npm i vuepress -D`.
 9. Edit `scripts` in packagee.json file like so and save everything
-```
+``` json
 "scripts": {
     "build": "vuepress build docs",
     "dev": "vuepress dev docs"

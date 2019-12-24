@@ -17,7 +17,7 @@ Now is also a goot time to add `publish_mode: editorial_workflow`. This means th
 
 Here is the resulting `docs/.vuepress/public/admin/config.yml`
 
-```
+``` yml
 backend:
   name: github
   repo: p440davis/vuepress-netlify-blog
@@ -57,7 +57,7 @@ We are now going to create our first custom Vue component in order to display a 
 
 In the .vuepress folder add a components folder and create a file called `LatestPosts.vue`
 
-```
+``` html
 <template>
     <section>
         <a v-for="post in latestPosts" :href="post.path">

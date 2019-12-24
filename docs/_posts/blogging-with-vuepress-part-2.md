@@ -29,7 +29,7 @@ https://api.netlify.com/auth/done
 ## Add Netlify CMS admin files to your project
 In your `.vuepress` folder, add a `public` folder and within that, add an `admin` folder where you will add two files:
 1. `index.html`
-```
+``` html
 <!doctype html>
 <html>
 <head>
@@ -43,7 +43,7 @@ In your `.vuepress` folder, add a `public` folder and within that, add an `admin
 </html>
 ```
 2. `config.yml`
-```
+``` yml
 backend:
   name: github
   repo: p440davis/vuepress-netlify-blog
