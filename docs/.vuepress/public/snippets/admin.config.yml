@@ -3,12 +3,22 @@ backend:
   repo: p440davis/vuepress-netlify-blog
 media_folder: "docs/.vuepress/public/media"
 public_folder: "/media"
+publish_mode: editorial_workflow
 collections:
   - label: "Home"
-    name: "pages"
+    name: "home"
     files:
-      - label: "Home"
-        name: "home"
+      - label: "Homepage"
+        name: "homepage"
         file: "docs/index.md"
+        delete: false
         fields:
           - {label: Body, name: body, widget: markdown}
+  - label: "Pages"
+    name: "pages"
+    folder: "docs/_pages"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:slug"}
