@@ -3,6 +3,8 @@ title: Create a VuePress site and deploy it on Netlify
 date: 2019-12-12T15:45:10.662Z
 thumbnail: /media/vue.js_logo.png
 ---
+You already know [why VuePress and Netlify](/why-vuepress-and-netlify-cms) are the perfect combination for building modern websites. Let's get stuck in!
+
 ## Prerequisites
 
 Before you start, you will need the standard set of front-end development tools installed on your computer - [Node](<>), [Git](<>) and a code editor like [VS Code](<>).
@@ -38,7 +40,7 @@ Welcome to my VuePress site
 
 7. In the terminal run `npm init -y`.
 8. In the terminal run `npm i vuepress -D`.
-9. Edit `scripts` in packagee.json file like so and save everything
+9. Edit `scripts` in `package.json` file like so and save everything
 
 <<< @/docs/.vuepress/public/snippets/.package.json{6-9}
 
@@ -53,5 +55,3 @@ All good? Commit and push your changes to GitHub.
 1. Login to [Netlify](https://app.netlify.com/start) and follow the steps to create a new 'Continuous Deployment' site from your GitHub
 2. Netlify will automatically pick up the build command and deployment path for VuePress, so go ahead and click 'Deploy' <!-- IMAGE NEEDED -->
 3. After a short wait while Netlify runs your VuePress build, Netlify will deploy your site to a randomly generated url. You can change the name of your site in 'Site settings' or add your own domain name via 'Domain settings'
-
-## [Part 2: Connect Netlify CMS &rarr;](./blogging-with-vuepress-part-2.md)
