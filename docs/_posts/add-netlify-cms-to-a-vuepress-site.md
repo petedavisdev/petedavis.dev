@@ -34,10 +34,18 @@ In your `.vuepress` folder, add a `public` folder and within that, add an `admin
 
 <<< @/docs/.vuepress/public/snippets/admin.config.yml
 
+This config will enable you to edit your homepage, but not delete it. It will also give you the ability to create, edit and delete pages.
+
 Commit and push your changes. 'Continuous Deployment' means that Netlify will detect changes to your GitHub Master branch, build the site and deploy it without you having to lift a finger.
 
-## Login to your CMS admin
+## Login to your CMS and create pages
 
-You can now access your CMS. Simply add /admin to the end of your website url in the browser and you will be invited to login with GitHub.  Once logged in you will see a collection called Pages and inside it an item called Home. Now you can start using the CMS to edit the homepage and add images. We're almost ready to start blogging!
+You can now access your CMS. Simply add /admin to the end of your website url in the browser and you will be invited to login with GitHub.  Once logged in you will see a collection called Home, which contains your homepage and a collection called Pages, which will be empty. 
 
-## [Part 3: Creating blog posts &rarr;](./blogging-with-vuepress-part-3.md)
+Now you can start using the CMS to edit and add pages.
+
+Netlify CMS comes with workflow. New pages do not appear in the pages list or on your website until they have been published, and they cannot be published until they have been marked as "Ready".
+
+Create some new pages (e.g. About and Contact) and publish them. Now go back to your website and navigate to /about and /contact. You're starting to grow your website, but you'll need some navigation to get around.
+
+## Configure VuePress navigation
