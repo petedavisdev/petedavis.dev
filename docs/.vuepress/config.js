@@ -1,4 +1,4 @@
 module.exports = {
-    title: 'Blogging with VuePress + Netlify',
-    description: 'The sweetest JAMstack blog setup'
+    title: 'VuePresser',
+    description: 'The sweetest JAMstack'
 }

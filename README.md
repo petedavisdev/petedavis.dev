@@ -1,2 +1,2 @@
-# vuepress-netlify-blog
-Blogging with VuePress and Netlify CMS
+# vuepresser
+Creating websites with VuePress and Netlify CMS
