@@ -49,3 +49,9 @@ Netlify CMS comes with workflow. New pages do not appear in the pages list or on
 Create some new pages (e.g. About and Contact) and publish them. Now go back to your website and navigate to /about and /contact. You're starting to grow your website, but you'll need some navigation to get around.
 
 ## Configure VuePress navigation
+
+Open up your `.vuepress/congif.js` file and add the following theme config:
+
+<<< @/docs/.vuepress/public/snippets/vuepress.config.js{4-10}
+
+That's all you need to add items to the navbar of your site.
