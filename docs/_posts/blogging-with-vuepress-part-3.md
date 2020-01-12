@@ -1,11 +1,9 @@
 ---
-title: Blog post 3
+title: Blogging with VuePress and Netlify CMS
 date: 2019-12-14T15:49:09.818Z
 thumbnail: /media/workflow.png
 ---
-# Part 3: Creating blog posts with and editorial workflow
-
-In [part 2](./blogging-with-vuepress-part-2.md) you got as far as editing your home page content in Netlify CMS. 
+Before you start, you'll need to create a VuePress site and connect it to Netlify CMS.
 
 Now we're going to make blogging possible.
 
@@ -28,6 +26,7 @@ Try creating a post. You will now find that you have to fill in all the fields b
 You also have a 'Workflow' tab a the top which gives you an overview of saved posts which you can drag between different states before publishing.
 
 ## Latest posts component
+
 We are now going to create our first custom Vue component in order to display a list out links to recent posts.
 
 In the .vuepress folder add a components folder and create a file called `LatestPosts.vue`
