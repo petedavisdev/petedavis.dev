@@ -14,16 +14,16 @@ collections:
         delete: false
         fields:
           - {label: Body, name: body, widget: markdown}
-  - label: "Pages"
-    name: "pages"
+  - label: "Page"
+    name: "page"
     folder: "docs/_pages"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:slug"}
-  - label: "Posts"
-    name: "posts"
+  - label: "Post"
+    name: "post"
     folder: "docs/_posts"
     create: true
     fields:
