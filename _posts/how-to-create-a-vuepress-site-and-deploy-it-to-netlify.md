@@ -3,7 +3,7 @@ title: How to create a VuePress site and deploy it to Netlify
 date: 2020-01-18T16:49:07.895Z
 thumbnail: /media/vue.js_logo.png
 ---
-# How to create a VuePress site and deploy it to Netlify
+# Create a VuePress site and deploy it to Netlify
 
 VuePress and Netlify are the combination for automatically generating and deploying static sites.
 
@@ -102,14 +102,14 @@ module.exports = {
 
 Netlify will immediately notice when these changes reach your master branch on GitHub. As soon as it's done building, your site will be updated.
 
-## Useful links
-
-\[VuePress guide](<https://vuepress.vuejs.org/guide/>)
-
-\[VuePress default theme config](<https://vuepress.vuejs.org/theme/default-theme-config.html>)
-
-Netlify docs on \[docs.netlify.com](<https://docs.netlify.com/>)
+![About page in browser](/media/VuePress about page.png "About page in browser")
 
 ## Next...
 
 \[Add Netlify CMS to your VuePress site](/how-to-add-netlify-cms-to-your-vuepress-site)
+
+\[Official VuePress guide](<https://vuepress.vuejs.org/guide/>)
+
+\[VuePress default theme config](<https://vuepress.vuejs.org/theme/default-theme-config.html>)
+
+Netlify docs on \[docs.netlify.com](<https://docs.netlify.com/>)
