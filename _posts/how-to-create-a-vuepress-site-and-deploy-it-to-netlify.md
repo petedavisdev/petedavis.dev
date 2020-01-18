@@ -1,7 +1,7 @@
 ---
 title: How to create a VuePress site and deploy it to Netlify
 date: 2020-01-18T16:49:07.895Z
-thumbnail: /media/vue.js_logo.png
+thumbnail: /media/VuePress-about-page.png
 ---
 # Create a VuePress site and deploy it to Netlify
 
@@ -45,7 +45,7 @@ Welcome to my VuePress site
 
 You should now have all of these files:
 
-![VuePress files](/media/VuePress files.png "VuePress files")
+![VuePress files](/media/VuePress-files.png "VuePress files")
 
 You are all set for a first look at your VuePress site locally.  `npm run dev` launches a live server so that you can see changes in your browser as you develop your site.
 
@@ -57,7 +57,7 @@ Login to [Netlify](https://app.netlify.com/) and follow the steps to create a ne
 
 Change the build command to \`npm run build\` and publish directory to \`.vuepress/dist\`.
 
-![Netlify VuePress build settings](/media/Netlify VuePress build settings.png "Netlify VuePress build settings")
+![Netlify VuePress build settings](/media/Netlify-VuePress-build-settings.png "Netlify VuePress build settings")
 
 Hit "Deploy site"!
 
@@ -102,7 +102,7 @@ module.exports = {
 
 Netlify will immediately notice when these changes reach your master branch on GitHub. As soon as it's done building, your site will be updated.
 
-![About page in browser](/media/VuePress about page.png "About page in browser")
+![About page in browser](/media/VuePress-about-page.png "About page in browser")
 
 ## Next...
 
