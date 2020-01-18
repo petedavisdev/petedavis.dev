@@ -3,7 +3,9 @@ title: How to create a VuePress site and deploy it to Netlify
 date: 2020-01-18T16:49:07.895Z
 thumbnail: /media/vue.js_logo.png
 ---
-You already know [why VuePress and Netlify](/why-vuepress-and-netlify-cms) are the perfect combination for building fast JAMstack websites. Let's build!
+# How to create a VuePress site and deploy it to Netlify
+
+VuePress and Netlify are the combination for automatically generating and deploying static sites.
 
 ## Before you start
 
@@ -71,4 +73,4 @@ Official Netlify docs on \[docs.netlify.com](<https://docs.netlify.com/>)
 
 ## Next...
 
-\[Add Netlify CMS to your VuePress site](/how-to-add-netlify-cms-to-your-VuePress-site)
+\[Add Netlify CMS to your VuePress site](/how-to-add-netlify-cms-to-your-vuepress-site)
