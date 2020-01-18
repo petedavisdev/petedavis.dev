@@ -10,13 +10,13 @@ collections:
     files:
       - label: "Homepage"
         name: "homepage"
-        file: "docs/index.md"
+        file: "index.md"
         delete: false
         fields:
           - {label: Body, name: body, widget: markdown}
   - label: "Pages"
     name: "pages"
-    folder: "docs/_pages"
+    folder: "_pages"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -24,7 +24,7 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:slug"}
   - label: "Posts"
     name: "posts"
-    folder: "docs/_posts"
+    folder: "_posts"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
