@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'VuePresser',
-    description: 'The sweetest JAMstack',
+    title: 'My Website',
+    description: 'Description of my website',
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },

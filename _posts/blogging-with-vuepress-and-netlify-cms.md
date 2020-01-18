@@ -15,7 +15,7 @@ Now is also a goot time to add `publish_mode: editorial_workflow`. This means th
 
 Here is the resulting `docs/.vuepress/public/admin/config.yml`
 
-<<< @/docs/.vuepress/public/snippets/admin.config.2.yml{6,16-24}
+<<< @/.vuepress/public/snippets/admin.config.2.yml{6,16-24}
 
 Commit and push this change. After it has deployed you will be able to see Posts in your CMS below Pages.
 
@@ -31,6 +31,6 @@ We are now going to create our first custom Vue component in order to display a 
 
 In the .vuepress folder add a components folder and create a file called `LatestPosts.vue`
 
-<<< @/docs/.vuepress/public/snippets/components.latestposts.vue
+<<< @/.vuepress/public/snippets/components.latestposts.vue
 
 ## [Part 4: Pages and navigation &rarr;](./blogging-with-vuepress-part-4.md)

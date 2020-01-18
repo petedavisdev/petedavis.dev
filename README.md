@@ -1,2 +1,2 @@
-# vuepresser
-Creating websites with VuePress and Netlify CMS
+# petedavis.dev
+My website

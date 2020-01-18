@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: p440davis/vuepresser
-media_folder: "docs/.vuepress/public/media"
+  repo: p440davis/petedavis.dev
+media_folder: ".vuepress/public/media"
 public_folder: "/media"
 publish_mode: editorial_workflow
 collections:
@@ -10,13 +10,13 @@ collections:
     files:
       - label: "Homepage"
         name: "homepage"
-        file: "docs/index.md"
+        file: "index.md"
         delete: false
         fields:
           - {label: Body, name: body, widget: markdown}
   - label: "Page"
     name: "page"
-    folder: "docs/_pages"
+    folder: "_pages"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -24,7 +24,7 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:slug"}
   - label: "Post"
     name: "post"
-    folder: "docs/_posts"
+    folder: "_posts"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}

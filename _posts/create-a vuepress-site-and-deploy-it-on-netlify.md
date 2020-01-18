@@ -15,7 +15,7 @@ By the end of this tutorial you will have VuePress installed and a basic homepag
 
 1. Login to your [GitHub](https://github.com/) account and create a new repository for your site.
 2. Clone your repository on your computer and open the folder in [VS Code](https://code.visualstudio.com/) (or your preferred code editor).
-3. Create `docs/.vuepress/config.js` file and add
+3. Create `.vuepress/config.js` file and add
 
 ```js
 module.exports = {
@@ -24,7 +24,7 @@ module.exports = {
 }
 ```
 
-4. Create `docs/index.md` (this is your homepage) and add the
+4. Create `index.md` (this is your homepage) and add the
 
 ```md
 # Home
@@ -42,7 +42,7 @@ Welcome to my VuePress site
 8. In the terminal run `npm i vuepress -D`.
 9. Edit `scripts` in `package.json` file like so and save everything
 
-<<< @/docs/.vuepress/public/snippets/.package.json{6-9}
+<<< @/.vuepress/public/snippets/.package.json{6-9}
 
 10. Take a first look at your homepage You are all set for a first look at your VuePress site. Open the terminal (`Ctrl+'` in VS Code) and run `npm run dev`, wait for the success message and open the link shown in the terminal.\
     \

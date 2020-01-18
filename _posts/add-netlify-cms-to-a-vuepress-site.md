@@ -28,11 +28,11 @@ In your `.vuepress` folder, add a `public` folder and within that, add an `admin
 
 1. `index.html`
 
-<<< @/docs/.vuepress/public/admin/index.html
+<<< @/.vuepress/public/admin/index.html
 
 2. `config.yml`
 
-<<< @/docs/.vuepress/public/snippets/admin.config.yml
+<<< @/.vuepress/public/snippets/admin.config.yml
 
 This config will enable you to edit your homepage, but not delete it. It will also give you the ability to create, edit and delete pages.
 
@@ -52,6 +52,6 @@ Create some new pages (e.g. About and Contact) and publish them. Now go back to 
 
 Open up your `.vuepress/congif.js` file and add the following theme config:
 
-<<< @/docs/.vuepress/public/snippets/vuepress.config.js{4-10}
+<<< @/.vuepress/public/snippets/vuepress.config.js{4-10}
 
 That's all you need to add items to the navbar of your site.
