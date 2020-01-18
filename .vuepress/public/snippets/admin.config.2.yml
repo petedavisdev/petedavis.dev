@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: my-github-username/my-vuepress-site
-media_folder: "docs/.vuepress/public/media"
+media_folder: ".vuepress/public/media"
 public_folder: "/media"
 publish_mode: editorial_workflow
 collections:

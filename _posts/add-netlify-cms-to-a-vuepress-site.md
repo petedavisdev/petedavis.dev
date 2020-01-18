@@ -28,7 +28,7 @@ In your `.vuepress` folder, add a `public` folder and within that, add an `admin
 
 1. `index.html`
 
-<<< @/.vuepress/public/admin/index.html
+<<< @/.vuepress/public/snippets/admin.index.html
 
 2. `config.yml`
 

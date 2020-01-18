@@ -13,7 +13,7 @@ We need to add a new collection called "Posts" within your admin config. This wi
 
 Now is also a goot time to add `publish_mode: editorial_workflow`. This means that you will be able to save draft posts before publishing them.
 
-Here is the resulting `docs/.vuepress/public/admin/config.yml`
+Here is the resulting `.vuepress/public/admin/config.yml`
 
 <<< @/.vuepress/public/snippets/admin.config.2.yml{6,16-24}
 
