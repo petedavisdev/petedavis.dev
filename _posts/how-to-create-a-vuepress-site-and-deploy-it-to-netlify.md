@@ -51,6 +51,16 @@ All good? Commit and push your changes to GitHub.
 
 ## Deploy your site on Netlify
 
-1. Login to [Netlify](https://app.netlify.com/start) and follow the steps to create a new 'Continuous Deployment' site from your GitHub
-2. Netlify will automatically pick up the build command and deployment path for VuePress, so go ahead and click 'Deploy' <!-- IMAGE NEEDED -->
-3. After a short wait while Netlify runs your VuePress build, Netlify will deploy your site to a randomly generated url. You can change the name of your site in 'Site settings' or add your own domain name via 'Domain settings'
+Login to [Netlify](https://app.netlify.com/) and follow the steps to create a new site from your GitHub repo.
+
+Change the build command to \`npm run build\` and publish directory to \`.vuepress/dist\`.
+
+![Netlify VuePress build settings](/media/Netlify VuePress build settings.png "Netlify VuePress build settings")
+
+Hit "Deploy site"!
+
+After a short wait while Netlify runs your build, your site will deploy your site to a randomly generated url. You can change the name of your site or add your own domain name via 'Domain settings'.
+
+Voilà! Your website is online!
+
+Every time you commit a change to master on GitHub, Netlify will rebuild and deploy your site automatically. That's some JAMstack magic!
