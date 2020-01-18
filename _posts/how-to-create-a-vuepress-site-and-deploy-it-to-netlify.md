@@ -69,4 +69,6 @@ Official VuePress docs on \[vuepress.vuejs.org](<https://vuepress.vuejs.org/guid
 
 Official Netlify docs on \[docs.netlify.com](<https://docs.netlify.com/>)
 
-\[How to add Netlify CMS to your VuePress site](/how-to-add-netlify-cms-to-your-VuePress-site)
+## Next...
+
+\[Add Netlify CMS to your VuePress site](/how-to-add-netlify-cms-to-your-VuePress-site)
