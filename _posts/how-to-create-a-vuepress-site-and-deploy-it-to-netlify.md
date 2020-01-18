@@ -3,19 +3,23 @@ title: How to create a VuePress site and deploy it to Netlify
 date: 2020-01-18T16:49:07.895Z
 thumbnail: /media/vue.js_logo.png
 ---
-You already know [why VuePress and Netlify](/why-vuepress-and-netlify-cms) are the perfect combination for building modern websites. Let's get stuck in!
+You already know [why VuePress and Netlify](/why-vuepress-and-netlify-cms) are the perfect combination for building fast JAMstack websites. Let's build!
 
-## Prerequisites
+## Before you start
 
-Before you start, you will need the standard set of front-end development tools installed on your computer - [Node](<>), [Git](<>) and a code editor like [VS Code](<>).
+You will need the usual front-end development tools installed on your computer - [Git](https://git-scm.com/), [Node](https://nodejs.org/) and [your favourite code editor](https://code.visualstudio.com/).
 
-By the end of this tutorial you will have VuePress installed and a basic homepage for your site deployed to Netlify.
+Grab yourself a fresh [GitHub](https://github.com/) repo and [clone it](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) on your computer.
 
-## VuePress setup in 10 simple steps
+## VuePress in 5 steps
 
-1. Login to your [GitHub](https://github.com/) account and create a new repository for your site.
-2. Clone your repository on your computer and open the folder in [VS Code](https://code.visualstudio.com/) (or your preferred code editor).
-3. Create `.vuepress/config.js` file and add
+1. Add this to your `.gitignore` file
+```
+/node_modules
+**/dist
+```
+
+2. Create a `.vuepress` folder with a `config.js` file and add
 
 ```js
 module.exports = {
@@ -24,29 +28,20 @@ module.exports = {
 }
 ```
 
-4. Create `index.md` (this is your homepage) and add the
+3. Create `index.md` and add something like
 
 ```md
-# Home
+# Homepage
 Welcome to my VuePress site
 ```
 
-6. Create a `.gitignore` file and add
+4. In the terminal run `npm init -y` and then `npm i vuepress -D`
+5. Add `build` and `dev` scripts to your `package.json` file
 
-```
-/node_modules
-**/dist
-```
+<<< @/.vuepress/public/snippets/.package.json{7-8}
 
-7. In the terminal run `npm init -y`.
-8. In the terminal run `npm i vuepress -D`.
-9. Edit `scripts` in `package.json` file like so and save everything
-
-<<< @/.vuepress/public/snippets/.package.json{6-9}
-
-10. Take a first look at your homepage You are all set for a first look at your VuePress site. Open the terminal (`Ctrl+'` in VS Code) and run `npm run dev`, wait for the success message and open the link shown in the terminal.\
-    \
-    You should see your homepage. `npm run dev` launches a live server, so every time you save a `.md` files you will instantly see changes in your browser.
+You are all set for a first look at your VuePress site locally. 
+`npm run dev` launches a live server so that you can see changes in your browser as you develop your site.
 
 All good? Commit and push your changes to GitHub.
 
