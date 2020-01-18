@@ -65,11 +65,50 @@ After a short wait while Netlify runs your build, your site will deploy your sit
 
 Voilà! Not only is your website deployed, it will magically redeploy with every change to master on GitHub.
 
+## Adding pages and navigation
+
+To demonstrate the Netlify CI process and make the site feel a bit more real, let's add another page and a menu.
+
+Create a folder called \`_pages\` and add \`about.md\` with some markdown content like so:
+
+```
+---
+title: About me
+permalink: '/:slug'
+---
+
+# My life story
+I was born on a rainy Tuesday in...
+```
+
+The bit between `---`'s is known as [front matter](https://vuepress.vuejs.org/guide/frontmatter.html) and its purpose is to add data that is used when VuePress generates your site. In this case, the \`title\` is what gets displayed in the browser tab and setting \`permalink: /:slug\` means that _pages will be removed from the path in the page url.
+
+Now that you have a new page, you need a way to navigate to it.
+
+Edit your \`.vuepress/config.js\` file like so:
+
+```js{4-9}
+module.exports = {
+    title: "My First Vuepress Site", 
+    description: "Welcome to my first VuePress site",
+    themeConfig: {
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'About', link: '/about/' }
+        ]
+    }
+}
+```
+
+Netlify will immediately notice when these changes reach your master branch on GitHub. As soon as it's done building, your site will be updated.
+
 ## Useful links
 
-Official VuePress docs on \[vuepress.vuejs.org](<https://vuepress.vuejs.org/guide/>)
+\[VuePress guide](<https://vuepress.vuejs.org/guide/>)
 
-Official Netlify docs on \[docs.netlify.com](<https://docs.netlify.com/>)
+\[VuePress default theme config](<https://vuepress.vuejs.org/theme/default-theme-config.html>)
+
+Netlify docs on \[docs.netlify.com](<https://docs.netlify.com/>)
 
 ## Next...
 
