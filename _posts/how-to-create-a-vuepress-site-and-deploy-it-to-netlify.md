@@ -14,6 +14,7 @@ Grab yourself a fresh [GitHub](https://github.com/) repo and [clone it](https://
 ## VuePress in 5 steps
 
 1. Add this to your `.gitignore` file
+
 ```
 /node_modules
 **/dist
@@ -40,8 +41,11 @@ Welcome to my VuePress site
 
 <<< @/.vuepress/public/snippets/.package.json{7-8}
 
-You are all set for a first look at your VuePress site locally. 
-`npm run dev` launches a live server so that you can see changes in your browser as you develop your site.
+You should now have all of these files:
+
+![VuePress files](/media/VuePress files.png "VuePress files")
+
+You are all set for a first look at your VuePress site locally.  `npm run dev` launches a live server so that you can see changes in your browser as you develop your site.
 
 All good? Commit and push your changes to GitHub.
 
