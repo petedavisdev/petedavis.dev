@@ -61,6 +61,12 @@ Hit "Deploy site"!
 
 After a short wait while Netlify runs your build, your site will deploy your site to a randomly generated url. You can change the name of your site or add your own domain name via 'Domain settings'.
 
-Voilà! Your website is online!
+Voilà! Not only is your website deployed, it will magically redeploy with every change to master on GitHub.
 
-Every time you commit a change to master on GitHub, Netlify will rebuild and deploy your site automatically. That's some JAMstack magic!
+## Useful links
+
+Official VuePress docs on \[vuepress.vuejs.org](<https://vuepress.vuejs.org/guide/>)
+
+Official Netlify docs on \[docs.netlify.com](<https://docs.netlify.com/>)
+
+\[How to add Netlify CMS to your VuePress site](/how-to-add-netlify-cms-to-your-VuePress-site)
