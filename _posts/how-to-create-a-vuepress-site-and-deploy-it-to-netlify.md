@@ -106,10 +106,10 @@ Netlify will immediately notice when these changes reach your master branch on G
 
 ## Next...
 
-\[Add Netlify CMS to your VuePress site](/how-to-add-netlify-cms-to-your-vuepress-site)
+[Add Netlify CMS to your VuePress site](/how-to-add-netlify-cms-to-your-vuepress-site)
 
-\[Official VuePress guide](<https://vuepress.vuejs.org/guide/>)
+[Official VuePress guide](https://vuepress.vuejs.org/guide/)
 
-\[VuePress default theme config](<https://vuepress.vuejs.org/theme/default-theme-config.html>)
+[VuePress default theme config](https://vuepress.vuejs.org/theme/default-theme-config.html)
 
-Netlify docs on \[docs.netlify.com](<https://docs.netlify.com/>)
+[Netlify docs](https://docs.netlify.com/)
