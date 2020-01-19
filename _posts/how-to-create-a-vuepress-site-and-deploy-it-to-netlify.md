@@ -9,9 +9,7 @@ VuePress and Netlify are the combination for automatically generating and deploy
 
 ## Before you start
 
-You will need the usual front-end development tools installed on your computer - [Git](https://git-scm.com/), [Node](https://nodejs.org/) and [your favourite code editor](https://code.visualstudio.com/).
-
-Grab yourself a fresh [GitHub](https://github.com/) repo and [clone it](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) on your computer.
+You will need the usual front-end development tools installed on your computer - [Git](https://git-scm.com/), [Node](https://nodejs.org/) and [your favourite code editor](https://code.visualstudio.com/). Grab yourself a [GitHub](https://github.com/) repo and [clone it](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) on your computer.
 
 ## VuePress in 5 steps
 
@@ -55,7 +53,7 @@ All good? Commit and push your changes to GitHub.
 
 Login to [Netlify](https://app.netlify.com/) and follow the steps to create a new site from your GitHub repo.
 
-Change the build command to \`npm run build\` and publish directory to \`.vuepress/dist\`.
+Change the build command to `npm run build` and publish directory to `.vuepress/dist`.
 
 ![Netlify VuePress build settings](/media/Netlify-VuePress-build-settings.png "Netlify VuePress build settings")
 
@@ -69,7 +67,7 @@ Voilà! Not only is your website deployed, it will magically redeploy with every
 
 To demonstrate the Netlify CI process and make the site feel a bit more real, let's add another page and a menu.
 
-Create a folder called \`_pages\` and add \`about.md\` with some markdown content like so:
+Create a folder called `_pages` and add `about.md` with some markdown content like so:
 
 ```
 ---
@@ -81,11 +79,11 @@ permalink: '/:slug'
 I was born on a rainy Tuesday in...
 ```
 
-The bit between `---`'s is known as [front matter](https://vuepress.vuejs.org/guide/frontmatter.html) and its purpose is to add data that is used when VuePress generates your site. In this case, the \`title\` is what gets displayed in the browser tab and setting \`permalink: /:slug\` means that _pages will be removed from the path in the page url.
+The bit between `---`'s is known as [front matter](https://vuepress.vuejs.org/guide/frontmatter.html) and its purpose is to add data that is used when VuePress generates your site. In this case, the `title` is what gets displayed in the browser tab and setting `permalink: /:slug` means that _pages will be removed from the path in the page url.
 
 Now that you have a new page, you need a way to navigate to it.
 
-Edit your \`.vuepress/config.js\` file like so:
+Edit your `.vuepress/config.js` file like so:
 
 ```js{4-9}
 module.exports = {
