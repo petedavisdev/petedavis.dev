@@ -13,7 +13,7 @@ To keep it simple for now, we are going to set up access to the CMS with GitHub
 
 1. Go to your [developer settings on GitHub](https://github.com/settings/developers) and add a new OAuth app.
 2. Enter the name and full URL of your Netlify site.\
-   Authorization callback URL callback URL:
+   Authorization callback URL:
 
 ```
 https://api.netlify.com/auth/done
