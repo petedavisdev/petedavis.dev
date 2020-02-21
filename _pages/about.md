@@ -1,7 +1,10 @@
 ---
-title: Get started
-permalink: '/:slug'
+title: About Pete
+permalink: "/:slug"
 ---
-These posts describe how to create a VuePress + Netlify CMS site from scratch.
 
-Beginners should be able to follow along easily. If you want to understand concepts better, I've included links to relevant documentation.
+# Hi!
+
+I'm Pete, a Frontend Architect at the Royal College of Nursing based in Cardiff, UK.
+
+This is my personal blog for sharing my learning and pet projects. I hope you find some useful info and ideas here.

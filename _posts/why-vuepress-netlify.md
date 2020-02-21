@@ -2,15 +2,17 @@
 title: Why VuePress + Netlify?
 date: 2019-12-11T15:46:47.996Z
 thumbnail: /media/vue.js_logo.png
+tags: ["VuePress", "Netlify", "Netlify CMS"]
 ---
+
 In this series of tutorials I will help you set up your website with VuePress.
 
 1. [Setup VuePress](./_posts/blogging-with-vuepress-part-1.md)
 2. [Connect to Netlify CMS](./_posts/blogging-with-vuepress-part-2.md)
-3. [Navigation](<>)
-4. [Theming](<>)
-5. [Custom components](<>)
-6. [Hosting and SEO](<>)
+3. [Navigation]()
+4. [Theming]()
+5. [Custom components]()
+6. [Hosting and SEO]()
 
 ## Why VuePress?
 

@@ -13,21 +13,57 @@ collections:
         file: "index.md"
         delete: false
         fields:
-          - {label: Body, name: body, widget: markdown}
+          - label: Body
+            name: body
+            widget: markdown
+
   - label: "Page"
     name: "page"
     folder: "_pages"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:slug"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
+      - label: "Permalink"
+        name: "permalink"
+        widget: "hidden"
+        default: "/:slug"
+
   - label: "Post"
     name: "post"
     folder: "_posts"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+      - label: "Publish Date"
+        name: "date"
+        widget: "date"
+
+      - label: "Featured Image"
+        name: "thumbnail"
+        widget: "image"
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: ["VuePress", "Netlify CMS"]
+        hint: "Comma separated list"
+        required: false
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
+      - label: "Permalink"
+        name: "permalink"
+        widget: "hidden"
+        default: "/:slug"

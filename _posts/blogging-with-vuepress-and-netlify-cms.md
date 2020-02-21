@@ -2,7 +2,9 @@
 title: Blogging with VuePress and Netlify CMS
 date: 2019-12-14T15:49:09.818Z
 thumbnail: /media/workflow.png
+tags: ["VuePress", "Netlify", "Netlify CMS"]
 ---
+
 Before you start, you'll need to create a VuePress site and connect it to Netlify CMS.
 
 Now we're going to make blogging possible.
@@ -19,7 +21,7 @@ Here is the resulting `.vuepress/public/admin/config.yml`
 
 Commit and push this change. After it has deployed you will be able to see Posts in your CMS below Pages.
 
-Try creating a post. You will now find that you have to fill in all the fields before saving and that you must set the status to 'Ready' before publishing. 
+Try creating a post. You will now find that you have to fill in all the fields before saving and that you must set the status to 'Ready' before publishing.
 
 ![Netlify CMS workflow](/media/workflow.png)
 

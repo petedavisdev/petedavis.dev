@@ -2,7 +2,9 @@
 title: Add Netlify CMS to a VuePress site
 date: 2019-12-13T15:46:47.996Z
 thumbnail: /media/vue.js_logo.png
+tags: ["VuePress", "Netlify", "Netlify CMS"]
 ---
+
 Before you start, you'll need a VuePress site deployed to Netlify.
 
 Now we're going to add content management and write our first blog post with Netlify CMS.
@@ -40,7 +42,7 @@ Commit and push your changes. 'Continuous Deployment' means that Netlify will de
 
 ## Login to your CMS and create pages
 
-You can now access your CMS. Simply add /admin to the end of your website url in the browser and you will be invited to login with GitHub.  Once logged in you will see a collection called Home, which contains your homepage and a collection called Pages, which will be empty. 
+You can now access your CMS. Simply add /admin to the end of your website url in the browser and you will be invited to login with GitHub. Once logged in you will see a collection called Home, which contains your homepage and a collection called Pages, which will be empty.
 
 Now you can start using the CMS to edit and add pages.
 

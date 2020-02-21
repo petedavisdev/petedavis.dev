@@ -1,16 +1,27 @@
 {
-  "name": "vuepress-site",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "petedavis.dev",
+  "version": "0.0.1",
+  "description": "Frontend web development blog",
   "scripts": {
     "build": "vuepress build",
-    "dev": "vuepress dev"
+    "dev": "vuepress dev",
+    "start": "vuepress dev"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p440davis/petedavis.dev.git"
+  },
+  "keywords": [
+    "VuePress",
+    "Blog",
+    "Netlify",
+    "Netlify CMS",
+    "Netlify template"
+  ],
+  "author": "Pete Davis (https://petedavis.dev)",
+  "homepage": "https://petedavis.dev",
   "devDependencies": {
-    "vuepress": "latest"
+    "@vuepress/theme-blog": "^2.0.0",
+    "vuepress": "^1.0.0"
   }
 }

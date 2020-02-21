@@ -2,7 +2,9 @@
 title: How to create a VuePress site and deploy it to Netlify
 date: 2020-01-18T16:49:07.895Z
 thumbnail: /media/VuePress-about-page.png
+tags: ["VuePress", "Netlify"]
 ---
+
 # Create a VuePress site and deploy it to Netlify
 
 VuePress and Netlify are the combination for automatically generating and deploying static sites.
@@ -24,15 +26,16 @@ You will need the usual front-end development tools installed on your computer -
 
 ```js
 module.exports = {
-    title: "My First Vuepress Site", 
-    description: "Welcome to my first VuePress site"
-}
+  title: "My First Vuepress Site",
+  description: "Welcome to my first VuePress site"
+};
 ```
 
 3. Create `index.md` and add something like
 
 ```md
 # Homepage
+
 Welcome to my VuePress site
 ```
 
@@ -45,7 +48,7 @@ You should now have all of these files:
 
 ![VuePress files](/media/VuePress-files.png "VuePress files")
 
-You are all set for a first look at your VuePress site locally.  `npm run dev` launches a live server so that you can see changes in your browser as you develop your site.
+You are all set for a first look at your VuePress site locally. `npm run dev` launches a live server so that you can see changes in your browser as you develop your site.
 
 All good? Commit and push your changes to GitHub.
 
@@ -79,7 +82,7 @@ permalink: '/:slug'
 I was born on a rainy Tuesday in...
 ```
 
-The bit between `---`'s is known as [front matter](https://vuepress.vuejs.org/guide/frontmatter.html) and its purpose is to add data that is used when VuePress generates your site. In this case, the `title` is what gets displayed in the browser tab and setting `permalink: /:slug` means that _pages will be removed from the path in the page url.
+The bit between `---`'s is known as [front matter](https://vuepress.vuejs.org/guide/frontmatter.html) and its purpose is to add data that is used when VuePress generates your site. In this case, the `title` is what gets displayed in the browser tab and setting `permalink: /:slug` means that \_pages will be removed from the path in the page url.
 
 Now that you have a new page, you need a way to navigate to it.
 
@@ -87,15 +90,15 @@ Edit your `.vuepress/config.js` file like so:
 
 ```js{4-9}
 module.exports = {
-    title: "My First Vuepress Site", 
-    description: "Welcome to my first VuePress site",
-    themeConfig: {
-        nav: [
-            { text: 'Home', link: '/' },
-            { text: 'About', link: '/about/' }
-        ]
-    }
-}
+  title: "My First Vuepress Site",
+  description: "Welcome to my first VuePress site",
+  themeConfig: {
+    nav: [
+      { text: "Home", link: "/" },
+      { text: "About", link: "/about/" }
+    ]
+  }
+};
 ```
 
 Netlify will immediately notice when these changes reach your master branch on GitHub. As soon as it's done building, your site will be updated.
