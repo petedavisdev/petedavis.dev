@@ -1,12 +1,11 @@
 ---
 title: How to create a VuePress site and deploy it to Netlify
-date: 2020-01-18T16:49:07.895Z
+date: 2020-01-20T16:49:07.895Z
 thumbnail: /media/VuePress-about-page.png
-tags: ["VuePress", "Netlify"]
+tags:
+  - VuePress
+  - Netlify
 ---
-
-# Create a VuePress site and deploy it to Netlify
-
 VuePress and Netlify are the combination for automatically generating and deploying static sites.
 
 ## Before you start
@@ -82,7 +81,7 @@ permalink: '/:slug'
 I was born on a rainy Tuesday in...
 ```
 
-The bit between `---`'s is known as [front matter](https://vuepress.vuejs.org/guide/frontmatter.html) and its purpose is to add data that is used when VuePress generates your site. In this case, the `title` is what gets displayed in the browser tab and setting `permalink: /:slug` means that \_pages will be removed from the path in the page url.
+The bit between `---`'s is known as [front matter](https://vuepress.vuejs.org/guide/frontmatter.html) and its purpose is to add data that is used when VuePress generates your site. In this case, the `title` is what gets displayed in the browser tab and setting `permalink: /:slug` means that _pages will be removed from the path in the page url.
 
 Now that you have a new page, you need a way to navigate to it.
 
