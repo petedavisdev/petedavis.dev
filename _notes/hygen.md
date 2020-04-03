@@ -1,3 +1,4 @@
+
 ```
 npx hygen new appcomponent MembershipCard
 
@@ -12,3 +13,6 @@ inject ../rcn.org.uk/Projects/App/styles/index.scss
 inject ../rcn.org.uk/projectconfig
 
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNDE4NTMxNDE5XX0=
+-->
