@@ -1,4 +1,4 @@
-# Hygen vuepress
+# Hygen
 
 [https://www.hygen.io/quick-start](https://www.hygen.io/quick-start)
 ```
@@ -16,6 +16,6 @@ inject ../rcn.org.uk/projectconfig
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODU4OTgwOTEsLTEyOTczMjMwMCw0MT
-g1MzE0MTldfQ==
+eyJoaXN0b3J5IjpbLTMxODYxMjc5MCwtMTE4NTg5ODA5MSwtMT
+I5NzMyMzAwLDQxODUzMTQxOV19
 -->
