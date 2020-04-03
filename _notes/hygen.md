@@ -1,4 +1,4 @@
-
+[https://www.hygen.io/quick-start](https://www.hygen.io/quick-start)
 ```
 npx hygen new appcomponent MembershipCard
 
@@ -14,5 +14,5 @@ inject ../rcn.org.uk/projectconfig
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4NTMxNDE5XX0=
+eyJoaXN0b3J5IjpbLTEyOTczMjMwMCw0MTg1MzE0MTldfQ==
 -->
