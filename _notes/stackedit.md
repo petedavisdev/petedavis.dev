@@ -7,7 +7,7 @@ Markdown is a great format for taking notes. You can just jot down few words, bu
 Markdown has long been the standard format for software documentation. Now, with the popularity JamStack, it is rapidly becoming the format of choice for writing all web content. In my case I wanted to easily convert notes into posts on my VuePress powered blog.
 
 ## Storing notes on GitHub
-I wanted to store my notes in GitHub and keep notes in different repos alongside projects they related to, but I soon ran into a problem.
+I wanted to store my notes in GitHub. GitHub is great for viewing .md files as fully-formatted That way I could keep notes in different repos alongside projects they related to, but I soon ran into a problem.
 
 A good note taking workflow should minimise the time between having an idea and recording it. You don't want to navigate to the correct repo, branch, folder, file, switch to edit mode, and write a commit message every time you have an idea!
 
@@ -19,13 +19,10 @@ A good note taking workflow should minimise the time between having an idea and 
 4. StackEdit can be installed as an app (PWA) on your phone/tablet, saves locally and works offline, so your notes are always with you.
 5. StackEdit makes formatting you notes easy. If you're not already familiar with markdown, or even of you are, there's a toolbar to help you quickly format your content.
 
-## Gotchas and downsides
-Overall I am loving taking notes with StackEdit. One gotcha I rant
-
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjIzMDg4OTcsLTk1MDY1MzM0OSwtMT
+eyJoaXN0b3J5IjpbLTEyNjQ4NDQ5NDcsLTk1MDY1MzM0OSwtMT
 IzMDAyMDE0NSwtMjA0NDczMzIyXX0=
 -->
