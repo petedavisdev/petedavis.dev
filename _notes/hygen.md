@@ -11,7 +11,7 @@ You can start each .md file with frontmatter, a simple bit of code that defines 
  - permalink
  - meta
 
-
+Manually adding frontmatter every time is tesiuo
 
 [https://www.hygen.io/quick-start](https://www.hygen.io/quick-start)
 ```
@@ -29,6 +29,6 @@ inject ../rcn.org.uk/projectconfig
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODU2OTAxNywtMzE4NjEyNzkwLC0xMT
-g1ODk4MDkxLC0xMjk3MzIzMDAsNDE4NTMxNDE5XX0=
+eyJoaXN0b3J5IjpbMTk3NDAxMTc0LC0zMTg2MTI3OTAsLTExOD
+U4OTgwOTEsLTEyOTczMjMwMCw0MTg1MzE0MTldfQ==
 -->
