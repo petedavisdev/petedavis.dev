@@ -24,7 +24,7 @@ Effective note taking solutions minimise the barriers between thinking of someth
 
 Here's what we need to make markdown notes stored in GitHub a viable note taking solution:
 
-1. Quick access to read and create notes stored in different repos/folders
+1. Quick access to read/create/edit/save notes, wherever they are stored
 2. 
 
 3. StackEdit Workspaces give you a direct portal into wherever your notes are stored, so you can save notes within whichever GitHub repo the notes are related to - you can even keep them in a specific branch. 
@@ -35,7 +35,7 @@ Here's what we need to make markdown notes stored in GitHub a viable note taking
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDg4NzEyNywtMTg5NTAxMDkyMywtOD
+eyJoaXN0b3J5IjpbMTgxOTQ4NjE2NSwtMTg5NTAxMDkyMywtOD
 Q1MTc0Njg3LC03MDA5NjQ3OTUsLTk1MDY1MzM0OSwtMTIzMDAy
 MDE0NSwtMjA0NDczMzIyXX0=
 -->
