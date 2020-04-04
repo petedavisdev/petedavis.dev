@@ -3,7 +3,7 @@ I recently heard Wes Boss keeps his notes in markdown (.md) files and decided to
 
 My first thought was to do so directly on GitHub, but I soon found that this had limitations. 
 
-I wanted to keep notes in different repos alongside projects they related to - navigating around to the different places I kept notes and getting into
+I wanted to keep notes in different repos alongside projects they related to - navigating around to the different places I kept notes and getting into edit
 
 ## Benefits
 
@@ -18,5 +18,5 @@ I wanted to keep notes in different repos alongside projects they related to - n
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzIxODAyMCwtMjA0NDczMzIyXX0=
+eyJoaXN0b3J5IjpbMjEzNzI4ODc4MCwtMjA0NDczMzIyXX0=
 -->
