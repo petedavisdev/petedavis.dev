@@ -1,9 +1,7 @@
 # Note taking with StackEdit
 I recently heard Wes Boss keeps his notes in markdown (.md) files and decided to see if I could find an efficient way to do that myself.
 
-# My criteria
-1. Keep my notes in GitHub
-2. Edit my notes anywhere (on my phone, work l
+My first thought was to do so directly on GitH
 
 ## Benefits
 
@@ -18,5 +16,5 @@ I recently heard Wes Boss keeps his notes in markdown (.md) files and decided to
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzUyMzMxMDksLTIwNDQ3MzMyMl19
+eyJoaXN0b3J5IjpbLTkwNTEwMDg1MywtMjA0NDczMzIyXX0=
 -->
