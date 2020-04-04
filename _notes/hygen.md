@@ -2,9 +2,15 @@
 
 This blog is made with VuePress, which like other Static Site Generators (SSG), builds your webpages from markdown (.md) files. 
 
-You can start each .md file with frontmatter, a bit of yaml code that defines things like:
+You can start each .md file with frontmatter, a simple bit of code that defines things like:
+
  - title
- - 
+ - language
+ - description
+ - permalink
+ - meta
+
+
 
 [https://www.hygen.io/quick-start](https://www.hygen.io/quick-start)
 ```
@@ -22,6 +28,6 @@ inject ../rcn.org.uk/projectconfig
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTA1NTk4MCwtMzE4NjEyNzkwLC0xMT
+eyJoaXN0b3J5IjpbLTE3NzcxNTc2NCwtMzE4NjEyNzkwLC0xMT
 g1ODk4MDkxLC0xMjk3MzIzMDAsNDE4NTMxNDE5XX0=
 -->
