@@ -41,13 +41,16 @@ StackEdit is a Progressive Web App. That means it's a website that you can insta
 Separating it from the browser makes it feel more like a focussed note taking app. It also means you can use it offline, saving notes on your device until you can reconnect and sync.
 
 ## StackEdit markdown editor
-StackEdit makes formatting you notes easy. If you're not already familiar with markdown, or even of you are, there's a toolbar to help you quickly format your content. If you pas
+StackEdit makes formatting you notes easy. If you're not already familiar with markdown, or even of you are, there's a toolbar to help you quickly format your content. If you paste in a URL, it automatically adds the syntax to make it a link.
+
+https://developers.google.com/tech-writing/overview
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDYzODM5NSwxMjk3MTU2ODMyLC05ND
+eyJoaXN0b3J5IjpbLTYzODA2NTMwNCwxMjk3MTU2ODMyLC05ND
 Y2MzkwMjYsMjAzMDIwNTI5OCwtMTg5NTAxMDkyMywtODQ1MTc0
 Njg3LC03MDA5NjQ3OTUsLTk1MDY1MzM0OSwtMTIzMDAyMDE0NS
 wtMjA0NDczMzIyXX0=
