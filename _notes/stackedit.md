@@ -3,7 +3,7 @@ I recently heard Wes Boss keeps his notes in markdown (.md) files and decided to
 
 I wanted to store my notes in GitHub and keep notes in different repos alongside projects they related to, but I soon ran into a problem.a
 
-A good note taking workflow should minimise any time between having an idea and recording it. If you have to navigating to , into the correct branch, finding the note getting into edit mode, manually making commits. 
+A good note taking workflow should minimise any time between having an idea and recording it. If you have to navigate to the correct repo, branch, folder, edit mode, manually making commits. 
 
 ## Benefits
 
@@ -18,5 +18,5 @@ A good note taking workflow should minimise any time between having an idea and 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTY2NjM3MiwtMjA0NDczMzIyXX0=
+eyJoaXN0b3J5IjpbLTE1ODIyNDcwMSwtMjA0NDczMzIyXX0=
 -->
