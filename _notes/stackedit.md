@@ -1,7 +1,7 @@
 # Note taking with StackEdit
 I recently heard Wes Boss keeps his notes in markdown (.md) files and decided to see if I could find an efficient way to do that myself.
 
-Markdown is a great format for taking notes. You get all the formatting you might need to give your notes structure. Markdown is also becoming the content management format of choice If you ever want to convert your notes into web content, such as blog posts, there are plenty of static site generators to help you.
+Markdown is a great format for taking notes. You get all the formatting you might need to give your notes structure. Markdown is also becoming the content management format of choice for the web. For example, if you ever want to convert a note into a blog post If you ever want to publish content from your notes, with plenty of If you ever want to convert your notes into web content, such as blog posts, there areplenty of static site generators to help you.
 
 I wanted to store my notes in GitHub and keep notes in different repos alongside projects they related to, but I soon ran into a problem.
 
@@ -20,5 +20,5 @@ A good note taking workflow should minimise the time between having an idea and 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzE3Njc4MywtMjA0NDczMzIyXX0=
+eyJoaXN0b3J5IjpbMTg0NzgzMjg0MCwtMjA0NDczMzIyXX0=
 -->
