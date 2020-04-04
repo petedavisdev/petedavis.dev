@@ -18,7 +18,7 @@ Initially I tried taking notes directly on GitHub, but it was way too laborious.
 
 All of this is even more cumbersome if you want to note down an idea on your phone when you're out and about.
 
-A good note taking workflow should minimise barriers between having an idea and recording it. 
+Effective note taking workflow must minimise the between thinking something and recording it.
 
 ## StackEdit to the rescue!
 
@@ -32,7 +32,7 @@ A good note taking workflow should minimise barriers between having an idea and 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDcxMTA1MTUsLTg0NTE3NDY4NywtNz
+eyJoaXN0b3J5IjpbLTExMDQ2OTY5ODQsLTg0NTE3NDY4NywtNz
 AwOTY0Nzk1LC05NTA2NTMzNDksLTEyMzAwMjAxNDUsLTIwNDQ3
 MzMyMl19
 -->
