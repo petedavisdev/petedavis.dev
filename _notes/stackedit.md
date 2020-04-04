@@ -11,7 +11,7 @@ I wanted to store my notes in GitHub and keep notes in different repos alongside
 
 A good note taking workflow should minimise the time between having an idea and recording it. You don't want to navigate to the correct repo, branch, folder, file, switch to edit mode, and write a commit message every time you have an idea!
 
-## Benefits
+## StackEdit to the rescue!
 
 1. Markdown is a great format for taking notes. Easily convert them into blog posts and use a static site generator to get them online.
 2. GitHub is a great place to keep your notes. You get the version history benefits of Git. You can keep notes in repos alongside the work the relate to, shared with the other contributors to that repo.
@@ -24,5 +24,6 @@ A good note taking workflow should minimise the time between having an idea and 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzAwMjAxNDUsLTIwNDQ3MzMyMl19
+eyJoaXN0b3J5IjpbLTk1MDY1MzM0OSwtMTIzMDAyMDE0NSwtMj
+A0NDczMzIyXX0=
 -->
