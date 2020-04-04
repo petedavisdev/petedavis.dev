@@ -1,4 +1,4 @@
-# Hygen
+# Generating front matter with Hy
 
 VuePress, like most popular Static Site Generator, the chances are you're 
 
@@ -18,6 +18,6 @@ inject ../rcn.org.uk/projectconfig
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2MDA4OTQ1LC0zMTg2MTI3OTAsLTExOD
-U4OTgwOTEsLTEyOTczMjMwMCw0MTg1MzE0MTldfQ==
+eyJoaXN0b3J5IjpbLTk1MDQ4MjQ2NSwtMzE4NjEyNzkwLC0xMT
+g1ODk4MDkxLC0xMjk3MzIzMDAsNDE4NTMxNDE5XX0=
 -->
