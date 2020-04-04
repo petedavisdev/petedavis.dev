@@ -1,8 +1,8 @@
 # Note taking with StackEdit
-M
+Markdown is a great format for taking notes. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDI3MjY2NF19
+eyJoaXN0b3J5IjpbMTg3NzA4NzEyNV19
 -->
