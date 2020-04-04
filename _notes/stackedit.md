@@ -1,4 +1,5 @@
 # Note taking with StackEdit
+I recently heard Wes Boss keeps
 
 ## Why
 
@@ -13,5 +14,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzgzNDQyLC0yMDQ0NzMzMjJdfQ==
+eyJoaXN0b3J5IjpbLTE2NjM1OTI5OTMsLTIwNDQ3MzMyMl19
 -->
