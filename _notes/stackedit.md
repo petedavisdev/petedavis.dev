@@ -18,7 +18,7 @@ Initially I tried taking notes directly on GitHub, but it was way too laborious.
 
 All of this is even more cumbersome if you want to note down an idea on your phone when you're out and about.
 
-Effective note taking solutions minimise the effo between thinking of something and recording it.
+Effective note taking solutions minimise the effort between thinking of something and recording it.
 
 ## StackEdit to the rescue!
 
@@ -38,7 +38,7 @@ StackEdit achieves all of these things effortlessly.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODQzMzM1NiwyMDMwMjA1Mjk4LC0xOD
+eyJoaXN0b3J5IjpbLTk0NjYzOTAyNiwyMDMwMjA1Mjk4LC0xOD
 k1MDEwOTIzLC04NDUxNzQ2ODcsLTcwMDk2NDc5NSwtOTUwNjUz
 MzQ5LC0xMjMwMDIwMTQ1LC0yMDQ0NzMzMjJdfQ==
 -->
