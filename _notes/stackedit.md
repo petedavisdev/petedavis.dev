@@ -1,8 +1,7 @@
 ---
-title: Keeping notes in ma
+title: Keeping notes in markdown
 ---
-# Note taking with StackEdit
-I recently heard Wes Boss keeps his notes in markdown (.md) files and decided to see if I could find an efficient way to do that myself.
+I recently heard Wes Boss keeps his notes in markdown (.md) files and decided to see if I could find an efficient way to do that myself. What I found was StackEdit.
 
 ## Why markdown?
 Markdown is a great format for taking notes. You can just jot down few words, but if a note needs more structure, markdown has a simple formatting syntax that doesn't impair readability.
@@ -53,8 +52,8 @@ https://developers.google.com/tech-writing/overview
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczOTc0NTY5LC02MzgwNjUzMDQsMTI5Nz
-E1NjgzMiwtOTQ2NjM5MDI2LDIwMzAyMDUyOTgsLTE4OTUwMTA5
-MjMsLTg0NTE3NDY4NywtNzAwOTY0Nzk1LC05NTA2NTMzNDksLT
-EyMzAwMjAxNDUsLTIwNDQ3MzMyMl19
+eyJoaXN0b3J5IjpbLTc4OTg4MzkxNSwtNjM4MDY1MzA0LDEyOT
+cxNTY4MzIsLTk0NjYzOTAyNiwyMDMwMjA1Mjk4LC0xODk1MDEw
+OTIzLC04NDUxNzQ2ODcsLTcwMDk2NDc5NSwtOTUwNjUzMzQ5LC
+0xMjMwMDIwMTQ1LC0yMDQ0NzMzMjJdfQ==
 -->
