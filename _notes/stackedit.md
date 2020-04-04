@@ -16,6 +16,10 @@ It makes sense to store your markdown notes on GitHub, GitLab:
 
 Initially I tried taking notes directly on GitHub, but it was way too laborious. You have to navigate to the correct repo, branch and folder, create a file (not forgetting the .md extension), switch back-and-forth between edit and preview to see your formatting and write a commit message every time you want to save!
 
+All of this is even more cumbersome if you want to note down an idea on your phone when you're out and about.
+
+A good note taking workflow should minimise barriers between having an idea and recording it. 
+
 ## StackEdit to the rescue!
 
 1. Markdown is a great format for taking notes. Easily convert them into blog posts and use a static site generator to get them online.
@@ -28,7 +32,7 @@ Initially I tried taking notes directly on GitHub, but it was way too laborious.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY4NzU1MywtODQ1MTc0Njg3LC03MD
-A5NjQ3OTUsLTk1MDY1MzM0OSwtMTIzMDAyMDE0NSwtMjA0NDcz
-MzIyXX0=
+eyJoaXN0b3J5IjpbLTE1MDcxMTA1MTUsLTg0NTE3NDY4NywtNz
+AwOTY0Nzk1LC05NTA2NTMzNDksLTEyMzAwMjAxNDUsLTIwNDQ3
+MzMyMl19
 -->
