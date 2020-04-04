@@ -1,6 +1,6 @@
-# Generating front matter with Hy
+# Generating front matter with Hygen
 
-VuePress, like most popular Static Site Generator, the chances are you're 
+VuePress, like most popular Static Site Generators (SSG), uses front matter 
 
 [https://www.hygen.io/quick-start](https://www.hygen.io/quick-start)
 ```
@@ -18,6 +18,6 @@ inject ../rcn.org.uk/projectconfig
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDQ4MjQ2NSwtMzE4NjEyNzkwLC0xMT
-g1ODk4MDkxLC0xMjk3MzIzMDAsNDE4NTMxNDE5XX0=
+eyJoaXN0b3J5IjpbMTY5Mjk0NjAzLC0zMTg2MTI3OTAsLTExOD
+U4OTgwOTEsLTEyOTczMjMwMCw0MTg1MzE0MTldfQ==
 -->
