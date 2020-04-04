@@ -1,5 +1,5 @@
 ---
-title:
+title: Keeping notes in ma
 ---
 # Note taking with StackEdit
 I recently heard Wes Boss keeps his notes in markdown (.md) files and decided to see if I could find an efficient way to do that myself.
@@ -53,8 +53,8 @@ https://developers.google.com/tech-writing/overview
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjk2OTg2MCwtNjM4MDY1MzA0LDEyOT
-cxNTY4MzIsLTk0NjYzOTAyNiwyMDMwMjA1Mjk4LC0xODk1MDEw
-OTIzLC04NDUxNzQ2ODcsLTcwMDk2NDc5NSwtOTUwNjUzMzQ5LC
-0xMjMwMDIwMTQ1LC0yMDQ0NzMzMjJdfQ==
+eyJoaXN0b3J5IjpbNzczOTc0NTY5LC02MzgwNjUzMDQsMTI5Nz
+E1NjgzMiwtOTQ2NjM5MDI2LDIwMzAyMDUyOTgsLTE4OTUwMTA5
+MjMsLTg0NTE3NDY4NywtNzAwOTY0Nzk1LC05NTA2NTMzNDksLT
+EyMzAwMjAxNDUsLTIwNDQ3MzMyMl19
 -->
