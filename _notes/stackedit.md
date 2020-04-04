@@ -38,14 +38,14 @@ Once your workspace is connected StackEdit enables you to view, add, rename, edi
 ## StackEdit app
 StackEdit is a Progressive Web App. That means it's a website that you can install and run like other apps on your phone, tablet, laptop etc.
 
-Separating it from the  you can can be installed as an app (PWA) on your phone/tablet, saves locally and works offline, so your notes are always with you.
+Separating it from the browser makes it feel more like a focussed note taking app. It also means you can use it offline and then sync again whe can be installed as an app (PWA) on your phone/tablet, saves locally and works offline, so your notes are always with you.
 6. StackEdit makes formatting you notes easy. If you're not already familiar with markdown, or even of you are, there's a toolbar to help you quickly format your content.
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTkzOTk5MiwxMjk3MTU2ODMyLC05ND
+eyJoaXN0b3J5IjpbMTA1MzI5OTM0OCwxMjk3MTU2ODMyLC05ND
 Y2MzkwMjYsMjAzMDIwNTI5OCwtMTg5NTAxMDkyMywtODQ1MTc0
 Njg3LC03MDA5NjQ3OTUsLTk1MDY1MzM0OSwtMTIzMDAyMDE0NS
 wtMjA0NDczMzIyXX0=
