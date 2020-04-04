@@ -1,5 +1,7 @@
 # Hygen
 
+If you're creating web content using a static site g
+
 [https://www.hygen.io/quick-start](https://www.hygen.io/quick-start)
 ```
 npx hygen new appcomponent MembershipCard
@@ -16,6 +18,6 @@ inject ../rcn.org.uk/projectconfig
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODYxMjc5MCwtMTE4NTg5ODA5MSwtMT
-I5NzMyMzAwLDQxODUzMTQxOV19
+eyJoaXN0b3J5IjpbNzQyOTg4NzI5LC0zMTg2MTI3OTAsLTExOD
+U4OTgwOTEsLTEyOTczMjMwMCw0MTg1MzE0MTldfQ==
 -->
