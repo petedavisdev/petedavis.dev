@@ -26,7 +26,9 @@ Here's what we need to make markdown notes stored in GitHub a viable note taking
 
 1. Quickly access, create and save notes in one place, regardless of what repo/folder they are stored in.
 2. Works on all your devices, even when you're offline.
-3. Nice markdown editing experience, with formatting visible while you write.
+3. Nice markdown editing experience, with formatting visible while you edit.
+
+StackEdit achieves all of these things effortlessly.
 
 4. StackEdit Workspaces give you a direct portal into wherever your notes are stored, so you can save notes within whichever GitHub repo the notes are related to - you can even keep them in a specific branch. 
 5. StackEdit can be installed as an app (PWA) on your phone/tablet, saves locally and works offline, so your notes are always with you.
@@ -36,7 +38,7 @@ Here's what we need to make markdown notes stored in GitHub a viable note taking
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzE3OTE4NzMsMjAzMDIwNTI5OCwtMT
-g5NTAxMDkyMywtODQ1MTc0Njg3LC03MDA5NjQ3OTUsLTk1MDY1
-MzM0OSwtMTIzMDAyMDE0NSwtMjA0NDczMzIyXX0=
+eyJoaXN0b3J5IjpbMTMyMjI4OTA4NiwyMDMwMjA1Mjk4LC0xOD
+k1MDEwOTIzLC04NDUxNzQ2ODcsLTcwMDk2NDc5NSwtOTUwNjUz
+MzQ5LC0xMjMwMDIwMTQ1LC0yMDQ0NzMzMjJdfQ==
 -->
