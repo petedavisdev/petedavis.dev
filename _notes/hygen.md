@@ -1,6 +1,6 @@
 # Hygen
 
-If you're creating web content using a static site g
+If you're creating web content using a Static Site Generator, the chances are yo
 
 [https://www.hygen.io/quick-start](https://www.hygen.io/quick-start)
 ```
@@ -18,6 +18,6 @@ inject ../rcn.org.uk/projectconfig
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyOTg4NzI5LC0zMTg2MTI3OTAsLTExOD
-U4OTgwOTEsLTEyOTczMjMwMCw0MTg1MzE0MTldfQ==
+eyJoaXN0b3J5IjpbLTIxMDYyMDk1OTMsLTMxODYxMjc5MCwtMT
+E4NTg5ODA5MSwtMTI5NzMyMzAwLDQxODUzMTQxOV19
 -->
