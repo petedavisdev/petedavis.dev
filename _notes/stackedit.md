@@ -1,9 +1,9 @@
 # Note taking with StackEdit
 I recently heard Wes Boss keeps his notes in markdown (.md) files and decided to see if I could find an efficient way to do that myself.
 
-My first thought was to do so directly on GitHub, but I soon found that this had limitations. 
+My first thought was to do so directly on GitHub and keep notes in different repos alongside projects they related to. 
 
-I wanted to keep notes in different repos alongside projects they related to - navigating around to the different places I kept notes, into the correct branch, finding the note getting into edit mode, manually making commits - way to much effort to 
+- navigating around to the different places I kept notes, into the correct branch, finding the note getting into edit mode, manually making commits. 
 
 ## Benefits
 
@@ -18,5 +18,5 @@ I wanted to keep notes in different repos alongside projects they related to - n
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzMjA5MTEyLC0yMDQ0NzMzMjJdfQ==
+eyJoaXN0b3J5IjpbMjg3NzUxNjEsLTIwNDQ3MzMyMl19
 -->
