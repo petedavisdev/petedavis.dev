@@ -14,7 +14,7 @@ It makes sense to store your markdown notes on GitHub, GitLab:
  - You can keep notes in separate repos, alongside the projects they relate to.
  - Your notes can be shared depending on who has access to your repo.
 
-Initially I tried taking notes directly on GitHub, but it was way too laborious. You have to navigate to the correct repo, branch > folder > file, then switch to edit mode, and write a commit message every time you have an idea!
+Initially I tried taking notes directly on GitHub, but it was way too laborious. You have to navigate to the correct repo, branch and folder, create a file, manually typing the .md, then switch to edit mode, and write a commit message every time you have an idea!
 
 ## StackEdit to the rescue!
 
@@ -28,7 +28,7 @@ Initially I tried taking notes directly on GitHub, but it was way too laborious.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTgxMDk2MCwtODQ1MTc0Njg3LC03MD
+eyJoaXN0b3J5IjpbLTc0Mjc0NDY3NCwtODQ1MTc0Njg3LC03MD
 A5NjQ3OTUsLTk1MDY1MzM0OSwtMTIzMDAyMDE0NSwtMjA0NDcz
 MzIyXX0=
 -->
