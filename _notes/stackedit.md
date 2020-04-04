@@ -7,9 +7,9 @@ Markdown is a great format for taking notes. You can just jot down few words, bu
 Markdown has long been the standard format for software documentation. Now, with the popularity JamStack, it is rapidly becoming the format of choice for writing all web content. In my case I wanted to easily convert notes into posts on my VuePress powered blog.
 
 ## Storing notes on GitHub
-It makes sense to store your markdown notes in GitHub (or GitLab, 
+It makes sense to store your markdown notes on GitHub, GitLab:
 
- - Get all the history and version control benefits of Git for your notes
+ - All the history and version control benefits of Git for your notes
  - GitHub shows .md files as fully-formatted web content.
  - That way I could keep notes in different repos alongside projects they related to, but I soon ran into a problem.
 
@@ -27,6 +27,6 @@ A good note taking workflow should minimise the time between having an idea and 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODEwNzg3NjAsLTk1MDY1MzM0OSwtMT
+eyJoaXN0b3J5IjpbLTIwMTYxMzY2MjcsLTk1MDY1MzM0OSwtMT
 IzMDAyMDE0NSwtMjA0NDczMzIyXX0=
 -->
