@@ -19,11 +19,13 @@ A good note taking workflow should minimise the time between having an idea and 
 4. StackEdit can be installed as an app (PWA) on your phone/tablet, saves locally and works offline, so your notes are always with you.
 5. StackEdit makes formatting you notes easy. If you're not already familiar with markdown, or even of you are, there's a toolbar to help you quickly format your content.
 
+## Gotchas and downsides
+Overall I am loving taking notes with StackEdit. One gotcha I rant
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDY1MzM0OSwtMTIzMDAyMDE0NSwtMj
-A0NDczMzIyXX0=
+eyJoaXN0b3J5IjpbLTEwNjIzMDg4OTcsLTk1MDY1MzM0OSwtMT
+IzMDAyMDE0NSwtMjA0NDczMzIyXX0=
 -->
