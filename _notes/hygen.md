@@ -1,4 +1,5 @@
 # Generating frontmatter with Hygen
+Save time adding frontmatter to your markdown files
 
 This blog is made with VuePress, which like other Static Site Generators (SSG), builds your webpages from markdown (.md) files. 
 
@@ -28,6 +29,6 @@ inject ../rcn.org.uk/projectconfig
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzcxNTc2NCwtMzE4NjEyNzkwLC0xMT
+eyJoaXN0b3J5IjpbLTkxODU2OTAxNywtMzE4NjEyNzkwLC0xMT
 g1ODk4MDkxLC0xMjk3MzIzMDAsNDE4NTMxNDE5XX0=
 -->
