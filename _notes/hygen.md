@@ -2,7 +2,7 @@
 
 This blog is made with VuePress, which like other Static Site Generators (SSG), builds your webpages from markdown (.md) files. 
 
-In order to add metadata to your w .md files 
+You can start each .md file with frontmatter, a bit of yaml code that defines
 
 [https://www.hygen.io/quick-start](https://www.hygen.io/quick-start)
 ```
@@ -20,6 +20,6 @@ inject ../rcn.org.uk/projectconfig
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgwNTQ1NDI2LC0zMTg2MTI3OTAsLTExOD
-U4OTgwOTEsLTEyOTczMjMwMCw0MTg1MzE0MTldfQ==
+eyJoaXN0b3J5IjpbLTEyMDE4NjE5MzgsLTMxODYxMjc5MCwtMT
+E4NTg5ODA5MSwtMTI5NzMyMzAwLDQxODUzMTQxOV19
 -->
