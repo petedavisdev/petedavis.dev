@@ -1,5 +1,8 @@
 # Note taking with StackEdit
-I recently heard Wes Boss keeps
+I recently heard Wes Boss keeps his notes in markdown (.md) files and decided to see if I could find an efficient way to do that myself.
+
+# My criteria
+1
 
 ## Why
 
@@ -14,5 +17,5 @@ I recently heard Wes Boss keeps
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM1OTI5OTMsLTIwNDQ3MzMyMl19
+eyJoaXN0b3J5IjpbLTM4MTM3MTAyNywtMjA0NDczMzIyXX0=
 -->
