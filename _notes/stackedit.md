@@ -12,7 +12,7 @@ It makes sense to store your markdown notes on GitHub, GitLab:
  - All the history and version control benefits of Git for your notes.
  - GitHub shows .md files as fully-formatted web content.
  - You can keep notes in separate repos, alongside the projects they relate to.
- - Your notes are available to other contributors to 
+ - Your notes are available to other who have permission to access the repo.
 
 A good note taking workflow should minimise the time between having an idea and recording it. You don't want to navigate to the correct repo, branch, folder, file, switch to edit mode, and write a commit message every time you have an idea!
 
@@ -28,6 +28,6 @@ A good note taking workflow should minimise the time between having an idea and 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5MTc1MjI3LC05NTA2NTMzNDksLTEyMz
-AwMjAxNDUsLTIwNDQ3MzMyMl19
+eyJoaXN0b3J5IjpbLTcwMDk2NDc5NSwtOTUwNjUzMzQ5LC0xMj
+MwMDIwMTQ1LC0yMDQ0NzMzMjJdfQ==
 -->
