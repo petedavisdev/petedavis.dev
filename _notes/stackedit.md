@@ -2,9 +2,10 @@
 I recently heard Wes Boss keeps his notes in markdown (.md) files and decided to see if I could find an efficient way to do that myself.
 
 # My criteria
-1
+1. Keep my notes in GitHub
+2. Edit my notes anywhere (on my phone, work l
 
-## Why
+## Benefits
 
 1. Markdown is a great format for taking notes. Easily convert them into blog posts and use a static site generator to get them online.
 2. GitHub is a great place to keep your notes. You get the version history benefits of Git. You can keep notes in repos alongside the work the relate to, shared with the other contributors to that repo.
@@ -17,5 +18,5 @@ I recently heard Wes Boss keeps his notes in markdown (.md) files and decided to
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MTM3MTAyNywtMjA0NDczMzIyXX0=
+eyJoaXN0b3J5IjpbLTIxMzUyMzMxMDksLTIwNDQ3MzMyMl19
 -->
