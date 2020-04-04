@@ -9,9 +9,10 @@ Markdown has long been the standard format for software documentation. Now, with
 ## Storing notes on GitHub
 It makes sense to store your markdown notes on GitHub, GitLab:
 
- - All the history and version control benefits of Git for your notes
+ - All the history and version control benefits of Git for your notes.
  - GitHub shows .md files as fully-formatted web content.
- - That way I could keep notes in different repos alongside projects they related to, but I soon ran into a problem.
+ - You can keep notes in separate repos, alongside the projects they relate to.
+ - Your notes are available to other contributors to 
 
 A good note taking workflow should minimise the time between having an idea and recording it. You don't want to navigate to the correct repo, branch, folder, file, switch to edit mode, and write a commit message every time you have an idea!
 
@@ -27,6 +28,6 @@ A good note taking workflow should minimise the time between having an idea and 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTYxMzY2MjcsLTk1MDY1MzM0OSwtMT
-IzMDAyMDE0NSwtMjA0NDczMzIyXX0=
+eyJoaXN0b3J5IjpbOTE5MTc1MjI3LC05NTA2NTMzNDksLTEyMz
+AwMjAxNDUsLTIwNDQ3MzMyMl19
 -->
