@@ -38,7 +38,7 @@ Workspaces are direct portals into wherever your notes are stored. You can conne
 Once your workspace is connected StackEdit enables you to view, add, rename, edit and delete markdown files in that location. It then syncronises the changes you make with your GitHub repo, commuting changes for you automatically.
  
 ## StackEdit app
-StackEdit is a Progressive Web App. That means it's a website that you can install and run like other apps on your phone, tablet, laptop etc.
+StackEdit is a Progressive Web App. That means you can use it in your browser or you can install and run like other apps on your phone, tablet, laptop etc.
 
 Separating it from the browser makes it feel more like a focussed note taking app. It also means you can use it offline, saving notes on your device until you can reconnect and sync.
 
@@ -52,8 +52,8 @@ https://developers.google.com/tech-writing/overview
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTg4MzkxNSwtNjM4MDY1MzA0LDEyOT
-cxNTY4MzIsLTk0NjYzOTAyNiwyMDMwMjA1Mjk4LC0xODk1MDEw
-OTIzLC04NDUxNzQ2ODcsLTcwMDk2NDc5NSwtOTUwNjUzMzQ5LC
-0xMjMwMDIwMTQ1LC0yMDQ0NzMzMjJdfQ==
+eyJoaXN0b3J5IjpbLTg5NDUyMDIwNywtNzg5ODgzOTE1LC02Mz
+gwNjUzMDQsMTI5NzE1NjgzMiwtOTQ2NjM5MDI2LDIwMzAyMDUy
+OTgsLTE4OTUwMTA5MjMsLTg0NTE3NDY4NywtNzAwOTY0Nzk1LC
+05NTA2NTMzNDksLTEyMzAwMjAxNDUsLTIwNDQ3MzMyMl19
 -->
