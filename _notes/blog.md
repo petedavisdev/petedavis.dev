@@ -4,6 +4,7 @@
  - What is VuePress?
  - When you not use VuePress?
  - Who is VuePress for?
+ - Alternatives to VuePress...
 
 ## How to get started with VuePress
  - Use a template
@@ -19,5 +20,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDYwMzc0NTddfQ==
+eyJoaXN0b3J5IjpbLTIxNDE2NjYyOTQsLTE0MDYwMzc0NTddfQ
+==
 -->
