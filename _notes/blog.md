@@ -1,7 +1,7 @@
 # Blog
 
 ## Hi, I'm Pete Davis
- - I've started this blog to share my learning about VuePress. You will find how
+ - I've started this blog to share my learning about VuePress. You will find how-to guides and code examples from my own projects that you can use in your projects.
  - I'm a Frontcurrently writing about front-end development and UX. My current passion is creating JAMstack sites with VuePress.
  - 
  - 
@@ -43,6 +43,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjA5MTExNDUsLTYzOTQ2MDAwOSw3Mz
+eyJoaXN0b3J5IjpbLTE5NjA3Njk4ODIsLTYzOTQ2MDAwOSw3Mz
 k0MjUxODQsLTIxNDE2NjYyOTQsLTE0MDYwMzc0NTddfQ==
 -->
