@@ -1,7 +1,7 @@
 # Blog
 
 ## Hi
- - I am currently writing about Front-end development, UX and my current favorite static site generator - VuePress.
+ - I'm currently writing about front-end development and UX. My current passion is creating JAMstack sites with VuePress.
  - 
  - 
 
@@ -42,6 +42,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNzI5NzM2NywtNjM5NDYwMDA5LDczOT
-QyNTE4NCwtMjE0MTY2NjI5NCwtMTQwNjAzNzQ1N119
+eyJoaXN0b3J5IjpbLTE3NzEyNDg0MjYsLTYzOTQ2MDAwOSw3Mz
+k0MjUxODQsLTIxNDE2NjYyOTQsLTE0MDYwMzc0NTddfQ==
 -->
