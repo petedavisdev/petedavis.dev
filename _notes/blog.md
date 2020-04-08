@@ -7,7 +7,9 @@
 
 ## How to get started with VuePress
  - Use a template
- - Start from 
+ - Install it yourself
+ - Host with Netlify CMS
+
 ## Where to put images in VuePress
  - Media folder
  - Cloudinary
@@ -17,5 +19,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTY2ODI3XX0=
+eyJoaXN0b3J5IjpbLTE0MDYwMzc0NTddfQ==
 -->
