@@ -1,7 +1,8 @@
 # Blog
 
 ## Hi
- - I'm currently writing about front-end development and UX. My current passion is creating JAMstack sites with VuePress.
+ - 
+ - I'm a Frontcurrently writing about front-end development and UX. My current passion is creating JAMstack sites with VuePress.
  - 
  - 
 
@@ -42,6 +43,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzEyNDg0MjYsLTYzOTQ2MDAwOSw3Mz
-k0MjUxODQsLTIxNDE2NjYyOTQsLTE0MDYwMzc0NTddfQ==
+eyJoaXN0b3J5IjpbLTQxODU4NjcyMywtNjM5NDYwMDA5LDczOT
+QyNTE4NCwtMjE0MTY2NjI5NCwtMTQwNjAzNzQ1N119
 -->
