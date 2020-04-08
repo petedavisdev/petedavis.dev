@@ -17,7 +17,10 @@
  - Cloudinary config (magnet)
 
 ## How to customise the default VuePress theme
- - List item
+ - Default theme config
+ - palette.styl
+ - Index.styl
+ - Starter files (magnet)
 
 ## How to add dark mode to VuePress
 
@@ -29,6 +32,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0MDk0OTQ3LC0yMTQxNjY2Mjk0LC0xND
-A2MDM3NDU3XX0=
+eyJoaXN0b3J5IjpbMTkzMzc3MDE0MywtMjE0MTY2NjI5NCwtMT
+QwNjAzNzQ1N119
 -->
