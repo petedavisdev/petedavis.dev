@@ -23,7 +23,10 @@
  - Starter files (magnet)
 
 ## How to add dark mode to VuePress
- - List item
+ - CSS variables
+ - Dark mode preference detection
+ - Setup palette.styl
+ - Create a 
 
 ## How to create a VuePress plugin
 
@@ -33,6 +36,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5MTM4MDU5LC0yMTQxNjY2Mjk0LC0xND
-A2MDM3NDU3XX0=
+eyJoaXN0b3J5IjpbMTcyNTUzMjIzNywtMjE0MTY2NjI5NCwtMT
+QwNjAzNzQ1N119
 -->
