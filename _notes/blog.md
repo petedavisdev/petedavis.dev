@@ -4,18 +4,20 @@
  - What is VuePress?
  - When you should not use VuePress?
  - Who is VuePress for?
- - Checklist (
+ - Checklist (magnet)
 
 ## How to get started with VuePress
- - Use a template
+ - Use a template (magnet)
  - Install it yourself
  - Host with Netlify CMS
 
 ## Where to put images in VuePress
  - Media folder
  - Cloudinary
+ - Cloudinary config (magnet)
 
-## How to customise the default VuePress
+## How to customise the default VuePress theme
+ - List item
 
 ## How to add dark mode to VuePress
 
@@ -27,6 +29,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MjI3ODc2NCwtMjE0MTY2NjI5NCwtMT
-QwNjAzNzQ1N119
+eyJoaXN0b3J5IjpbNjQ0MDk0OTQ3LC0yMTQxNjY2Mjk0LC0xND
+A2MDM3NDU3XX0=
 -->
