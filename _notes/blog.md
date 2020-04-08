@@ -21,6 +21,7 @@
  - palette.styl
  - index.styl
  - Starter files (magnet)
+ - Ejecting
 
 ## How to add dark mode to VuePress
  - CSS variables
@@ -29,13 +30,13 @@
  - Create a switch component
 
 ## How to create a VuePress plugin
+ - Starter (magent)
 
 ## How to create your own VuePress theme
-
-
+ - Starter (magnet)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTc5OTI2MTIsLTIxNDE2NjYyOTQsLT
-E0MDYwMzc0NTddfQ==
+eyJoaXN0b3J5IjpbNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC0xND
+A2MDM3NDU3XX0=
 -->
