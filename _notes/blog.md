@@ -2,9 +2,9 @@
 
 ## Who is VuePress for?
  - What is VuePress?
- - When you not use VuePress?
+ - When you should not use VuePress?
  - Who is VuePress for?
- - Alternatives to VuePress...
+ - Checklist (
 
 ## How to get started with VuePress
  - Use a template
@@ -27,6 +27,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxNjQ5MjQxLC0yMTQxNjY2Mjk0LC0xND
-A2MDM3NDU3XX0=
+eyJoaXN0b3J5IjpbMTc3MjI3ODc2NCwtMjE0MTY2NjI5NCwtMT
+QwNjAzNzQ1N119
 -->
