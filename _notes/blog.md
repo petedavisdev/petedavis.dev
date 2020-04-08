@@ -26,7 +26,7 @@
  - CSS variables
  - Dark mode preference detection
  - Setup palette.styl
- - Create a 
+ - Create a switch component
 
 ## How to create a VuePress plugin
 
@@ -36,6 +36,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTUzMjIzNywtMjE0MTY2NjI5NCwtMT
-QwNjAzNzQ1N119
+eyJoaXN0b3J5IjpbLTE5MTc5OTI2MTIsLTIxNDE2NjYyOTQsLT
+E0MDYwMzc0NTddfQ==
 -->
