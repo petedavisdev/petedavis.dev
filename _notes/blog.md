@@ -41,7 +41,7 @@
 
 ## How to create your own VuePress plugin
 
-
+## 
 
 ## How to add dark mode to VuePress
  - CSS variables
@@ -90,8 +90,8 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODE1NTEzNCwtMTk0MjY3Njg3MiwtNz
-g3NzkxODk0LDEwMjAzNDcxMzcsMTY5OTkxNTk2OCwxMDg1NDA3
-Mjg2LC0zMzk0MDY0MTEsLTYzOTQ2MDAwOSw3Mzk0MjUxODQsLT
-IxNDE2NjYyOTQsLTE0MDYwMzc0NTddfQ==
+eyJoaXN0b3J5IjpbMTM3ODAyMjA0MiwtODU4MTU1MTM0LC0xOT
+QyNjc2ODcyLC03ODc3OTE4OTQsMTAyMDM0NzEzNywxNjk5OTE1
+OTY4LDEwODU0MDcyODYsLTMzOTQwNjQxMSwtNjM5NDYwMDA5LD
+czOTQyNTE4NCwtMjE0MTY2NjI5NCwtMTQwNjAzNzQ1N119
 -->
