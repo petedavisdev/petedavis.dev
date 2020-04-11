@@ -13,18 +13,6 @@
  - Who is VuePress for?
  - Checklist (magnet)
 
-## Gatsby, Gridsome or VuePress?
- - Gatsby and Gridsome if you want content from an API
-	 - Benefits - choose headless CMS (but that can mean lock-in!)
-	 - Content in multiple file formats (but that's untidy)
-	 - GraphQl out of the box (but you probably don't need it)
- - VuePress if you want to keep content in Markdown
-	 - Keep your content with your code
- - Not as restrictive as it appears
-	 - You can write HTML inside your markdown!
-	 - You can use Vue components inside your markdown!!
-	 - You can fetch dynamic data inside your markdown!!!
-
 ## How to get started with VuePress
  - Use a template (magnet)
  - Install it yourself
@@ -54,9 +42,23 @@
 ## How to create your own VuePress theme
  - Starter (magnet)
 
+
+## Gatsby, Gridsome or VuePress?
+ - Gatsby and Gridsome if you want content from an API
+	 - Benefits - choose headless CMS (but that can mean lock-in!)
+	 - Content in multiple file formats (but that's untidy)
+	 - GraphQl out of the box (but you probably don't need it)
+ - VuePress if you want to keep content in Markdown
+	 - Keep your content with your code (No lock-in)
+	 - Choose a git-based CMS
+ - Not as restrictive as it appears
+	 - You can write HTML inside your markdown!
+	 - You can use Vue components inside your markdown!!
+	 - You can fetch dynamic data inside your markdown!!!
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDA4Mzc1MCwtMzM5NDA2NDExLC02Mz
+eyJoaXN0b3J5IjpbMTc3Nzk4OTc1NywtMzM5NDA2NDExLC02Mz
 k0NjAwMDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC0xNDA2MDM3
 NDU3XX0=
 -->
