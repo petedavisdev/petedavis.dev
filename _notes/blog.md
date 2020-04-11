@@ -7,6 +7,7 @@
  - 
  - 
 
+## How to deploy your VuePress site to Netlify
 
 ## How to get started with VuePress
  - Use a template (magnet)
@@ -20,6 +21,7 @@
 
 ## How to customise the default VuePress theme
  - Default theme config
+	 - Sidebar
  - palette.styl
  - index.styl
  - Starter files (magnet)
@@ -96,9 +98,9 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQ2OTk5MCwxMjIzNjUwNTkwLC04NT
-gxNTUxMzQsLTE5NDI2NzY4NzIsLTc4Nzc5MTg5NCwxMDIwMzQ3
-MTM3LDE2OTk5MTU5NjgsMTA4NTQwNzI4NiwtMzM5NDA2NDExLC
-02Mzk0NjAwMDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC0xNDA2
-MDM3NDU3XX0=
+eyJoaXN0b3J5IjpbLTE5MDY1ODMwNzIsMTIyMzY1MDU5MCwtOD
+U4MTU1MTM0LC0xOTQyNjc2ODcyLC03ODc3OTE4OTQsMTAyMDM0
+NzEzNywxNjk5OTE1OTY4LDEwODU0MDcyODYsLTMzOTQwNjQxMS
+wtNjM5NDYwMDA5LDczOTQyNTE4NCwtMjE0MTY2NjI5NCwtMTQw
+NjAzNzQ1N119
 -->
