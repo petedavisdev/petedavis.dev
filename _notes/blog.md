@@ -42,8 +42,11 @@
 ## How to create your own VuePress theme
  - Starter (magnet)
 
-## Creating content lists in VuePress
+## Reusable content in VuePress
+ - Building pages from multiple markdown files
 
+## Creating content lists in VuePress
+ - How to list out pages based on frontmatter
 
 ## Gatsby, Gridsome or VuePress?
  - Gatsby and Gridsome if you want content from an API
@@ -61,7 +64,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTA2NTAzMjEsLTMzOTQwNjQxMSwtNj
-M5NDYwMDA5LDczOTQyNTE4NCwtMjE0MTY2NjI5NCwtMTQwNjAz
-NzQ1N119
+eyJoaXN0b3J5IjpbNjY5MDEwMjE0LC0zMzk0MDY0MTEsLTYzOT
+Q2MDAwOSw3Mzk0MjUxODQsLTIxNDE2NjYyOTQsLTE0MDYwMzc0
+NTddfQ==
 -->
