@@ -1,7 +1,7 @@
 # Blog
 
 ## Hi, I'm Pete Davis
- - I've started this blog to share my learning about VuePress and related JAMstack and UX topics. You will find how-to guides and code examples from my own projects that you can use in your projects.
+ - I've started this blog to share my learning about VuePress. I'm currently bu and related JAMstack and UX topics. You will find how-to guides and code examples from my own projects that you can use in your projects.
  - [picture]
  - I am a Front-End Architect at the Royal College of Nursing.  where I writing about front-end development and UX. My current passion is creating JAMstack sites with VuePress.
  - 
@@ -51,6 +51,10 @@
 ## Creating content lists in VuePress
  - How to list out pages based on frontmatter
 
+## Where to keep your images in VuePress
+ - public/media folder
+ - Contentful
+
 ## Gatsby, Gridsome or VuePress?
  - Gatsby and Gridsome if you want content from an API
 	 - Benefits - choose headless CMS (but that can mean lock-in!)
@@ -65,11 +69,9 @@
 	 - You can fetch dynamic data inside your markdown!!!
 	 - You can (lists, tagging) 
 
-## 
-
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjQ4NzcwLC0zMzk0MDY0MTEsLTYzOT
-Q2MDAwOSw3Mzk0MjUxODQsLTIxNDE2NjYyOTQsLTE0MDYwMzc0
-NTddfQ==
+eyJoaXN0b3J5IjpbLTk2ODkyMjQwNCwtMzM5NDA2NDExLC02Mz
+k0NjAwMDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC0xNDA2MDM3
+NDU3XX0=
 -->
