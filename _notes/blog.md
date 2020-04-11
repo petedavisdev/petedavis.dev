@@ -25,6 +25,8 @@
  - Starter files (magnet)
  - Ejecting
 
+## How to customise the default VuePress blog theme
+
 ## Adding your own components to VuePress content
 
 ## How to add Netlify forms to your VuePress site using Vue Components
@@ -81,7 +83,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDMzNDUyOSwxMDIwMzQ3MTM3LDE2OT
+eyJoaXN0b3J5IjpbLTc4Nzc5MTg5NCwxMDIwMzQ3MTM3LDE2OT
 k5MTU5NjgsMTA4NTQwNzI4NiwtMzM5NDA2NDExLC02Mzk0NjAw
 MDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC0xNDA2MDM3NDU3XX
 0=
