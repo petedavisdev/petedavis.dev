@@ -1,18 +1,5 @@
 # Blog
 
-## Where to put images in VuePress
- - Media folder
- - Cloudinary
- - Cloudinary config (magnet)
-
-## How to customise the default VuePress theme
- - Default theme config
-	 - Sidebar
- - palette.styl
- - index.styl
- - Starter files (magnet)
- - Ejecting
-
 ## How to customise the default VuePress blog theme
 
 ## How to add sharing buttons to your VuePress articles
@@ -91,6 +78,6 @@ Who?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxMTYwNDM4LC0xMTc4MDY4Nzg5LDE1MD
-ExNTM4NDksLTM0MjUzNzEwMF19
+eyJoaXN0b3J5IjpbLTE4MTQ2NzkxNywtMTE3ODA2ODc4OSwxNT
+AxMTUzODQ5LC0zNDI1MzcxMDBdfQ==
 -->
