@@ -14,7 +14,12 @@
  - Checklist (magnet)
 
 ## Gatsby, Gridsome or VuePress?
- - Gatsby and Gridsome if you want content from an 
+ - Gatsby and Gridsome if you want content from an API
+ - VuePress if you want to keep content in Markdown
+ - Not as restrictive as it appears
+	 - You can write HTML inside your markdown!
+	 - You can use Vue components inside your markdown!!
+	 - You can fetch dynamic data inside your markdown!!!
 
 ## How to get started with VuePress
  - Use a template (magnet)
@@ -47,7 +52,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2ODc5NjMwNCwtMzM5NDA2NDExLC02Mz
+eyJoaXN0b3J5IjpbLTcyNzk3NjA1NCwtMzM5NDA2NDExLC02Mz
 k0NjAwMDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC0xNDA2MDM3
 NDU3XX0=
 -->
