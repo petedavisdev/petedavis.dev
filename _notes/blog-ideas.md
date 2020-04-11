@@ -1,12 +1,5 @@
 # Blog
 
-## Hi, I'm Pete Davis
- - I've started this blog to share my learning about VuePress. I'm currently building some websites in my spare time and as a fan of Vue, I've found VuePress to be the perfect way to create JAMstack sites with great User Experience (UX) and Developer experience (DX). You will find how-to guides and code examples from my own projects that you can use in your projects.
- - [picture]
- - I am a Front-End Architect at the Royal College of Nursing.  where I writing about front-end development and UX. My current passion is creating JAMstack sites with VuePress.
- - 
- - 
-
 ## Using GitHub Projects to plan and manage your blog posts
 *A great blogging workflow for posts written in markdown*
 
@@ -113,5 +106,6 @@ Who?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTE1Mzg0OSwtMzQyNTM3MTAwXX0=
+eyJoaXN0b3J5IjpbLTIxNjU2NDAxNiwxNTAxMTUzODQ5LC0zND
+I1MzcxMDBdfQ==
 -->
