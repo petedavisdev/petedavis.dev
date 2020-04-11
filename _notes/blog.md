@@ -35,7 +35,7 @@
  - MailChimp, ConvertKit or TinyLetter
 
 ## Yes, you can write html in your markdown (.md) files
-
+<label><input type="checkbox" /> Yes</label>
 
 ## How to add dark mode to VuePress
  - CSS variables
@@ -81,8 +81,8 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUwNzI0NzUwLDEwMjAzNDcxMzcsMTY5OT
-kxNTk2OCwxMDg1NDA3Mjg2LC0zMzk0MDY0MTEsLTYzOTQ2MDAw
-OSw3Mzk0MjUxODQsLTIxNDE2NjYyOTQsLTE0MDYwMzc0NTddfQ
-==
+eyJoaXN0b3J5IjpbMTc1MDMzNDUyOSwxMDIwMzQ3MTM3LDE2OT
+k5MTU5NjgsMTA4NTQwNzI4NiwtMzM5NDA2NDExLC02Mzk0NjAw
+MDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC0xNDA2MDM3NDU3XX
+0=
 -->
