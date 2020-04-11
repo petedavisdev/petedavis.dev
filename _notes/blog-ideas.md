@@ -8,7 +8,10 @@
  - 
 
 ## Using GitHub Projects to plan and manage your blog posts
-A great blogging workflow for posts written in markdown
+*A great blogging workflow for posts written in markdown*
+
+If you are already comfortable using GitHub to manage your code, you will likely find this the easiest way to 
+
 
 ## How to deploy your VuePress site to Netlify
 
@@ -108,5 +111,5 @@ Who?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzUyNTI0NCwtMzQyNTM3MTAwXX0=
+eyJoaXN0b3J5IjpbMTk2ODYyODk2NiwtMzQyNTM3MTAwXX0=
 -->
