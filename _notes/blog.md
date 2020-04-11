@@ -30,7 +30,7 @@
 ## How to add Netlify forms to your VuePress site using Vue Components
 
 ## How to add an email subscription form to your VuePress site
- - MailChimp or TinyLetter
+ - MailChimp, ConvertKit or TinyLetter
 
 ## How to add dark mode to VuePress
  - CSS variables
@@ -76,7 +76,8 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDM0NzEzNywxNjk5OTE1OTY4LDEwOD
-U0MDcyODYsLTMzOTQwNjQxMSwtNjM5NDYwMDA5LDczOTQyNTE4
-NCwtMjE0MTY2NjI5NCwtMTQwNjAzNzQ1N119
+eyJoaXN0b3J5IjpbLTUyNjYwMDI3OCwxMDIwMzQ3MTM3LDE2OT
+k5MTU5NjgsMTA4NTQwNzI4NiwtMzM5NDA2NDExLC02Mzk0NjAw
+MDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC0xNDA2MDM3NDU3XX
+0=
 -->
