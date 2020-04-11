@@ -34,7 +34,8 @@
 ## How to add an email subscription form to your VuePress site
  - MailChimp, ConvertKit or TinyLetter
 
-## 
+## Yes, you can write html in your markdown (.md) files
+
 
 ## How to add dark mode to VuePress
  - CSS variables
@@ -80,7 +81,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY0NDM5MTQ4LDEwMjAzNDcxMzcsMTY5OT
+eyJoaXN0b3J5IjpbMzUwNzI0NzUwLDEwMjAzNDcxMzcsMTY5OT
 kxNTk2OCwxMDg1NDA3Mjg2LC0zMzk0MDY0MTEsLTYzOTQ2MDAw
 OSw3Mzk0MjUxODQsLTIxNDE2NjYyOTQsLTE0MDYwMzc0NTddfQ
 ==
