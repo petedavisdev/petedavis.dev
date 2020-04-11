@@ -32,6 +32,8 @@
 ## How to add an email subscription form to your VuePress site
  - MailChimp, ConvertKit or TinyLetter
 
+## Add a 
+
 ## How to add dark mode to VuePress
  - CSS variables
  - Dark mode preference detection
@@ -76,7 +78,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjYwMDI3OCwxMDIwMzQ3MTM3LDE2OT
+eyJoaXN0b3J5IjpbMTkwMDEwNTQxMiwxMDIwMzQ3MTM3LDE2OT
 k5MTU5NjgsMTA4NTQwNzI4NiwtMzM5NDA2NDExLC02Mzk0NjAw
 MDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC0xNDA2MDM3NDU3XX
 0=
