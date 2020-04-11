@@ -75,17 +75,17 @@
  - VuePress if you want to keep content in Markdown
 	 - Keep your content with your code (No lock-in)
 	 - Choose a git-based CMS
- - Not as restrictive as it appears
+	 - Use the simplest tool to solve a given problem
+ - Not as basic as it appears
 	 - You can write HTML inside your markdown!
 	 - You can use Vue components inside your markdown!!
 	 - You can fetch dynamic data inside your markdown!!!
 	 - You can (lists, tagging) 
- - 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTAzMTE2MTksLTc4Nzc5MTg5NCwxMD
-IwMzQ3MTM3LDE2OTk5MTU5NjgsMTA4NTQwNzI4NiwtMzM5NDA2
-NDExLC02Mzk0NjAwMDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC
-0xNDA2MDM3NDU3XX0=
+eyJoaXN0b3J5IjpbOTQ1NTY0ODM5LC03ODc3OTE4OTQsMTAyMD
+M0NzEzNywxNjk5OTE1OTY4LDEwODU0MDcyODYsLTMzOTQwNjQx
+MSwtNjM5NDYwMDA5LDczOTQyNTE4NCwtMjE0MTY2NjI5NCwtMT
+QwNjAzNzQ1N119
 -->
