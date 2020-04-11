@@ -30,6 +30,9 @@
  - Starter files (magnet)
  - Ejecting
 
+## Adding your own components to VuePress content
+ - Here's a simple Author widget
+
 ## How to add dark mode to VuePress
  - CSS variables
  - Dark mode preference detection
@@ -62,9 +65,11 @@
 	 - You can fetch dynamic data inside your markdown!!!
 	 - You can (lists, tagging) 
 
+## 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY5MDEwMjE0LC0zMzk0MDY0MTEsLTYzOT
+eyJoaXN0b3J5IjpbMTQ4NjQ4NzcwLC0zMzk0MDY0MTEsLTYzOT
 Q2MDAwOSw3Mzk0MjUxODQsLTIxNDE2NjYyOTQsLTE0MDYwMzc0
 NTddfQ==
 -->
