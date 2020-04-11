@@ -13,7 +13,8 @@
  - Who is VuePress for?
  - Checklist (magnet)
 
-## Gatsby, Gridsome or VuePress
+## Gatsby, Gridsome or VuePress?
+ - Gatsby and Gridsome if you want content from an 
 
 ## How to get started with VuePress
  - Use a template (magnet)
@@ -46,7 +47,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NDM2MjAzMywtMzM5NDA2NDExLC02Mz
+eyJoaXN0b3J5IjpbMTc2ODc5NjMwNCwtMzM5NDA2NDExLC02Mz
 k0NjAwMDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC0xNDA2MDM3
 NDU3XX0=
 -->
