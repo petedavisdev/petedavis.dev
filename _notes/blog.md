@@ -96,11 +96,14 @@
 	 - You can fetch dynamic data inside your markdown!!!
 	 - You can (lists, tagging) 
 
-
+## Switching your blog from WordPress to VuePress
+Why?
+ - Wordpress is a big, complex tool, but is is often used to create very simple websites
+ - Use the simplest tool that does your 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTk5NDgxMiwxMjIzNjUwNTkwLC04NT
+eyJoaXN0b3J5IjpbLTM4OTM2NjUzMCwxMjIzNjUwNTkwLC04NT
 gxNTUxMzQsLTE5NDI2NzY4NzIsLTc4Nzc5MTg5NCwxMDIwMzQ3
 MTM3LDE2OTk5MTU5NjgsMTA4NTQwNzI4NiwtMzM5NDA2NDExLC
 02Mzk0NjAwMDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC0xNDA2
