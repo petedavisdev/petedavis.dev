@@ -1,7 +1,7 @@
 ---
-title: Note-taking in markdown
+title: Keeping notes in markdown
 ---
-*Keep your your Git repos with StackEdit*
+*Note-taking in your Git repos with StackEdit*
 I recently heard Wes Boss keeps his notes in markdown (.md) files and decided to see if I could find an efficient way to do that myself. What I found was StackEdit.
 
 ## Why markdown?
@@ -53,7 +53,7 @@ https://developers.google.com/tech-writing/overview
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODEzNjE3NCwtODk0NTIwMjA3LC03OD
+eyJoaXN0b3J5IjpbLTMxMTc2OTg2NSwtODk0NTIwMjA3LC03OD
 k4ODM5MTUsLTYzODA2NTMwNCwxMjk3MTU2ODMyLC05NDY2Mzkw
 MjYsMjAzMDIwNTI5OCwtMTg5NTAxMDkyMywtODQ1MTc0Njg3LC
 03MDA5NjQ3OTUsLTk1MDY1MzM0OSwtMTIzMDAyMDE0NSwtMjA0
