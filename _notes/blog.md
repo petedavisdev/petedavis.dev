@@ -26,7 +26,8 @@
  - Ejecting
 
 ## Adding your own components to VuePress content
- - Here's a simple Author widget
+
+## How to add Netlify forms to your VuePress site using Vue Components
 
 
 
@@ -74,7 +75,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTAyOTM0ODYsMTY5OTkxNTk2OCwxMD
-g1NDA3Mjg2LC0zMzk0MDY0MTEsLTYzOTQ2MDAwOSw3Mzk0MjUx
-ODQsLTIxNDE2NjYyOTQsLTE0MDYwMzc0NTddfQ==
+eyJoaXN0b3J5IjpbMjA3NzkxMzA4MSwxNjk5OTE1OTY4LDEwOD
+U0MDcyODYsLTMzOTQwNjQxMSwtNjM5NDYwMDA5LDczOTQyNTE4
+NCwtMjE0MTY2NjI5NCwtMTQwNjAzNzQ1N119
 -->
