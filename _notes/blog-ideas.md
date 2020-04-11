@@ -12,7 +12,7 @@
 
 If you are already comfortable using GitHub to manage your code, you will likely find this the easiest way to plan, write, edit and publish your blog posts.
 
-GitHub Projects make it easy for you to prioritise, track progress, 
+GitHub Projects make it easy for you to prioritise and track progress of your blog posts from
 
 
 ## How to deploy your VuePress site to Netlify
@@ -113,5 +113,5 @@ Who?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3MjE2MTcsLTM0MjUzNzEwMF19
+eyJoaXN0b3J5IjpbMTIwODk0MzE4OSwtMzQyNTM3MTAwXX0=
 -->
