@@ -1,6 +1,7 @@
 ---
 title: Keeping notes in markdown
 ---
+
 I recently heard Wes Boss keeps his notes in markdown (.md) files and decided to see if I could find an efficient way to do that myself. What I found was StackEdit.
 
 ## Why markdown?
@@ -52,8 +53,9 @@ https://developers.google.com/tech-writing/overview
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDUyMDIwNywtNzg5ODgzOTE1LC02Mz
-gwNjUzMDQsMTI5NzE1NjgzMiwtOTQ2NjM5MDI2LDIwMzAyMDUy
-OTgsLTE4OTUwMTA5MjMsLTg0NTE3NDY4NywtNzAwOTY0Nzk1LC
-05NTA2NTMzNDksLTEyMzAwMjAxNDUsLTIwNDQ3MzMyMl19
+eyJoaXN0b3J5IjpbLTE2NTA4MTk2ODEsLTg5NDUyMDIwNywtNz
+g5ODgzOTE1LC02MzgwNjUzMDQsMTI5NzE1NjgzMiwtOTQ2NjM5
+MDI2LDIwMzAyMDUyOTgsLTE4OTUwMTA5MjMsLTg0NTE3NDY4Ny
+wtNzAwOTY0Nzk1LC05NTA2NTMzNDksLTEyMzAwMjAxNDUsLTIw
+NDQ3MzMyMl19
 -->
