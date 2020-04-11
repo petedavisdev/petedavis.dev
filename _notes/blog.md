@@ -80,11 +80,12 @@
 	 - You can use Vue components inside your markdown!!
 	 - You can fetch dynamic data inside your markdown!!!
 	 - You can (lists, tagging) 
+ - 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4Nzc5MTg5NCwxMDIwMzQ3MTM3LDE2OT
-k5MTU5NjgsMTA4NTQwNzI4NiwtMzM5NDA2NDExLC02Mzk0NjAw
-MDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC0xNDA2MDM3NDU3XX
-0=
+eyJoaXN0b3J5IjpbLTE3OTAzMTE2MTksLTc4Nzc5MTg5NCwxMD
+IwMzQ3MTM3LDE2OTk5MTU5NjgsMTA4NTQwNzI4NiwtMzM5NDA2
+NDExLC02Mzk0NjAwMDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC
+0xNDA2MDM3NDU3XX0=
 -->
