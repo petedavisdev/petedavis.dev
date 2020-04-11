@@ -26,7 +26,7 @@
  - Ejecting
 
 ## Adding your own components to VuePress content
- - Here's a simple Author widget
+ - Here's a simple Gallery component
 
 ## How to add dark mode to VuePress
  - CSS variables
@@ -72,7 +72,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTQwNzI4NiwtMzM5NDA2NDExLC02Mz
-k0NjAwMDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC0xNDA2MDM3
-NDU3XX0=
+eyJoaXN0b3J5IjpbMTY5OTkxNTk2OCwxMDg1NDA3Mjg2LC0zMz
+k0MDY0MTEsLTYzOTQ2MDAwOSw3Mzk0MjUxODQsLTIxNDE2NjYy
+OTQsLTE0MDYwMzc0NTddfQ==
 -->
