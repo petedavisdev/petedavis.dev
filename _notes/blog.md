@@ -42,6 +42,8 @@
 ## How to create your own VuePress theme
  - Starter (magnet)
 
+## Creating content lists in VuePress
+
 
 ## Gatsby, Gridsome or VuePress?
  - Gatsby and Gridsome if you want content from an API
@@ -55,10 +57,11 @@
 	 - You can write HTML inside your markdown!
 	 - You can use Vue components inside your markdown!!
 	 - You can fetch dynamic data inside your markdown!!!
+	 - You can (lists, tagging) 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Nzk4OTc1NywtMzM5NDA2NDExLC02Mz
-k0NjAwMDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC0xNDA2MDM3
-NDU3XX0=
+eyJoaXN0b3J5IjpbLTIwNTA2NTAzMjEsLTMzOTQwNjQxMSwtNj
+M5NDYwMDA5LDczOTQyNTE4NCwtMjE0MTY2NjI5NCwtMTQwNjAz
+NzQ1N119
 -->
