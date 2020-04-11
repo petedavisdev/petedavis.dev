@@ -39,6 +39,10 @@
 ## Yes, you can write html in your markdown (.md) files
 <label><input type="checkbox" /> Yes</label>
 
+## How to create your own VuePress plugin
+
+
+
 ## How to add dark mode to VuePress
  - CSS variables
  - Dark mode preference detection
@@ -86,8 +90,8 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDI2NzY4NzIsLTc4Nzc5MTg5NCwxMD
-IwMzQ3MTM3LDE2OTk5MTU5NjgsMTA4NTQwNzI4NiwtMzM5NDA2
-NDExLC02Mzk0NjAwMDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC
-0xNDA2MDM3NDU3XX0=
+eyJoaXN0b3J5IjpbLTg1ODE1NTEzNCwtMTk0MjY3Njg3MiwtNz
+g3NzkxODk0LDEwMjAzNDcxMzcsMTY5OTkxNTk2OCwxMDg1NDA3
+Mjg2LC0zMzk0MDY0MTEsLTYzOTQ2MDAwOSw3Mzk0MjUxODQsLT
+IxNDE2NjYyOTQsLTE0MDYwMzc0NTddfQ==
 -->
