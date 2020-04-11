@@ -1,12 +1,5 @@
 # Blog
 
-## How to deploy your VuePress site to Netlify
-
-## How to get started with VuePress
- - Use a template (magnet)
- - Install it yourself
- - Host with Netlify CMS
-
 ## Where to put images in VuePress
  - Media folder
  - Cloudinary
@@ -98,6 +91,6 @@ Who?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzgwNjg3ODksMTUwMTE1Mzg0OSwtMz
-QyNTM3MTAwXX0=
+eyJoaXN0b3J5IjpbODQxMTYwNDM4LC0xMTc4MDY4Nzg5LDE1MD
+ExNTM4NDksLTM0MjUzNzEwMF19
 -->
