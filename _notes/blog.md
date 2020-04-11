@@ -16,8 +16,10 @@
 ## Gatsby, Gridsome or VuePress?
  - Gatsby and Gridsome if you want content from an API
 	 - Benefits - choose headless CMS (but that can mean lock-in!)
-	 - COntent
+	 - Content in multiple file formats (but that's untidy)
+	 - GraphQl out of the box (but you probably don't need it)
  - VuePress if you want to keep content in Markdown
+	 - Keep your content with your code
  - Not as restrictive as it appears
 	 - You can write HTML inside your markdown!
 	 - You can use Vue components inside your markdown!!
@@ -54,7 +56,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjc0NDc2NDcsLTMzOTQwNjQxMSwtNj
-M5NDYwMDA5LDczOTQyNTE4NCwtMjE0MTY2NjI5NCwtMTQwNjAz
-NzQ1N119
+eyJoaXN0b3J5IjpbMTI4NDA4Mzc1MCwtMzM5NDA2NDExLC02Mz
+k0NjAwMDksNzM5NDI1MTg0LC0yMTQxNjY2Mjk0LC0xNDA2MDM3
+NDU3XX0=
 -->
