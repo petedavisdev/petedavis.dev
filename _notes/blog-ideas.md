@@ -1,15 +1,5 @@
 # Blog
 
-## Reusable content in VuePress
- - Building pages from multiple markdown files
-
-## Creating content lists in VuePress
- - How to list out pages based on frontmatter
-
-## Where to keep your images in VuePress
- - public/media folder
- - Contentful
-
 ## Who is VuePress for?
  - What is VuePress?
  - When you should not use VuePress?
@@ -42,7 +32,7 @@ Who?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjU1MTc5MSwtMzY4NTg0NDE4LC0xMj
+eyJoaXN0b3J5IjpbMTkzNTczNTg3NSwtMzY4NTg0NDE4LC0xMj
 M1OTE3NDgwLC00NzQxODA4NjQsLTc5OTY5MDQxMywxNDg1ODM5
 MjU4LC0xMTc4MDY4Nzg5LDE1MDExNTM4NDksLTM0MjUzNzEwMF
 19
