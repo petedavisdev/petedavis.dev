@@ -1,10 +1,8 @@
 # Blog
 
-## How to customise the default VuePress blog theme
 
-## How to add sharing buttons to your VuePress articles
 
-## Adding your own components to VuePress content
+
 
 ## How to add Netlify forms to your VuePress site using Vue Components
 
@@ -78,6 +76,6 @@ Who?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQ2NzkxNywtMTE3ODA2ODc4OSwxNT
+eyJoaXN0b3J5IjpbMTQ4NTgzOTI1OCwtMTE3ODA2ODc4OSwxNT
 AxMTUzODQ5LC0zNDI1MzcxMDBdfQ==
 -->
