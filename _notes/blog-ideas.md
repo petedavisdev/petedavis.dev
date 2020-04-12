@@ -1,10 +1,5 @@
 # Blog
 
-## Using the VuePress blog plugin
-
-## How to create a VuePress plugin
- - Starter (magent)
-
 ## How to create your own VuePress theme
  - Starter (magnet)
 
@@ -50,7 +45,7 @@ Who?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1MjE4NjAsLTEyMzU5MTc0ODAsLTQ3ND
-E4MDg2NCwtNzk5NjkwNDEzLDE0ODU4MzkyNTgsLTExNzgwNjg3
-ODksMTUwMTE1Mzg0OSwtMzQyNTM3MTAwXX0=
+eyJoaXN0b3J5IjpbLTM2ODU4NDQxOCwtMTIzNTkxNzQ4MCwtND
+c0MTgwODY0LC03OTk2OTA0MTMsMTQ4NTgzOTI1OCwtMTE3ODA2
+ODc4OSwxNTAxMTUzODQ5LC0zNDI1MzcxMDBdfQ==
 -->
