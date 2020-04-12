@@ -2,10 +2,6 @@
 
 
 
-
-
-## How to add Netlify forms to your VuePress site using Vue Components
-
 ## Add a simple image Gallery Component to VuePress
 
 ## How to add an email subscription form to your VuePress site
@@ -76,6 +72,6 @@ Who?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTgzOTI1OCwtMTE3ODA2ODc4OSwxNT
-AxMTUzODQ5LC0zNDI1MzcxMDBdfQ==
+eyJoaXN0b3J5IjpbLTM0NDE3OTgwNCwxNDg1ODM5MjU4LC0xMT
+c4MDY4Nzg5LDE1MDExNTM4NDksLTM0MjUzNzEwMF19
 -->
