@@ -1,8 +1,5 @@
 # Blog
 
-## How to create your own VuePress theme
- - Starter (magnet)
-
 ## Reusable content in VuePress
  - Building pages from multiple markdown files
 
@@ -45,7 +42,8 @@ Who?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODU4NDQxOCwtMTIzNTkxNzQ4MCwtND
-c0MTgwODY0LC03OTk2OTA0MTMsMTQ4NTgzOTI1OCwtMTE3ODA2
-ODc4OSwxNTAxMTUzODQ5LC0zNDI1MzcxMDBdfQ==
+eyJoaXN0b3J5IjpbLTg2NjU1MTc5MSwtMzY4NTg0NDE4LC0xMj
+M1OTE3NDgwLC00NzQxODA4NjQsLTc5OTY5MDQxMywxNDg1ODM5
+MjU4LC0xMTc4MDY4Nzg5LDE1MDExNTM4NDksLTM0MjUzNzEwMF
+19
 -->
