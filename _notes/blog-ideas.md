@@ -1,11 +1,7 @@
 # Blog
 
-
-
-## Add a simple image Gallery Component to VuePress
-
 ## How to add an email subscription form to your VuePress site
- - MailChimp, ConvertKit or TinyLetter
+
 
 ## Yes, you can write html in your markdown (.md) files
 <label><input type="checkbox" /> Yes</label>
@@ -72,6 +68,6 @@ Who?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDE3OTgwNCwxNDg1ODM5MjU4LC0xMT
+eyJoaXN0b3J5IjpbLTc5OTY5MDQxMywxNDg1ODM5MjU4LC0xMT
 c4MDY4Nzg5LDE1MDExNTM4NDksLTM0MjUzNzEwMF19
 -->
