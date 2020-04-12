@@ -1,2 +1,0 @@
-# petedavis.dev
-My website
