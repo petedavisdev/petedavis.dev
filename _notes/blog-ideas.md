@@ -1,8 +1,5 @@
 # Blog
 
-## How to add dark mode to VuePress
-
-
 ## Using the VuePress blog plugin
 
 ## How to create a VuePress plugin
@@ -53,7 +50,7 @@ Who?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODg5NjU1NSwtMTIzNTkxNzQ4MCwtND
-c0MTgwODY0LC03OTk2OTA0MTMsMTQ4NTgzOTI1OCwtMTE3ODA2
-ODc4OSwxNTAxMTUzODQ5LC0zNDI1MzcxMDBdfQ==
+eyJoaXN0b3J5IjpbNDI1MjE4NjAsLTEyMzU5MTc0ODAsLTQ3ND
+E4MDg2NCwtNzk5NjkwNDEzLDE0ODU4MzkyNTgsLTExNzgwNjg3
+ODksMTUwMTE1Mzg0OSwtMzQyNTM3MTAwXX0=
 -->
