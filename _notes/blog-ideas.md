@@ -1,10 +1,6 @@
 # Blog
 
-## How to add an email subscription form to your VuePress site
 
-
-## Yes, you can write html in your markdown (.md) files
-<label><input type="checkbox" /> Yes</label>
 
 ## How to create your own VuePress plugin
 
@@ -68,6 +64,7 @@ Who?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTY5MDQxMywxNDg1ODM5MjU4LC0xMT
-c4MDY4Nzg5LDE1MDExNTM4NDksLTM0MjUzNzEwMF19
+eyJoaXN0b3J5IjpbLTQ3NDE4MDg2NCwtNzk5NjkwNDEzLDE0OD
+U4MzkyNTgsLTExNzgwNjg3ODksMTUwMTE1Mzg0OSwtMzQyNTM3
+MTAwXX0=
 -->
