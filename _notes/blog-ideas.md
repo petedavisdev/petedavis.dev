@@ -1,12 +1,7 @@
 # Blog
 
-## Passwordless login with Magic.link
-
 ## How to add dark mode to VuePress
- - CSS variables
- - Dark mode preference detection
- - Setup palette.styl
- - Create a switch component
+
 
 ## Using the VuePress blog plugin
 
@@ -58,7 +53,7 @@ Who?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzU5MTc0ODAsLTQ3NDE4MDg2NCwtNz
-k5NjkwNDEzLDE0ODU4MzkyNTgsLTExNzgwNjg3ODksMTUwMTE1
-Mzg0OSwtMzQyNTM3MTAwXX0=
+eyJoaXN0b3J5IjpbLTkxODg5NjU1NSwtMTIzNTkxNzQ4MCwtND
+c0MTgwODY0LC03OTk2OTA0MTMsMTQ4NTgzOTI1OCwtMTE3ODA2
+ODc4OSwxNTAxMTUzODQ5LC0zNDI1MzcxMDBdfQ==
 -->
