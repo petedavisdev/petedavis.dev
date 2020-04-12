@@ -1,11 +1,5 @@
 # Blog
 
-
-
-## How to create your own VuePress plugin
-
-## Add Netlify Identity to your VuePress site
-
 ## Passwordless login with Magic.link
 
 ## How to add dark mode to VuePress
@@ -64,7 +58,7 @@ Who?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NDE4MDg2NCwtNzk5NjkwNDEzLDE0OD
-U4MzkyNTgsLTExNzgwNjg3ODksMTUwMTE1Mzg0OSwtMzQyNTM3
-MTAwXX0=
+eyJoaXN0b3J5IjpbLTEyMzU5MTc0ODAsLTQ3NDE4MDg2NCwtNz
+k5NjkwNDEzLDE0ODU4MzkyNTgsLTExNzgwNjg3ODksMTUwMTE1
+Mzg0OSwtMzQyNTM3MTAwXX0=
 -->
