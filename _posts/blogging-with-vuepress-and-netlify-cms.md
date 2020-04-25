@@ -3,6 +3,7 @@ title: Blogging with VuePress and Netlify CMS
 date: 2019-12-14T15:49:09.818Z
 thumbnail: /media/workflow.png
 tags: ["VuePress", "Netlify", "Netlify CMS"]
+permalink: "/:slug"
 ---
 
 Before you start, you'll need to create a VuePress site and connect it to Netlify CMS.

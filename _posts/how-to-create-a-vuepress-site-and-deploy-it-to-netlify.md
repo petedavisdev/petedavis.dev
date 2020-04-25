@@ -5,6 +5,7 @@ thumbnail: /media/VuePress-about-page.png
 tags:
   - VuePress
   - Netlify
+permalink: "/:slug"
 ---
 VuePress and Netlify are the combination for automatically generating and deploying static sites.
 

@@ -3,6 +3,7 @@ title: Add Netlify CMS to a VuePress site
 date: 2019-12-13T15:46:47.996Z
 thumbnail: /media/vue.js_logo.png
 tags: ["VuePress", "Netlify", "Netlify CMS"]
+permalink: "/:slug"
 ---
 
 Before you start, you'll need a VuePress site deployed to Netlify.

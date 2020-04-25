@@ -3,6 +3,7 @@ title: Fun things you can do in VuePress markdown
 date: Sun Apr 12 2020 07:10:49 GMT+0100 (British Summer Time)
 thumbnail: /media/vue.js_logo.png
 tags: ["VuePress", "Netlify", "Netlify CMS"]
+permalink: "/:slug"
 ---
 
 In VuePress, markdown files are not limited to static content. You have all the power of Vue at your fingertips!
