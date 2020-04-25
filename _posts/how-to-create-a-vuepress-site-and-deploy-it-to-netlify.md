@@ -1,12 +1,12 @@
 ---
 title: How to create a VuePress website and deploy it to Netlify
-date: 2020-01-20T16:49:07.895Z
+date: 2020-04-25T15:49:07.895Z
 thumbnail: /media/VuePress-about-page.png
 tags:
   - VuePress
   - Netlify
   - Tutorials
-permalink: "/:slug"
+permalink: /:slug
 ---
 [VuePress](https://vuepress.vuejs.org/) and [Netlify](https://www.netlify.com/) make it easy to generate and deploy static sites. Here's how you get your first VuePress site installed and online in just a few minutes.
 
