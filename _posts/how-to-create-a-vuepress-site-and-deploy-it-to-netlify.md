@@ -1,17 +1,20 @@
 ---
-title: How to create a VuePress site and deploy it to Netlify
+title: How to create a VuePress website and deploy it to Netlify
 date: 2020-01-20T16:49:07.895Z
 thumbnail: /media/VuePress-about-page.png
 tags:
   - VuePress
   - Netlify
+  - Tutorials
 permalink: "/:slug"
 ---
-VuePress and Netlify are the combination for automatically generating and deploying static sites.
+[VuePress](https://vuepress.vuejs.org/) and [Netlify](https://www.netlify.com/) make it easy to generate and deploy static sites. Here's how you get your first VuePress site installed and online in just a few minutes.
 
 ## Before you start
 
-You will need the usual front-end development tools installed on your computer - [Git](https://git-scm.com/), [Node](https://nodejs.org/) and [your favourite code editor](https://code.visualstudio.com/). Grab yourself a [GitHub](https://github.com/) repo and [clone it](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) on your computer.
+You will need the usual front-end dev tools installed on your computer - [Git](https://git-scm.com/), [Node](https://nodejs.org/) and [your favourite code editor](https://code.visualstudio.com/). 
+
+Grab a fresh [GitHub](https://github.com/) repo for your site and [clone it](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) on your computer.
 
 ## VuePress in 5 steps
 
@@ -106,8 +109,6 @@ Netlify will immediately notice when these changes reach your master branch on G
 ![About page in browser](/media/VuePress-about-page.png "About page in browser")
 
 ## Next...
-
-[Add Netlify CMS to your VuePress site](/how-to-add-netlify-cms-to-your-vuepress-site)
 
 [Official VuePress guide](https://vuepress.vuejs.org/guide/)
 
