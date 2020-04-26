@@ -11,6 +11,4 @@ This is my personal blog for sharing my learning on all things front-end/UX/UI. 
 
 For now this site is just default VuePress blog theme. At some point I'll get around to designing my own VuePress theme and I will share the process with you here so that you can do the same.
 
-If that sounds helpful, please subscribe:
-
-<ConvertKit />
+<TinyLetter />
