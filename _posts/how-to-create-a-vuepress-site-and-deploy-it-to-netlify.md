@@ -115,3 +115,5 @@ Netlify will immediately notice when these changes reach your master branch on G
 [VuePress default theme config](https://vuepress.vuejs.org/theme/default-theme-config.html)
 
 [Netlify docs](https://docs.netlify.com/)
+
+<TinyLetter />
