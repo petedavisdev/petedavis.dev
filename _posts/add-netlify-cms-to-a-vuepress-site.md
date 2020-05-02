@@ -7,18 +7,20 @@ tags:
   - Netlify
   - Netlify CMS
 ---
+Netlify CMS is the perfect way to add an authoring workflow and markdown editor to your VuePress site. It's a light-weight CMS that hooks directly into your Git repo, creating branches for drafts and merging your content into master when you click to publish.
 
-Before you start, you'll need a VuePress site deployed to Netlify.
+If you don't already have a VuePress site, or if you just want to play with Netlify CMS, I've made a [GitHub template](https://github.com/petedavisdev/VuePress-with-Netlify-CMS) for you which you can deploy using this magic button:
 
-Now we're going to add content management and write our first blog post with Netlify CMS.
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/petedavisdev/VuePress-with-Netlify-CMS&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+
+If you do already have a VuePress site and you want to add Netlify CMS, this tutorial is for you.
 
 ## Setup OAuth on GitHub
 
 To keep it simple for now, we are going to set up access to the CMS with GitHub
 
 1. Go to your [developer settings on GitHub](https://github.com/settings/developers) and add a new OAuth app.
-2. Enter the name and full URL of your Netlify site.\
-   Authorization callback URL:
+2. Enter the name and full URL of your website and set the authorization callback URL:
 
 ```
 https://api.netlify.com/auth/done
