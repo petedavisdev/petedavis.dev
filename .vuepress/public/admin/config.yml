@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: p440davis/petedavis.dev
+  repo: petedavisdev/petedavis.dev
 media_folder: ".vuepress/public/media"
 public_folder: "/media"
 publish_mode: editorial_workflow

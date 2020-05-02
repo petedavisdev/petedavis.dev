@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/p440davis/petedavis.dev.git"
+    "url": "git+https://github.com/petedavisdev/petedavis.dev.git"
   },
   "keywords": [
     "VuePress",
@@ -24,6 +24,7 @@
   "devDependencies": {
     "@vuepress/theme-blog": "^2.2.0",
     "hygen": "^5.0.3",
-    "vuepress": "^1.4.0"
+    "vuepress": "^1.4.1",
+    "vuepress-plugin-canonical": "^1.0.0"
   }
 }

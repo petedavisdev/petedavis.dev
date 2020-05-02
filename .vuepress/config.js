@@ -2,6 +2,15 @@ module.exports = {
   title: "Pete Davis",
   description: "Frontend for the people",
   theme: "@vuepress/theme-blog",
+  plugins: [
+    [
+      'vuepress-plugin-canonical',
+      {
+        baseURL: 'https://petedavis.dev',
+        stripExtension: true // strip '.html'
+      }
+    ]
+  ],
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
@@ -36,7 +45,7 @@ module.exports = {
       contact: [
         {
           type: "github",
-          link: "https://github.com/p440davis/"
+          link: "https://github.com/petedavisdev/"
         }
       ],
       copyright: [
