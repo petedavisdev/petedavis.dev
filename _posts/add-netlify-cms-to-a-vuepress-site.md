@@ -1,7 +1,7 @@
 ---
 title: Add Netlify CMS to your VuePress site
 date: 2019-12-13T15:46:47.996Z
-thumbnail: /media/vue.js_logo.png
+thumbnail: /media/workflow.png
 tags:
   - VuePress
   - Netlify
@@ -15,6 +15,8 @@ It's a light-weight CMS hosted on your site that hooks directly into your Git re
 * Publishing workflow to manage content (draft, review, ready, publish and unpublish)
 * Configured a inputs and defaults for your [frontmatter](https://v1.vuepress.vuejs.org/guide/frontmatter.html)
 * Multiple author access controls
+
+![Rich text editor screen](/media/richtexteditor.png)
 
 If you don't already have a VuePress site, or if you just want to play with Netlify CMS, I've made a [GitHub template](https://github.com/petedavisdev/VuePress-with-Netlify-CMS) for you which you can deploy using this magic button:
 
@@ -54,13 +56,17 @@ This config will enable you to edit your homepage, but not delete it. It will al
 
 With these files deployed, you can now access your CMS. Simply add \`/admin\` to the end of your website url in the browser and you will be invited to login with GitHub. Once logged in you will see a collection called Home, which contains your homepage and a collection called Pages, which will be empty or contain your existing pages.
 
+![CMS Contents screen](/media/collections.png)
+
 Now you can start using the CMS to edit and add pages.
 
 Be aware that new pages do not appear in the pages list or on your website until they have been published, and they cannot be published until they have been marked as "Ready", so go to the workflow tab to edit your drafts.
 
+![Workflow screen](/media/workflow.png)
+
 Try creating some new pages (e.g. About and Contact) and see the new branches that appear automatically in your Git repo. Netlify will publish these branches as previews, so that you can see exactly how your website will look once they have been published.
 
-
+![View Preview link](/media/viewpreview.png)
 
 Set these pages as ready and then publish them. This merges the branch to master, so Netlify will build and deploy your site with your new pages, but you'll need some navigation to get to them.
 
