@@ -7,7 +7,16 @@ tags:
   - Netlify
   - Netlify CMS
 ---
-Netlify CMS is the perfect way to add an authoring workflow and markdown editor to your VuePress site. It's a light-weight CMS that hooks directly into your Git repo, creating branches for drafts and merging your content into master when you click to publish.
+If you're using VuePress, but you want to add a bit of content management to your markdown files, Netlify CMS is the perfect choice. 
+
+It's a light-weight CMS hosted on your site that hooks directly into your Git repo, creating branches for drafts and merging your content into master when you click to publish.
+
+Netlify CMS gives you:
+
+* Rich text editing and preview for your markdown files
+* Publishing workflow to manage content (draft, review, ready, publish and unpublish)
+* The ability to confiture a user interface and defaults for your [frontmatter](https://v1.vuepress.vuejs.org/guide/frontmatter.html)
+* Multiple author access (using Netlify Identity)
 
 If you don't already have a VuePress site, or if you just want to play with Netlify CMS, I've made a [GitHub template](https://github.com/petedavisdev/VuePress-with-Netlify-CMS) for you which you can deploy using this magic button:
 
@@ -53,7 +62,7 @@ Now you can start using the CMS to edit and add pages.
 
 Netlify CMS comes with workflow. New pages do not appear in the pages list or on your website until they have been published, and they cannot be published until they have been marked as "Ready".
 
-Create some new pages (e.g. About and Contact) and publish them. Now go back to your website and navigate to /about and /contact. You're starting to grow your website, but you'll need some navigation to get around.
+Create some new pages (e.g. About and Contact), set them as ready and then publish them. Now go back to your website and navigate to /about and /contact. You're starting to grow your website, but you'll need some navigation to get around.
 
 ## Configure VuePress navigation
 
