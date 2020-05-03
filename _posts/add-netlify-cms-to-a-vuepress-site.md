@@ -50,7 +50,7 @@ In your `.vuepress` folder, add a `public` folder and within that, add an `admin
 
 <<< @/.vuepress/public/snippets/admin.config.yml
 
-This config will enable you to edit your homepage, but not delete it. It will also give you the ability to create, edit and delete pages.
+This config will enable you to edit your homepage, but not delete it. It will also give you the ability to create, edit and delete pages. It will manage pages in a `_pages` folder, so edit this if you have a different folder structure.
 
 Commit and push your changes. 'Continuous Deployment' means that Netlify will detect changes to your GitHub Master branch, build the site and deploy it without you having to lift a finger.
 
@@ -64,10 +64,12 @@ Netlify CMS comes with workflow. New pages do not appear in the pages list or on
 
 Create some new pages (e.g. About and Contact), set them as ready and then publish them. Now go back to your website and navigate to /about and /contact. You're starting to grow your website, but you'll need some navigation to get around.
 
-## Configure VuePress navigation
-
 Open up your `.vuepress/congif.js` file and add the following theme config:
 
 <<< @/.vuepress/public/snippets/vuepress.config.js{4-10}
 
-That's all you need to add items to the navbar of your site.
+## Next...
+
+[Netlify CMS docs](https://www.netlifycms.org/docs/intro/)
+
+[Netlify Identity docs](https://docs.netlify.com/visitor-access/identity/)
