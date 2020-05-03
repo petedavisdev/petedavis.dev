@@ -1,5 +1,5 @@
 ---
-title: Add Netlify CMS to a VuePress site
+title: Add Netlify CMS to your VuePress site
 date: 2019-12-13T15:46:47.996Z
 thumbnail: /media/vue.js_logo.png
 tags:
