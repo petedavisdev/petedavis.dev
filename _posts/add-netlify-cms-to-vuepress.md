@@ -6,6 +6,7 @@ tags:
   - VuePress
   - Netlify
   - Netlify CMS
+  - Tutorials
 permalink: /:slug
 ---
 If you're using VuePress, but you want to add a bit of content management to your markdown files, Netlify CMS is the perfect choice. 
