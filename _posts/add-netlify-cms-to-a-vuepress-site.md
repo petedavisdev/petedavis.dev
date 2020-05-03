@@ -81,3 +81,5 @@ Now you can get to the pages you created with your CMS.
 [Netlify CMS docs](https://www.netlifycms.org/docs/intro/)
 
 [Netlify Identity docs](https://docs.netlify.com/visitor-access/identity/)
+
+<TinyLetter />
