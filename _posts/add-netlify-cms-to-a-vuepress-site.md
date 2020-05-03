@@ -9,14 +9,12 @@ tags:
 ---
 If you're using VuePress, but you want to add a bit of content management to your markdown files, Netlify CMS is the perfect choice. 
 
-It's a light-weight CMS hosted on your site that hooks directly into your Git repo, creating branches for drafts and merging your content into master when you click to publish.
-
-Netlify CMS gives you:
+It's a light-weight CMS hosted on your site that hooks directly into your Git repo, creating branches for drafts and merging your content into master when you click to publish. What I love about this CMS is that I still have complete control of my content. No vendor lock-in. No databases. Just some helpful tools to manage your markdown files, including:
 
 * Rich text editing and preview for your markdown files
 * Publishing workflow to manage content (draft, review, ready, publish and unpublish)
-* The ability to confiture a user interface and defaults for your [frontmatter](https://v1.vuepress.vuejs.org/guide/frontmatter.html)
-* Multiple author access (using Netlify Identity)
+* Configured a inputs and defaults for your [frontmatter](https://v1.vuepress.vuejs.org/guide/frontmatter.html)
+* Multiple author access controls
 
 If you don't already have a VuePress site, or if you just want to play with Netlify CMS, I've made a [GitHub template](https://github.com/petedavisdev/VuePress-with-Netlify-CMS) for you which you can deploy using this magic button:
 
@@ -50,23 +48,27 @@ In your `.vuepress` folder, add a `public` folder and within that, add an `admin
 
 <<< @/.vuepress/public/snippets/admin.config.yml
 
-This config will enable you to edit your homepage, but not delete it. It will also give you the ability to create, edit and delete pages. It will manage pages in a `_pages` folder, so edit this if you have a different folder structure.
-
-Commit and push your changes. 'Continuous Deployment' means that Netlify will detect changes to your GitHub Master branch, build the site and deploy it without you having to lift a finger.
+This config will enable you to edit your homepage, but not delete it. It will also give you the ability to create, edit and delete pages. It will manage pages in a `_pages` folder, so edit this if you have a different folder for your pages.
 
 ## Login to your CMS and create pages
 
-You can now access your CMS. Simply add /admin to the end of your website url in the browser and you will be invited to login with GitHub. Once logged in you will see a collection called Home, which contains your homepage and a collection called Pages, which will be empty.
+With these files deployed, you can now access your CMS. Simply add \`/admin\` to the end of your website url in the browser and you will be invited to login with GitHub. Once logged in you will see a collection called Home, which contains your homepage and a collection called Pages, which will be empty or contain your existing pages.
 
 Now you can start using the CMS to edit and add pages.
 
-Netlify CMS comes with workflow. New pages do not appear in the pages list or on your website until they have been published, and they cannot be published until they have been marked as "Ready".
+Be aware that new pages do not appear in the pages list or on your website until they have been published, and they cannot be published until they have been marked as "Ready", so go to the workflow tab to edit your drafts.
 
-Create some new pages (e.g. About and Contact), set them as ready and then publish them. Now go back to your website and navigate to /about and /contact. You're starting to grow your website, but you'll need some navigation to get around.
+Try creating some new pages (e.g. About and Contact) and see the new branches that appear automatically in your Git repo. Netlify will publish these branches as previews, so that you can see exactly how your website will look once they have been published.
+
+
+
+Set these pages as ready and then publish them. This merges the branch to master, so Netlify will build and deploy your site with your new pages, but you'll need some navigation to get to them.
 
 Open up your `.vuepress/congif.js` file and add the following theme config:
 
 <<< @/.vuepress/public/snippets/vuepress.config.js{4-10}
+
+Now you can get to the pages you created with your CMS.
 
 ## Next...
 
