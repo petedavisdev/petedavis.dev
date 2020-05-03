@@ -16,7 +16,7 @@ It's a light-weight CMS hosted on your site that hooks directly into your Git re
 * Configured a inputs and defaults for your [frontmatter](https://v1.vuepress.vuejs.org/guide/frontmatter.html)
 * Multiple author access controls
 
-![Rich text editor screen](/media/richtexteditor.png)
+![Rich text editor screen](/media/cmseditor.png)
 
 If you don't already have a VuePress site, or if you just want to play with Netlify CMS, I've made a [GitHub template](https://github.com/petedavisdev/VuePress-with-Netlify-CMS) for you which you can deploy using this magic button:
 
