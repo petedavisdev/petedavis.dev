@@ -13,8 +13,8 @@ It's a light-weight CMS hosted on your site that hooks directly into your Git re
 
 * Rich text editing and preview for your markdown files
 * Publishing workflow to manage content (draft, review, ready, publish and unpublish)
-* Configured a inputs and defaults for your [frontmatter](https://v1.vuepress.vuejs.org/guide/frontmatter.html)
-* Multiple author access controls
+* Configurable inputs and defaults for your [frontmatter](https://v1.vuepress.vuejs.org/guide/frontmatter.html)
+* Multiple author access controls ([with Netlify Identity](https://docs.netlify.com/visitor-access/identity/))
 
 ![Rich text editor screen](/media/cmseditor.png)
 
