@@ -7,11 +7,12 @@ tags:
   - Netlify
   - Netlify CMS
 ---
-
 In VuePress, markdown files are not limited to static content. You have all the power of Vue at your fingertips!
 
 ## What day is it?
+
 Let's start by displaying the current date:
+
 ```
 {{ Date() }}
 ```
@@ -25,8 +26,6 @@ Today is {{ new Date().toLocaleString('en-GB',{ weekday: 'long', month:'long', y
 ```
 
 It's {{ new Date().toLocaleString('en-GB',{ hour: '2-digit', minute: '2-digit', weekday: 'long', month:'long', year:'numeric', day:'numeric'}) }}
-
-
 
 ## How old is Harry Potter?
 
@@ -44,10 +43,8 @@ Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 1
 
 Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 14, 2025') - Date.now()).getUTCFullYear() - 1970) }} years!
 
-
 ## Randomness
-<p :style="{ backgroundColor: '#' + Math.floor(Math.random()*16777215).toString(16) }" @click="">I'm so random</p>
 
-<input v-model="$route.meta.color" />
+<p :style="{ backgroundColor: '#' + Math.floor(Math.random()*16777215).toString(16) }" @click="">I'm so random</p>
 
 ## Using frontmatter as props
