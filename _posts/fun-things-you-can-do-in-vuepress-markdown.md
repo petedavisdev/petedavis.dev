@@ -35,7 +35,7 @@ Harry Potter is {{ Math.abs(new Date(Date.now() - new Date('July 31, 1980')).get
 
 Harry Potter is {{ Math.abs(new Date(Date.now() - new Date('July 31, 1980')).getUTCFullYear() - 1970) }} year old.
 
-# Count down
+## Count down
 
 ```
 Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 14, 2025') - Date.now()).getUTCFullYear() - 1970) }} years!
@@ -47,4 +47,10 @@ Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 1
 
 <p :style="{ backgroundColor: '#' + Math.floor(Math.random()*16777215).toString(16) }" @click="">I'm so random</p>
 
+## Lists
+
+<ul><li v-for="item in \['item1', 'item2, 'item3']">{{item}}</li></ul>s
+
 ## Using frontmatter as props
+
+Here's a more practical example. Let's take the date of this blogpost from the
