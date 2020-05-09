@@ -4,7 +4,7 @@ date: 2020-05-09T06:10:49.000Z
 thumbnail: /media/vue.js_logo.png
 tags:
   - VuePress
-  - Tutorials
+  - Tips and tricks
 items:
   - Item1
   - Item2
