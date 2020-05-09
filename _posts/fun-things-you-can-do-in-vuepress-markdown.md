@@ -20,11 +20,11 @@ Using markdown with a static-site generator like VuePress gives you some nice re
 
 Will give you a set of checkbox inputs:
 
-- [ ] Todo 1
+- Todo 1
 
-- [ ] Todo 2
+- Todo 2
 
-- [ ] Todo 3
+- Todo 3
 
 In VuePress, markdown files are not limited to static content. You have all the power of Vue at your fingertips!
 
