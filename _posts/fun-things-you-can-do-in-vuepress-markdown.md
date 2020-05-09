@@ -1,5 +1,5 @@
 ---
-title: Fun things you can do in VuePress markdown
+title: 5 Fun things you can do in markdown with VuePress
 date: 2020-05-09T06:10:49.000Z
 thumbnail: /media/vue.js_logo.png
 tags:
@@ -18,7 +18,7 @@ As the [docs](https://vuepress.vuejs.org/guide/#how-it-works) say:
 
 So, when you are writing content in markdown, you have [almost*](#things-you-can-t-do) all the power of Vue templating at your fingertips!
 
-## Let's try something random
+## 1. Let's try something random
 
 To prove this is working, I'll add this to the markdown file:
 
@@ -30,7 +30,7 @@ To prove this is working, I'll add this to the markdown file:
 
 Refresh the browser and you'll get a different number each time. 
 
-## Use class and style bindings
+## 2. Use class and style bindings
 
 While markdown syntax is the cleanest way to write your content, you can also write HTML code in your .md files. This gives you the opportunity to add [Vue class and style bindings](https://v1.vuejs.org/guide/class-and-style.html) to elements like so:
 
@@ -42,7 +42,7 @@ While markdown syntax is the cleanest way to write your content, you can also wr
 
 Reload the page to see the style binding at work.
 
-## Fun with dates
+## 3. Fun with dates
 
 ### What day is this?
 
@@ -84,7 +84,7 @@ Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 1
 
 IE is already dead to me, but sadly I still have to support it in my day job :sob:
 
-## Using frontmatter as props
+## 4. Using frontmatter as props
 
 [Frontmatter](https://v1.vuepress.vuejs.org/guide/frontmatter.html) is a way to define meta-data about your page at the top of your markdown file, like so:
 
@@ -118,7 +118,7 @@ This post was published {{ Math.floor((new Date() - new Date($frontmatter.date))
 
 This post was published {{ Math.floor((new Date() - new Date($frontmatter.date)) / 86400000) }} days ago.
 
-## Lists with v-for
+## 5. Lists with v-for
 
 VuePress also gives you v-for, which you can use with frontmatter generate formatted lists like so:
 
