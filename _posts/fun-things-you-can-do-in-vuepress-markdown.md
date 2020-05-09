@@ -19,7 +19,7 @@ Using markdown with a static-site generator like VuePress gives you some nice re
 - [ ] Todo 3
 ```
 
-Will give you a set of checkbox inputs:
+Should give you a set of checkbox inputs:
 
 - [ ] Todo 1
 - [ ] Todo 2
