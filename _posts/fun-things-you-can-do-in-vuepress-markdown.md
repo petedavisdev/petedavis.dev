@@ -59,7 +59,7 @@ Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 1
 
 ## Lists
 
-<ul><li v-for="item in \['item1', 'item2, 'item3']">{{item}}</li></ul>
+<ul><li v-for="item in ['item1', 'item2, 'item3']">{{item}}</li></ul>
 
 ## Using frontmatter as props
 
