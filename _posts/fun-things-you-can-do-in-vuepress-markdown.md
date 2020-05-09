@@ -115,7 +115,7 @@ This post was published {{ Math.floor((new Date() - new Date($frontmatter.date))
 
 ## Lists with v-for
 
-VuePress also gives you v-for, which you can use with frontmatter data to content from format arrays or objects like so:
+VuePress also gives you v-for, which you can use with frontmatter generate lists like so:
 
 ``` html
 <ol>
