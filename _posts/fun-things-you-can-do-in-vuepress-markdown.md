@@ -73,17 +73,13 @@ For example, on this page, `{{` `$frontmatter.date` `}}` outputs:
 
 ## Lists
 ```
-<p>
-  <label v-for="tag in $frontmatter.tags">
-    <input type="checkbox"> {{tag}}
-  </label>
+<p v-for="tag in $frontmatter.tags">
+  <label><input type="checkbox"> {{tag}}</label>
 </p>
 ```
 
-<p>
-  <label v-for="tag in $frontmatter.tags">
-    <input type="checkbox"> {{tag}}
-  </label>
+<p v-for="tag in $frontmatter.tags">
+  <label><input type="checkbox"> {{tag}}</label>
 </p>
 
 ## Using frontmatter as props
