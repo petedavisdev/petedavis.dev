@@ -1,6 +1,6 @@
 ---
 title: Fun things you can do in VuePress markdown
-date: 2020-04-11T06:10:49.000Z
+date: 2020-05-09T06:10:49.000Z
 thumbnail: /media/vue.js_logo.png
 tags:
   - VuePress
@@ -115,7 +115,7 @@ This post was published {{ Math.floor((new Date() - new Date($frontmatter.date))
 
 ## Lists with v-for
 
-VuePress also gives you v-for, which you can use with frontmatter generate lists like so:
+VuePress also gives you v-for, which you can use with frontmatter generate formatted lists like so:
 
 ``` html
 <ol>
