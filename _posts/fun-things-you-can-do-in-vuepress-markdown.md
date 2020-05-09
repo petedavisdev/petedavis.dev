@@ -60,7 +60,7 @@ It works! Now let's format that nicely.
 Today is {{ new Date().toLocaleString('en-GB',{ weekday: 'long', month:'long', year:'numeric', day:'numeric'}) }}
 ```
 
-It's {{ new Date().toLocaleString('en-GB',{ hour: '2-digit', minute: '2-digit', weekday: 'long', month:'long', year:'numeric', day:'numeric'}) }}
+Today is {{ new Date().toLocaleString('en-GB',{ hour: '2-digit', minute: '2-digit', weekday: 'long', month:'long', year:'numeric', day:'numeric'}) }}
 
 ### How old is Harry Potter?
 
@@ -70,6 +70,8 @@ Harry Potter is {{ Math.abs(new Date(Date.now() - new Date('July 31, 1980')).get
 
 Harry Potter is {{ Math.abs(new Date(Date.now() - new Date('July 31, 1980')).getUTCFullYear() - 1970) }} years old.
 
+Come back next your and you'll find this is always correct. Magic :sparkles:
+
 ### When will IE die?
 Here's an example of a countdown
 
@@ -78,6 +80,8 @@ Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 1
 ```
 
 Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 14, 2025') - Date.now()).getUTCFullYear() - 1970) }} years!
+
+IE is already dead to me, but sadly I still have to support it in my day job :sob:
 
 ## Using frontmatter as props
 
