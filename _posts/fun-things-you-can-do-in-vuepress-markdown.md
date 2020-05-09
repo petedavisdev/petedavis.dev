@@ -74,3 +74,5 @@ Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 1
 ## Using frontmatter as props
 
 Here's a more practical example. Let's take the date of this blogpost from the
+
+<TinyLetter />
