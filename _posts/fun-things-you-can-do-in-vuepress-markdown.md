@@ -71,6 +71,7 @@ Harry Potter is {{ Math.abs(new Date(Date.now() - new Date('July 31, 1980')).get
 Harry Potter is {{ Math.abs(new Date(Date.now() - new Date('July 31, 1980')).getUTCFullYear() - 1970) }} years old.
 
 ### When will IE die?
+Here's an example of a countdown
 
 ```
 Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 14, 2025') - Date.now()).getUTCFullYear() - 1970) }} years!
@@ -116,7 +117,7 @@ This post was published {{ Math.floor((new Date() - new Date($frontmatter.date))
 
 VuePress also gives you v-for, which you can use with frontmatter data to content from format arrays or objects like so:
 
-```
+``` html
 <ol>
     <li v-for="tag in $frontmatter.tags">{{tag}}</li>
 </ol>
@@ -125,25 +126,23 @@ VuePress also gives you v-for, which you can use with frontmatter data to conten
 <ol>
     <li v-for="tag in $frontmatter.tags">{{tag}}</li>
 </ol>
-
-
 
 ## Things you can't do
 
-If you're used to writing Vue templates you'll be familiar with using calling function from events in your html - things like:
+If you're used to writing Vue templates you'll be familiar with calling function in your template like so:
 
-<button>Hello</button>
+``` html
+<button v-on:click="myMethod">Click me</button> <!-- THIS DOESN'T WORK -->
+```
 
-<button v-on:click="window.alert('You clicked me!')">Click me</button>
+There is no way to define methods in your markdown, so this isn't available to you. 
 
-However, there is no way to create methods that you can use in your template, so you can't do:
+Similarly you can't use v-model to two-way databind your inputs. This is because there is no way to define mutable component data in a markdown file. The props provided by frontmatter, for example, cannot be changed.
 
-<button v-on:click="myMethod">Make something happen</button>
-
-The other thing you can't use is v-model to two-way databind your inputs. This is because there is no way to define component data. The props provided by frontmatter, for example, are static.
-
-<input v-model="myValue">
-<p>{{ myValue }}</p>
+``` html
+<input v-model="myValue"> <!-- THIS DOESN'T WORK -->
+<p>{{ myValue }}</p> <!-- THIS DOESN'T WORK -->
+```
 
 ## Components to the rescue!
 
@@ -153,6 +152,8 @@ The best thing about your markdown being converted into a Vue template is that y
 <MyComponent />
 ```
 
-There is really no limit to what you can do with this. You literally have all of the power of Vue apps within a statically generated page. More on this in my my next blog post, but for now, check out the [VuePress docs](https://vuepress.vuejs.org/guide/using-vue.html#using-components).
+There is really no limit to what you can do with this. Adding components to your markdown gives you all of the power of Vue apps within a statically generated site. 
+
+More on this in a future blog post, but for now, check out the [VuePress docs](https://vuepress.vuejs.org/guide/using-vue.html#using-components).
 
 <TinyLetter />
