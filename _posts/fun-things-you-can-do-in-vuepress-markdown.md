@@ -6,6 +6,10 @@ tags:
   - VuePress
   - Netlify
   - Netlify CMS
+items: 
+  - Item1
+  - Item2
+  - Item3
 ---
 Using markdown with a static-site generator like VuePress gives you some nice readable syntax for generating HTML. For example. You can add a checklist to your content just by typing:
 
@@ -16,6 +20,10 @@ Using markdown with a static-site generator like VuePress gives you some nice re
 ```
 
 Will give you a set of checkbox inputs:
+
+- [ ] Todo 1
+- [ ] Todo 2
+- [ ] Todo 3
 
 In VuePress, markdown files are not limited to static content. You have all the power of Vue at your fingertips!
 
@@ -59,7 +67,7 @@ Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 1
 
 ## Lists
 
-<ul><li v-for="item in ['item1', 'item2, 'item3']">{{item}}</li></ul>
+<ul><li v-for="item in $frontmatter.items">{{item}}</li></ul>
 
 ## Using frontmatter as props
 
