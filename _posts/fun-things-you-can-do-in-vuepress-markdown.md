@@ -7,6 +7,26 @@ tags:
   - Netlify
   - Netlify CMS
 ---
+Using markdown with a static-site generator like VuePress gives you some nice readable syntax for generating HTML. For example. You can add a checklist to your content just by typing:
+
+\`\``
+
+\- \[ ] Todo 1
+
+\- \[ ] Todo 2
+
+\- \[ ] Todo 3
+
+\`\``
+
+Will be rendered as checkbox inputs:
+
+\- \[ ] Todo 1
+
+\- \[ ] Todo 2
+
+\- \[ ] Todo 3
+
 In VuePress, markdown files are not limited to static content. You have all the power of Vue at your fingertips!
 
 ## What day is it?
