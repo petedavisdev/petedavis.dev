@@ -4,6 +4,7 @@ date: Sun Apr 12 2020 07:10:49 GMT+0100 (British Summer Time)
 thumbnail: /media/vue.js_logo.png
 tags:
   - VuePress
+  - Tutorials
 items:
   - Item1
   - Item2
@@ -66,13 +67,22 @@ tags:
 
 VuePress gives you access to frontmatter (and some other [global computed properties](https://v1.vuepress.vuejs.org/guide/global-computed.html)) inside your markdown.
 
-For example, on this page, `{{` `$frontmatter` `}}` outputs:
+For example, on this page, `{{` `$frontmatter.date` `}}` outputs:
 
-{{ $frontmatter }}
+{{ $frontmatter.date }}
+
+## Lists
+```
+<p>
+  <label v-for="tag in $frontmatter.tags">
+    <input type="checkbox"> {{tag}}
+  </label>
+</p>
+```
 
 <p>
-  <label v-for="item in $frontmatter.items">
-    <input type="checkbox"> {{item}}
+  <label v-for="tag in $frontmatter.tags">
+    <input type="checkbox"> {{tag}}
   </label>
 </p>
 
