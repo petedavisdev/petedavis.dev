@@ -36,7 +36,7 @@ It's {{ new Date().toLocaleString('en-GB',{ hour: '2-digit', minute: '2-digit', 
 Harry Potter is {{ Math.abs(new Date(Date.now() - new Date('July 31, 1980')).getUTCFullYear() - 1970) }} years old.
 ```
 
-Harry Potter is {{ Math.abs(new Date(Date.now() - new Date('July 31, 1980')).getUTCFullYear() - 1970) }} year old.
+Harry Potter is {{ Math.abs(new Date(Date.now() - new Date('July 31, 1980')).getUTCFullYear() - 1970) }} years old.
 
 ## Count down
 
@@ -60,27 +60,33 @@ title: Blog post title
 date: 2020-04-25T15:49:07.895Z
 tags:
   - VuePress
-  - Netlify
   - Tutorials
 ---
 ```
 
 VuePress gives you access to frontmatter (and some other [global computed properties](https://v1.vuepress.vuejs.org/guide/global-computed.html)) inside your markdown.
 
-For example, on this page, `{{` `$frontmatter.date` `}}` outputs:
+For example, on this page, 
+::: v-pre
+`{{$frontmatter.date }}`
+:::
+outputs:
 
 {{ $frontmatter.date }}
 
-## Lists
+This page is {{ Math.abs(new Date(Date.now() - new Date($frontmatter.date)).getUTCFullYear() - 1970) }} years old.
+
+## Lists with v-for
+VuePress also gives you the ability to 
 ```
-<p v-for="tag in $frontmatter.tags">
-  <label><input type="checkbox"> {{tag}}</label>
-</p>
+<ol>
+    <li v-for="tag in $frontmatter.tags">{{tag}}</li>
+</ol>
 ```
 
-<p v-for="tag in $frontmatter.tags">
-  <label><input type="checkbox"> {{tag}}</label>
-</p>
+<ol>
+    <li v-for="tag in $frontmatter.tags">{{tag}}</li>
+</ol>
 
 ## Using frontmatter as props
 
