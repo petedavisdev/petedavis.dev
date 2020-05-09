@@ -108,10 +108,10 @@ outputs:
 You could add a bit of JS to show how many days ago the post was published, like so:
 
 ```
-This post was published {{ Math.floor((new Date() - new Date($frontmatter.date)) / (1000 * 60 * 60 * 24)) }} days ago.
+This post was published {{ Math.floor((new Date() - new Date($frontmatter.date)) / (1000*60*60*24)) }} days ago.
 ```
 
-This post was published {{ Math.floor((new Date() - new Date($frontmatter.date)) / (1000  *60*  60 * 24)) }} days ago.
+This post was published {{ Math.floor((new Date() - new Date($frontmatter.date)) / (1000*60*60*24)) }} days ago.
 
 ## Lists with v-for
 
