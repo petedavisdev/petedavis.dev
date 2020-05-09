@@ -78,7 +78,7 @@ outputs:
 
 {{ $frontmatter.date }}
 
-This post was published {{ Math.floor((new Date() - new Date($frontmatter.date)) / 86400000) }} days ago.
+This post was published {{ Math.floor((new Date() - new Date($frontmatter.date)) / (1000 * 60 * 60 * 24)) }} days ago.
 
 ## Lists with v-for
 VuePress also gives you the ability to 
