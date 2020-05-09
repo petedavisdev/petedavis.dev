@@ -9,20 +9,6 @@ items:
   - Item2
   - Item3
 ---
-Using markdown with a static-site generator like VuePress gives you some nice readable syntax for generating HTML. For example. You can add a checklist to your content just by typing:
-
-```
-- [ ] Todo 1
-- [ ] Todo 2
-- [ ] Todo 3
-```
-
-Should give you a set of checkbox inputs:
-
-- [ ] Todo 1
-- [ ] Todo 2
-- [ ] Todo 3
-
 In VuePress, markdown files are not limited to static content. You have all the power of Vue at your fingertips!
 
 ## What day is it?
@@ -63,7 +49,26 @@ Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 1
 
 <p :style="{ backgroundColor: '#' + Math.floor(Math.random()*16777215).toString(16) }" @click="">I'm so random</p>
 
-## Lists
+## Using frontmatter as props
+
+[Frontmatter](https://v1.vuepress.vuejs.org/guide/frontmatter.html) is a way to define meta-data about your page at the top of your markdown file, like so:
+
+```
+---
+title: Blog post title
+date: 2020-04-25T15:49:07.895Z
+tags:
+  - VuePress
+  - Netlify
+  - Tutorials
+---
+```
+
+VuePress gives you access to frontmatter (and some other [global computed properties](https://v1.vuepress.vuejs.org/guide/global-computed.html)) inside your markdown.
+
+For example, on this page, `{{ $frontmatter }}` outputs:
+
+{{ $frontmatter }}
 
 <p>
   <label v-for="item in $frontmatter.items">
