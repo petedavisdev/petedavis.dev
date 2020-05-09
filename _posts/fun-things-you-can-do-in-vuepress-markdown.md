@@ -67,9 +67,13 @@ tags:
 VuePress gives you access to frontmatter (and some other [global computed properties](https://v1.vuepress.vuejs.org/guide/global-computed.html)) inside your markdown.
 
 For example, on this page, 
+
+```
 ::: v-pre
-`{{$frontmatter.date }}`
+{{ $frontmatter.date }}
 :::
+```
+
 outputs:
 
 {{ $frontmatter.date }}
