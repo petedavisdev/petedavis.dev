@@ -134,11 +134,11 @@ If you're used to writing Vue templates you'll be familiar with using calling fu
 
 <button>Hello</button>
 
-<button @click="alert('You clicked me!')">Click me</button>
+<button v-on:click="alert('You clicked me!')">Click me</button>
 
 However, there is no way to create methods that you can use in your template, so you can't do:
 
-<button @click="myMethod">Make something happen</button>
+<button v-on:click="myMethod">Make something happen</button>
 
 The other thing you can't use is v-model to two-way databind your inputs. This is because there is no way to define component data. The props provided by frontmatter, for example, are static.
 
