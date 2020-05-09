@@ -10,7 +10,41 @@ items:
   - Item2
   - Item3
 ---
-In VuePress, markdown files are not limited to static content. You have all the power of Vue at your fingertips!
+In VuePress, markdown files are not limited to static content. 
+
+As the docs say:
+
+> Each Markdown file is compiled into HTML with [markdown-it](https://github.com/markdown-it/markdown-it) and then processed as the template of a Vue component. This allows you to directly use Vue inside your Markdown files and is great when you need to embed dynamic content.
+
+So, when you are writing content in markdown, you have almost* all the power of Vue templating at your fingertips!
+
+## Let's try something random
+
+To prove this is working, I'll add this to the markdown file:
+
+\`\``
+
+{{ Math.random() }}
+
+\`\``
+
+{{ Math.random() }}
+
+Refresh the browser and you'll get a different number each time. 
+
+## Use class and style bindings
+
+While markdown syntax is the cleanest way to write your content, you can also write HTML code in your .md files. This gives you the opportunity to add Vue class and style bindings to elements like so:
+
+\`\``
+
+<h3 :style="{ backgroundColor: '#' + Math.floor(Math.random()*16777215).toString(16) }" style="height: 5em">I'm so random</h3>
+
+\`\``
+
+<strong :style="{ color: '#' + Math.floor(Math.random()*16777215).toString(16) }" style="height: 5em">I'm so random</strong>
+
+Each time you load the page the JS in the :style attribute runs and changes the colour of the text.
 
 ## What day is it?
 
@@ -82,10 +116,12 @@ You could add a bit of JS to show how many days ago the post was published, like
 This post was published {{ Math.floor((new Date() - new Date($frontmatter.date)) / (1000 * 60 * 60 * 24)) }} days ago.
 ```
 
-This post was published {{ Math.floor((new Date() - new Date($frontmatter.date)) / (1000 * 60 * 60 * 24)) }} days ago.
+This post was published {{ Math.floor((new Date() - new Date($frontmatter.date)) / (1000  *60*  60 * 24)) }} days ago.
 
 ## Lists with v-for
+
 VuePress also gives you v-for, which you can use with frontmatter data to content from format arrays or objects like so:
+
 ```
 <ol>
     <li v-for="tag in $frontmatter.tags">{{tag}}</li>
