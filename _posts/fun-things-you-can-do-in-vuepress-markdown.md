@@ -23,26 +23,28 @@ So, when you are writing content in markdown, you have almost* all the power of 
 To prove this is working, I'll add this to the markdown file:
 
 ```
-{{ Math.random() }}
+{{ Math.ceil( Math.random() * 10 ) }}
 ```
 
-{{ Math.random() }}
+{{ Math.ceil( Math.random() * 10 ) }}
 
 Refresh the browser and you'll get a different number each time. 
 
 ## Use class and style bindings
 
-While markdown syntax is the cleanest way to write your content, you can also write HTML code in your .md files. This gives you the opportunity to add Vue class and style bindings to elements like so:
+While markdown syntax is the cleanest way to write your content, you can also write HTML code in your .md files. This gives you the opportunity to add [Vue class and style bindings](https://v1.vuejs.org/guide/class-and-style.html) to elements like so:
 
 ```
-<h3 :style="{ color: '#' + Math.floor(Math.random()*16777215).toString(16) }" style="height: 5em">I'm so random</h3>
+<div :style="{ backgroundColor: '#' + Math.floor(Math.random()*16777215).toString(16) }" style="height: 5em">I'm so random</div>
 ```
 
-<h3 :style="{ color: '#' + Math.floor(Math.random()*16777215).toString(16) }" style="height: 5em">I'm so random</h3>
+<div :style="{ backgroundColor: '#' + Math.floor(Math.random()*16777215).toString(16) }" style="height: 5em">I'm so random</div>
 
-Each time you load the page the JS in the :style attribute runs and changes the colour of the text.
+Reload the page to see the style binding at work.
 
-## What day is it?
+## Fun with dates
+
+### What day is this?
 
 Let's start by displaying the current date:
 
@@ -60,7 +62,7 @@ Today is {{ new Date().toLocaleString('en-GB',{ weekday: 'long', month:'long', y
 
 It's {{ new Date().toLocaleString('en-GB',{ hour: '2-digit', minute: '2-digit', weekday: 'long', month:'long', year:'numeric', day:'numeric'}) }}
 
-## How old is Harry Potter?
+### How old is Harry Potter?
 
 ```
 Harry Potter is {{ Math.abs(new Date(Date.now() - new Date('July 31, 1980')).getUTCFullYear() - 1970) }} years old.
@@ -68,7 +70,7 @@ Harry Potter is {{ Math.abs(new Date(Date.now() - new Date('July 31, 1980')).get
 
 Harry Potter is {{ Math.abs(new Date(Date.now() - new Date('July 31, 1980')).getUTCFullYear() - 1970) }} years old.
 
-## Count down
+### When will IE die?
 
 ```
 Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 14, 2025') - Date.now()).getUTCFullYear() - 1970) }} years!
@@ -124,9 +126,13 @@ VuePress also gives you v-for, which you can use with frontmatter data to conten
     <li v-for="tag in $frontmatter.tags">{{tag}}</li>
 </ol>
 
+
+
 ## Things you can't do
 
 If you're used to writing Vue templates you'll be familiar with using calling function from events in your html - things like:
+
+<button>Hello</button>
 
 <button @click="alert('You clicked me!')">Click me</button>
 
