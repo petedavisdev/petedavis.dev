@@ -74,7 +74,7 @@ outputs:
 
 {{ $frontmatter.date }}
 
-This page is {{ Math.floor((new Date() - new Data($frontmatter.date)) / 86400000) }} years old.
+This post was published {{ Math.floor((new Date() - new Data($frontmatter.date)) / 86400000) }} days ago.
 
 ## Lists with v-for
 VuePress also gives you the ability to 
