@@ -22,11 +22,9 @@ So, when you are writing content in markdown, you have almost* all the power of 
 
 To prove this is working, I'll add this to the markdown file:
 
-\`\``
-
+```
 {{ Math.random() }}
-
-\`\``
+```
 
 {{ Math.random() }}
 
@@ -36,13 +34,11 @@ Refresh the browser and you'll get a different number each time.
 
 While markdown syntax is the cleanest way to write your content, you can also write HTML code in your .md files. This gives you the opportunity to add Vue class and style bindings to elements like so:
 
-\`\``
+```
+<h3 :style="{ color: '#' + Math.floor(Math.random()*16777215).toString(16) }" style="height: 5em">I'm so random</h3>
+```
 
-<h3 :style="{ backgroundColor: '#' + Math.floor(Math.random()*16777215).toString(16) }" style="height: 5em">I'm so random</h3>
-
-\`\``
-
-<strong :style="{ color: '#' + Math.floor(Math.random()*16777215).toString(16) }" style="height: 5em">I'm so random</strong>
+<h3 :style="{ color: '#' + Math.floor(Math.random()*16777215).toString(16) }" style="height: 5em">I'm so random</h3>
 
 Each time you load the page the JS in the :style attribute runs and changes the colour of the text.
 
@@ -79,10 +75,6 @@ Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 1
 ```
 
 Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 14, 2025') - Date.now()).getUTCFullYear() - 1970) }} years!
-
-## Randomness
-
-<p :style="{ backgroundColor: '#' + Math.floor(Math.random()*16777215).toString(16) }" @click="">I'm so random</p>
 
 ## Using frontmatter as props
 
@@ -131,5 +123,30 @@ VuePress also gives you v-for, which you can use with frontmatter data to conten
 <ol>
     <li v-for="tag in $frontmatter.tags">{{tag}}</li>
 </ol>
+
+## Things you can't do
+
+If you're used to writing Vue templates you'll be familiar with using calling function from events in your html - things like:
+
+<button @click="alert('You clicked me!')">Click me</button>
+
+However, there is no way to create methods that you can use in your template, so you can't do:
+
+<button @click="myMethod">Make something happen</button>
+
+The other thing you can't use is v-model to two-way databind your inputs. This is because there is no way to define component data. The props provided by frontmatter, for example, are static.
+
+<input v-model="myValue">
+<p>{{ myValue }}</p>
+
+## Components to the rescue!
+
+The best thing about your markdown being converted into a Vue template is that you can include other components! Just add single-file components to your `.vuepress/components` folder and they are automatically available to add to your markdown like so:
+
+```
+<MyComponent />
+```
+
+There is really no limit to what you can do with this. You literally have all of the power of Vue apps within a statically generated page. More on this in my my next blog post, but for now, check out the [VuePress docs](https://vuepress.vuejs.org/guide/using-vue.html#using-components).
 
 <TinyLetter />
