@@ -134,7 +134,7 @@ If you're used to writing Vue templates you'll be familiar with using calling fu
 
 <button>Hello</button>
 
-<button v-on:click="alert('You clicked me!')">Click me</button>
+<button v-on:click="window.alert('You clicked me!')">Click me</button>
 
 However, there is no way to create methods that you can use in your template, so you can't do:
 
