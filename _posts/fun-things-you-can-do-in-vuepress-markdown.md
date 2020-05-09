@@ -12,9 +12,9 @@ items:
 ---
 In VuePress, markdown files are not limited to static content. 
 
-As the docs say:
+As the [docs](https://vuepress.vuejs.org/guide/#how-it-works) say:
 
-> Each Markdown file is compiled into HTML with [markdown-it](https://github.com/markdown-it/markdown-it) and then processed as the template of a Vue component. This allows you to directly use Vue inside your Markdown files and is great when you need to embed dynamic content.
+> Each Markdown file is compiled into HTML with markdown-it and then processed as the template of a Vue component. This allows you to directly use Vue inside your Markdown files and is great when you need to embed dynamic content.
 
 So, when you are writing content in markdown, you have almost* all the power of Vue templating at your fingertips!
 
