@@ -69,19 +69,23 @@ VuePress gives you access to frontmatter (and some other [global computed proper
 For example, on this page, 
 
 ```
-::: v-pre
 {{ $frontmatter.date }}
-:::
 ```
 
 outputs:
 
 {{ $frontmatter.date }}
 
+You could add a bit of JS to show how many days ago the post was published, like so:
+
+'''
+This post was published {{ Math.floor((new Date() - new Date($frontmatter.date)) / (1000 * 60 * 60 * 24)) }} days ago.
+'''
+
 This post was published {{ Math.floor((new Date() - new Date($frontmatter.date)) / (1000 * 60 * 60 * 24)) }} days ago.
 
 ## Lists with v-for
-VuePress also gives you the ability to 
+VuePress also gives you v-for, which you can use with frontmatter data to content from format arrays or objects like so:
 ```
 <ol>
     <li v-for="tag in $frontmatter.tags">{{tag}}</li>
@@ -91,9 +95,5 @@ VuePress also gives you the ability to
 <ol>
     <li v-for="tag in $frontmatter.tags">{{tag}}</li>
 </ol>
-
-## Using frontmatter as props
-
-Here's a more practical example. Let's take the date of this blogpost from the
 
 <TinyLetter />
