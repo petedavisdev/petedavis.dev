@@ -16,7 +16,7 @@ As the [docs](https://vuepress.vuejs.org/guide/#how-it-works) say:
 
 > Each Markdown file is compiled into HTML with markdown-it and then processed as the template of a Vue component. This allows you to directly use Vue inside your Markdown files and is great when you need to embed dynamic content.
 
-So, when you are writing content in markdown, you have almost* all the power of Vue templating at your fingertips!
+So, when you are writing content in markdown, you have [almost*](#things-you-can-t-do) all the power of Vue templating at your fingertips!
 
 ## Let's try something random
 
@@ -73,6 +73,7 @@ Harry Potter is {{ Math.abs(new Date(Date.now() - new Date('July 31, 1980')).get
 Come back next your and you'll find this is always correct. Magic :sparkles:
 
 ### When will IE die?
+
 Here's an example of a countdown
 
 ```
@@ -121,7 +122,7 @@ This post was published {{ Math.floor((new Date() - new Date($frontmatter.date))
 
 VuePress also gives you v-for, which you can use with frontmatter generate formatted lists like so:
 
-``` html
+```html
 <ol>
     <li v-for="tag in $frontmatter.tags">{{tag}}</li>
 </ol>
@@ -131,11 +132,11 @@ VuePress also gives you v-for, which you can use with frontmatter generate forma
     <li v-for="tag in $frontmatter.tags">{{tag}}</li>
 </ol>
 
-## Things you can't do
+## Things you can't do :cry:
 
 If you're used to writing Vue templates you'll be familiar with calling function in your template like so:
 
-``` html
+```html
 <button v-on:click="myMethod">Click me</button> <!-- THIS DOESN'T WORK -->
 ```
 
@@ -143,12 +144,12 @@ There is no way to define methods in your markdown, so this isn't available to y
 
 Similarly you can't use v-model to two-way databind your inputs. This is because there is no way to define mutable component data in a markdown file. The props provided by frontmatter, for example, cannot be changed.
 
-``` html
+```html
 <input v-model="myValue"> <!-- THIS DOESN'T WORK -->
 <p>{{ myValue }}</p> <!-- THIS DOESN'T WORK -->
 ```
 
-## Components to the rescue!
+## Components to the rescue! :smile:
 
 The best thing about your markdown being converted into a Vue template is that you can include other components! Just add single-file components to your `.vuepress/components` folder and they are automatically available to add to your markdown like so:
 
