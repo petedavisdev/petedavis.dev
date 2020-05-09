@@ -4,8 +4,6 @@ date: Sun Apr 12 2020 07:10:49 GMT+0100 (British Summer Time)
 thumbnail: /media/vue.js_logo.png
 tags:
   - VuePress
-  - Netlify
-  - Netlify CMS
 items:
   - Item1
   - Item2
@@ -68,8 +66,8 @@ Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 1
 ## Lists
 
 <p>
-  <label v-for="item in $frontmatter.tags">
-    <input type="checkbox"> {{items}}
+  <label v-for="item in $frontmatter.items">
+    <input type="checkbox"> {{item}}
   </label>
 </p>
 
