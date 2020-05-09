@@ -1,6 +1,6 @@
 ---
 title: Fun things you can do in VuePress markdown
-date: Sun Apr 12 2020 07:10:49 GMT+0100 (British Summer Time)
+date: 2020-04-11T06:10:49.000Z
 thumbnail: /media/vue.js_logo.png
 tags:
   - VuePress
