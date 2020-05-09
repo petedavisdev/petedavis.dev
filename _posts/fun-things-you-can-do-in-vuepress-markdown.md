@@ -35,10 +35,10 @@ Refresh the browser and you'll get a different number each time.
 While markdown syntax is the cleanest way to write your content, you can also write HTML code in your .md files. This gives you the opportunity to add [Vue class and style bindings](https://v1.vuejs.org/guide/class-and-style.html) to elements like so:
 
 ```
-<div :style="{ backgroundColor: '#' + Math.floor(Math.random()*16777215).toString(16) }" style="height: 5em">I'm so random</div>
+<div :style="{ backgroundColor: '#' + Math.floor(Math.random()*16777215).toString(16) }">I'm so random</div>
 ```
 
-<div :style="{ backgroundColor: '#' + Math.floor(Math.random()*16777215).toString(16) }" style="height: 5em">I'm so random</div>
+<div :style="{ backgroundColor: '#' + Math.floor(Math.random()*16777215).toString(16) }">I'm so random</div>
 
 Reload the page to see the style binding at work.
 
