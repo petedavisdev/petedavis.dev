@@ -6,7 +6,7 @@ tags:
   - VuePress
   - Netlify
   - Netlify CMS
-items: 
+items:
   - Item1
   - Item2
   - Item3
@@ -67,7 +67,11 @@ Internet Explorer will die in less than {{ Math.abs(new Date(new Date('October 1
 
 ## Lists
 
-<ul><li v-for="item in $frontmatter.items">{{item}}</li></ul>
+<p>
+  <label v-for="item in $frontmatter.tags">
+    <input type="checkbox"> {{items}}
+  </label>
+</p>
 
 ## Using frontmatter as props
 
