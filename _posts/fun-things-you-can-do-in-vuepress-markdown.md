@@ -130,7 +130,31 @@ VuePress also gives you v-for, which you can use with frontmatter generate forma
     <li v-for="tag in $frontmatter.tags">{{tag}}</li>
 </ol>
 
-## Things you can't do :cry:
+## Go fully interactive with a script tag
+
+<script>
+module.exports = {
+  data: function () {
+    return {
+      yearOfBirth: null
+    }
+  }
+}
+</script>
+
+### What generation are you?
+<label>What year were you born?
+  <input v-model="yearOfBirth" type="text" inputmode="numeric" />
+</label>
+<blockquote>
+<span v-if="yearOfBirth < 1900 || yearOfBirth >= 2021">Enter a valid year</span>
+<span v-else-if="yearOfBirth < 1925">You are Generation G.I.</span>
+<span v-else-if="yearOfBirth < 1946">You are the Silent Generation.</span>
+<span v-else-if="yearOfBirth < 1965">You are a Baby Boomer.</span>
+<span v-else-if="yearOfBirth < 1980">You are Generation X</span>
+<span v-else-if="yearOfBirth < 2000">You are a Millennial (or Generation Y)</span>
+<span v-else-if="yearOfBirth < 2000">You are the New Silent Generation (or Generation Z)</span>
+</blockquote>
 
 If you're used to writing Vue templates you'll be familiar with calling a function in your template like so:
 
