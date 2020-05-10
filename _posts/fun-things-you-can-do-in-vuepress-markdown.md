@@ -67,7 +67,7 @@ Harry Potter is {{ Math.abs(new Date(Date.now() - new Date('July 31, 1980')).get
 
 Harry Potter is {{ Math.abs(new Date(Date.now() - new Date('July 31, 1980')).getUTCFullYear() - 1970) }} years old.
 
-Come back next your and you'll find this is always correct. Magic :sparkles:
+Come back next year and you'll find this is always correct. Magic :sparkles:
 
 ### When will IE die?
 
@@ -132,7 +132,7 @@ VuePress also gives you v-for, which you can use with frontmatter generate forma
 
 ## Things you can't do :cry:
 
-If you're used to writing Vue templates you'll be familiar with calling function in your template like so:
+If you're used to writing Vue templates you'll be familiar with calling a function in your template like so:
 
 ```html
 <button v-on:click="myMethod">Click me</button> <!-- THIS DOESN'T WORK -->
@@ -140,7 +140,7 @@ If you're used to writing Vue templates you'll be familiar with calling function
 
 There is no way to define methods in your markdown, so this isn't available to you. 
 
-Similarly you can't use v-model to two-way databind your inputs. This is because there is no way to define mutable component data in a markdown file. The props provided by frontmatter, for example, cannot be changed.
+Similarly, you can't use v-model to two-way databind your inputs. This is because there is no way to define mutable component data in a markdown file. The props provided by frontmatter, for example, cannot be changed.
 
 ```html
 <input v-model="myValue"> <!-- THIS DOESN'T WORK -->
