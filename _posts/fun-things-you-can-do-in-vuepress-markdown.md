@@ -1,14 +1,10 @@
 ---
 title: 5 Fun things you can do in markdown with VuePress
 date: 2020-05-10T06:10:49.000Z
-thumbnail: /media/vue.js_logo.png
 tags:
   - VuePress
   - Tips and tricks
-items:
-  - Item1
-  - Item2
-  - Item3
+permalink: /:slug
 ---
 In VuePress, markdown files are not limited to static content. 
 
