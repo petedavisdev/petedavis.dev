@@ -1,6 +1,7 @@
 ---
 title: 5 Fun things you can do in markdown with VuePress
 date: 2020-05-10T06:10:49.000Z
+thumbnail: /media/vuepress-logo.png
 tags:
   - VuePress
   - Tips and tricks
@@ -86,11 +87,12 @@ IE is already dead to me, but sadly I still have to support it in my day job :so
 
 ```
 ---
-title: Blog post title
-date: 2020-04-25T15:49:07.895Z
+title: 5 Fun things you can do in markdown with VuePress
+date: 2020-05-10T06:10:49.000Z
 tags:
   - VuePress
-  - Tutorials
+  - Tips and tricks
+permalink: /:slug
 ---
 ```
 
