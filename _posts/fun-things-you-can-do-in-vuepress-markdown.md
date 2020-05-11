@@ -1,5 +1,5 @@
 ---
-title: 5 Fun things you can do in markdown with VuePress
+title: 6 Fun things you can do in markdown with VuePress
 date: 2020-05-10T06:10:49.000Z
 thumbnail: /media/vuepress-logo.png
 tags:
@@ -7,13 +7,17 @@ tags:
   - Tips and tricks
 permalink: /:slug
 ---
+___
+*Updated 11 May 2020: This was originally "5 Fun things..." until [Evan You told me about a 6<sup>th</sup>](https://twitter.com/youyuxi/status/1259493630059909120?s=20) that I hadn't even thought of trying...*
+___
+
 In VuePress, markdown files are not limited to static content. 
 
 As the [docs](https://vuepress.vuejs.org/guide/#how-it-works) say:
 
 > Each Markdown file is compiled into HTML with markdown-it and then processed as the template of a Vue component. This allows you to directly use Vue inside your Markdown files and is great when you need to embed dynamic content.
 
-So, when you are writing content in markdown, you have [almost*](#things-you-can-t-do) all the power of Vue templating at your fingertips!
+So, when you are writing content in markdown, you have all the power of Vue at your fingertips!
 
 ## 1. Something random
 
@@ -130,24 +134,102 @@ VuePress also gives you v-for, which you can use with frontmatter generate forma
     <li v-for="tag in $frontmatter.tags">{{tag}}</li>
 </ol>
 
-## Things you can't do :cry:
+## 6. Get interactive with a script tag
 
-If you're used to writing Vue templates you'll be familiar with calling a function in your template like so:
+Thanks to [Evan You for this via Twitter](https://twitter.com/youyuxi/status/1259493630059909120?s=20):
 
-```html
-<button v-on:click="myMethod">Click me</button> <!-- THIS DOESN'T WORK -->
+> you can define a script block in md files (which works like the script tag in an SFC)
+
+I gave it a try and it works!
+
+``` html
+<script>
+module.exports = {
+  data: function () {
+    return {
+      count: 0
+    }
+  }
+</script>
+
+<button v-on:click="count++">Click {{ count }}</button>
 ```
 
-There is no way to define methods in your markdown, so this isn't available to you. 
+<button v-on:click="count++">Click {{ count }}</button>
 
-Similarly, you can't use v-model to two-way databind your inputs. This is because there is no way to define mutable component data in a markdown file. The props provided by frontmatter, for example, cannot be changed.
+Unlike the `$frontmatter` example, this gives you the ability to mutate data within your content!
 
-```html
-<input v-model="myValue"> <!-- THIS DOESN'T WORK -->
-<p>{{ myValue }}</p> <!-- THIS DOESN'T WORK -->
+### What generation are you?
+
+Here's a fun example of how you can add a script to your .md to generate personalised content.
+
+``` html
+<script>
+module.exports = {
+  data: function () {
+    return {
+      year: null
+    }
+  },
+  computed: {
+    myGeneration: function () {
+      return !parseInt(this.year) || this.year < 1900 || this.year > 2020 ? null
+        : this.year < 1925 ? 'G.I. Generationer'
+        : this.year < 1946 ? 'Silent Generationer'
+        : this.year < 1965 ? 'Baby Boomer'
+        : this.year < 1980 ? 'Generation Xer'
+        : this.year < 2000 ? 'Millennial'
+        : 'New Silent Generationer';
+    }
+  }
+}
+</script>
+
+<label>What year were you born?
+  <input v-model="year" type="text" inputmode="numeric" />
+</label>
+<blockquote>
+  <span v-if="myGeneration">You are a {{ myGeneration }}</span>
+  <span v-else>Enter a valid year</span>
+</blockquote>
 ```
 
-## Components to the rescue! :smile:
+<script>
+module.exports = {
+  data: function () {
+    return {
+      year: null,
+      count: 0
+    }
+  },
+  computed: {
+    myGeneration: function () {
+      return !parseInt(this.year) || this.year < 1900 || this.year > 2020 ? null
+        : this.year < 1925 ? 'G.I. Generationer'
+        : this.year < 1946 ? 'Silent Generationer'
+        : this.year < 1965 ? 'Baby Boomer'
+        : this.year < 1980 ? 'Generation Xer'
+        : this.year < 2000 ? 'Millennial'
+        : 'New Silent Generationer';
+    }
+  }
+}
+</script>
+
+### What generation are you?
+<label>What year were you born?
+  <input v-model="year" type="text" inputmode="numeric" />
+</label>
+<blockquote>
+  <span v-if="myGeneration">You are a {{ myGeneration }}</span>
+  <span v-else>Enter a valid year</span>
+</blockquote>
+
+And because you are a {{ myGeneration || 'creative developer' }}, I'm sure you can think of lots of ways you can use this to make your web content way more engaging.
+
+## Components FTW :smile:
+
+These 6 tricks are fun ways to make one-off bits of dynamic content, but they are not reusable and as soon as your scripts get more complex{{ myGeneration && ', ' + myGeneration.toLowerCase() + 's like' }} you will want to get out of the markdown file.
 
 The best thing about your markdown being converted into a Vue template is that you can include other components! Just add single-file components to your `.vuepress/components` folder and they are automatically available to add to your markdown like so:
 
