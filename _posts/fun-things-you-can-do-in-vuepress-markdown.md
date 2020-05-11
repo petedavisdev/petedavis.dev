@@ -8,7 +8,7 @@ tags:
 permalink: /:slug
 ---
 ___
-*Updated 11 May 2020: This was originally "5 Fun things..." until [Evan You told me about a 6<sup>th</sup>](https://twitter.com/youyuxi/status/1259493630059909120?s=20) fun thing that I hadn't even thought of trying...*
+*Updated 11 May 2020: This was originally "5 Fun things..." until [Evan You told me about a 6<sup>th</sup>](https://twitter.com/youyuxi/status/1259493630059909120?s=20) that I hadn't even thought of trying...*
 ___
 
 In VuePress, markdown files are not limited to static content. 
@@ -136,11 +136,11 @@ VuePress also gives you v-for, which you can use with frontmatter generate forma
 
 ## 6. Get interactive with a script tag
 
-Thanks to [Evan You's reply on twitter](https://twitter.com/youyuxi/status/1259493630059909120?s=20) for suggesting this:
+Thanks to [Evan You for this via Twitter](https://twitter.com/youyuxi/status/1259493630059909120?s=20):
 
 > you can define a script block in md files (which works like the script tag in an SFC)
 
-So I gave it a try and it works!
+I gave it a try and it works!
 
 ``` html
 <script>
@@ -161,7 +161,7 @@ Unlike the `$frontmatter` example, this gives you the ability to mutate data wit
 
 ### What generation are you?
 
-Here's a fun example of how you can use this to personalise content.
+Here's a fun example of how you can add a script to your .md to generate personalised content.
 
 ``` html
 <script>
