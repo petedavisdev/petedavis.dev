@@ -177,7 +177,7 @@ module.exports = {
         : this.year < 1925 ? 'G.I. Generationer'
         : this.year < 1946 ? 'Silent Generationer'
         : this.year < 1965 ? 'Baby Boomer'
-        : this.year < 1980 ? 'Generation X'
+        : this.year < 1980 ? 'Generation Xer'
         : this.year < 2000 ? 'Millennial'
         : 'New Silent Generationer';
     }
@@ -208,7 +208,7 @@ module.exports = {
         : this.year < 1925 ? 'G.I. Generationer'
         : this.year < 1946 ? 'Silent Generationer'
         : this.year < 1965 ? 'Baby Boomer'
-        : this.year < 1980 ? 'Generation X'
+        : this.year < 1980 ? 'Generation Xer'
         : this.year < 2000 ? 'Millennial'
         : 'New Silent Generationer';
     }
@@ -225,7 +225,7 @@ module.exports = {
   <span v-else>Enter a valid year</span>
 </blockquote>
 
-And because you are a {{ myGeneration ? myGeneration.toLowerCase() : 'Vue developer' }}, I'm sure you can think of lots of ways you can use this to make your web content way more engaging.
+And because you are a {{ myGeneration || 'creative developer' }}, I'm sure you can think of lots of ways you can use this to make your web content way more engaging.
 
 ## Components FTW :smile:
 
