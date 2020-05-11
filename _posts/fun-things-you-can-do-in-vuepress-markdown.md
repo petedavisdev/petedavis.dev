@@ -7,7 +7,9 @@ tags:
   - Tips and tricks
 permalink: /:slug
 ---
-*Updated 11 May 2020: This was originally "5 Fun things..." until [Evan You](https://twitter.com/youyuxi) pointed out a 6th that I would never have thought of myself...*
+___
+*Updated 11 May 2020: This was originally "5 Fun things..." until [Evan You told me about a 6<sup>th</sup>](https://twitter.com/youyuxi/status/1259493630059909120?s=20) fun thing that I hadn't even thought of trying...*
+___
 
 In VuePress, markdown files are not limited to static content. 
 
@@ -132,13 +134,13 @@ VuePress also gives you v-for, which you can use with frontmatter generate forma
     <li v-for="tag in $frontmatter.tags">{{tag}}</li>
 </ol>
 
-## 6. Go fully interactive with a script tag
+## 6. Get interactive with a script tag
 
-Here's the reply from Evan You on twitter that's prompted me to add this bonus trick:
+Thanks to [Evan You's reply on twitter](https://twitter.com/youyuxi/status/1259493630059909120?s=20) for suggesting this:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Nice post, but I realized the random and date based expressions may be considered hydration errors in a more strict setting. We may need an option to allow them explicitly in Vue 3.<br><br>Also you can define a script block in md files (which works like the script tag in an SFC)</p>&mdash; Evan You (@youyuxi) <a href="https://twitter.com/youyuxi/status/1259493630059909120?ref_src=twsrc%5Etfw">May 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> you can define a script block in md files (which works like the script tag in an SFC)
 
-So I gave it a go and it works!
+So I gave it a try and it works!
 
 ``` html
 <script>
@@ -150,10 +152,12 @@ module.exports = {
   }
 </script>
 
-<button v-on:click="count++">{{ count }}</button>
+<button v-on:click="count++">Click {{ count }}</button>
 ```
 
-<button v-on:click="count++">{{ count }}</button>
+<button v-on:click="count++">Click {{ count }}</button>
+
+Unlike the `$frontmatter` example, this gives you the ability to mutate data within your content!
 
 ### What generation are you?
 
