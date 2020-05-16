@@ -32,7 +32,7 @@ Perhaps the most
 module.exports = {
   data() {
     return {
-      pic: null
+      pic: "box"
     }
   },
   computed: {
