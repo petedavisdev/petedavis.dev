@@ -34,7 +34,7 @@ module.exports = {
     return {
       pic: null
     }
-  }
+  },
   computed: {
     imageSrc() {
       return this.pic === "kitten" ? "http://placekitten.com/"
