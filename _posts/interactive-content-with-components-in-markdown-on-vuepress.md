@@ -22,7 +22,7 @@ In this post I will give 4 ways you can improve your content with components, bu
 
 <label><input type="radio" v-model="pic" value="kitten" /> Kittens</label>
 
-## Reusable blocks
+## 1. Reusable blocks
 The most common reason for using components in your content is simply reusability. 
 
 For example, you have a newsletter subscription form that you want to be able to place anywhere in your content, you don't want to have to paste the entire embed code into your .md file every time.
@@ -39,15 +39,12 @@ Here's how I do it. In my `.vuepress/components` folder I have a `SubscribeForm.
     </form>
 </template>
 
-<script>
-    // If required, add any script provided by your here for newsletter service here</script>
-
 <style scoped>
     /* Customise your the style of your form here */
 </style>
 ```
 
-Components in `.vuepress/components` are automatically available to use in your .md files, so all you have to do is include:
+Components in `.vuepress/components` are automatically available to use in your .md files, so now you can drop this component anywhere in your content:
 
 ``` md
 <SubscribeForm />
@@ -56,9 +53,63 @@ Here's mine. Feel free to try it out :wink:
 
 <TinyLetter />
 
-## Slotted layouts
+## 2. Slotted layouts
+
+A great feature of the markdown-it conversion in VuePress is that you can write markdown inside html elements by leaving empty lines between the html tags and your markdown like so:
+
+``` md
+<div>
+
+## Markdown content
+> Will be rendered correctly
+
+</div>
+```
+
+This means you can use slots inside your Vue components and fill them with content from your markdown. This is great if you want parts of your content to have a different layout. Here's an example of a responsive 2-column component, `TwoCol.vue`:
+
+``` vue
+<template>
+<section class="grid">
+    <div>
+        <slot name="col1"></slot>
+    </div>
+    <div>
+        <slot name="col2"></slot>
+    </div>
+</section>
+</template>
+
+<style scoped>
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+</style>
+```
+
+Which you would use like this:
+
+``` md
+<TwoCol>
+<div #col1>
+
+![alt text](https://yourvuepresssite.com/media/image.jpg)
+
+</div>
+<div #col2>
+
+### Layout example
+> Any markdown can go here.
+
+</div>
+</TwoCol>
+```
+
+
 ## Interactive content
-## Build apps within tour content
+## Build entire apps!
 
 <script>
 module.exports = {
