@@ -14,7 +14,7 @@ VuePress converts all of your markdown files into Vue templates. In my last post
 
 In this post I will give 4 ways you can improve your content with components, but first, what would you rather see in my examples:
 
-<img :src="imageSrc + '80'" style="float:right" />
+<img :src="imageSrc + '130'" style="float:right" />
 
 <label><input type="radio" v-model="pic" value="box" checked /> Boring boxes</label>
 
