@@ -53,7 +53,7 @@ Here's mine. Feel free to try it out :wink:
 
 <TinyLetter />
 
-## 2. Slotted layouts
+## 2. Slotted content
 
 A great feature of the markdown-it conversion in VuePress is that you can write markdown inside html elements by leaving empty lines between the html tags and your markdown like so:
 
@@ -66,25 +66,34 @@ A great feature of the markdown-it conversion in VuePress is that you can write 
 </div>
 ```
 
-This means you can use slots inside your Vue components and fill them with content from your markdown. This is great if you want parts of your content to have a different layout. Here's an example of a responsive 2-column component, `TwoCol.vue`:
+This means you can use slots inside your Vue components and fill them with content from your markdown. This is great if you want parts of your content to have a different style. Here's an example of a profile card component, `ProfileCard.vue`:
 
 ``` vue
 <template>
-<section class="grid">
+<section class="profile-card">
+    <img class="profile-img" :src="$attrs.imgSrc" />
     <div>
-        <slot name="col1"></slot>
-    </div>
-    <div>
-        <slot name="col2"></slot>
+        <small>Profile</small>
+        <slot /> <!-- This is where your markdown content will be inserted -->
     </div>
 </section>
 </template>
 
 <style scoped>
-.grid {
+.profile-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+    max-width: 400px;
+    border: white 1px solid;
+    border-radius: 0.5em;
+    align-items: center;
+}
+
+.profile-img {
+    box-sizing: border-box;
+    padding: 1em;
+    border-radius: 50%;
 }
 </style>
 ```
@@ -92,36 +101,22 @@ This means you can use slots inside your Vue components and fill them with conte
 Which you would use like this:
 
 ``` md
-<TwoCol>
-<template v-slot="col1">
+<ProfileCard :imgSrc="https://yourvuepresssite.com/media/image.jpg">
 
-![alt text](https://yourvuepresssite.com/media/image.jpg)
-
-</template>
-<template v-slot="col">
-
-### Layout example
+### Slotted component example
 > Any markdown can go here.
 
-</template>
-</TwoCol>
+</ProfileCard>
 ```
 
-<TwoCol>
-<template v-slot="col1">
+<ProfileCard :imgSrc="imgSrc + '/500'">
 
-![alt text]({{ this.imgSrc }}/400)
-
-</template>
-<template v-slot="col">
-
-### Layout example
+### Slotted component example
 > Any markdown can go here.
 
-</template>
-</TwoCol>
+</ProfileCard>
 
-This simple example could just as well have been achieved with a css class on the containing element in markdown, but as soon as you want a more complex layout this technique comes into its own.
+Now you can slot your markdown content right inside custom designed components.
 
 
 ## Interactive content
