@@ -20,6 +20,8 @@ In this post I will give 4 ways you can improve your content with components, bu
 
 <label><input type="radio" v-model="pic" value="kitten" /> Kittens</label>
 
+<img src="imageSrc + '100/200'" />
+
 ## Reusable blocks
 Perhaps the most 
 ## Slotted layouts
