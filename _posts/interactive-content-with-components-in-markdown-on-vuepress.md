@@ -93,35 +93,35 @@ Which you would use like this:
 
 ``` md
 <TwoCol>
-<div #col1>
+<template v-slot="col1">
 
 ![alt text](https://yourvuepresssite.com/media/image.jpg)
 
-</div>
-<div #col2>
+</template>
+<template v-slot="col">
 
 ### Layout example
 > Any markdown can go here.
 
-</div>
+</template>
 </TwoCol>
 ```
 
 <TwoCol>
-<div #col1>
+<template v-slot="col1">
 
 ![alt text]({{ this.imgSrc }}/400)
 
-</div>
-<div #col2>
+</template>
+<template v-slot="col">
 
 ### Layout example
 > Any markdown can go here.
 
-</div>
+</template>
 </TwoCol>
 
-This simple example could just as well have been down with a css class on the containing element in markdown, but as soon as you want a more complex layout this technique comes into its own.
+This simple example could just as well have been achieved with a css class on the containing element in markdown, but as soon as you want a more complex layout this technique comes into its own.
 
 
 ## Interactive content
