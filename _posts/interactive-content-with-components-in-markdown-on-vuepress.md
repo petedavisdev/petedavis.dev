@@ -14,7 +14,7 @@ VuePress converts all of your markdown files into Vue templates. In my last post
 
 In this post I will give 4 ways you can improve your content with components, but first, what would you rather see in my examples:
 
-<img :src="imageSrc + '130'" style="float:right" />
+<img :src="imgSrc + '130'" style="float:right" />
 
 <label><input type="radio" v-model="pic" value="box" checked /> Gray boxes</label>
 
@@ -107,6 +107,22 @@ Which you would use like this:
 </TwoCol>
 ```
 
+<TwoCol>
+<div #col1>
+
+![alt text]({{ this.imgSrc }}/400)
+
+</div>
+<div #col2>
+
+### Layout example
+> Any markdown can go here.
+
+</div>
+</TwoCol>
+
+This simple example could just as well have been down with a css class on the containing element in markdown, but as soon as you want a more complex layout this technique comes into its own.
+
 
 ## Interactive content
 ## Build entire apps!
@@ -119,7 +135,7 @@ module.exports = {
     }
   },
   computed: {
-    imageSrc() {
+    imgSrc() {
       return this.pic === "kitten" ? "http://placekitten.com/"
         : this.pic === "stock" ? "https://picsum.photos/"
         : "https://via.placeholder.com/"
