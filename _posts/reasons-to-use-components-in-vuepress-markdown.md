@@ -1,6 +1,6 @@
 ---
 title: 3 Reasons to use components in VuePress markdown
-date: 2020-05-15T18:13:50.865Z
+date: 2020-05-18T18:13:50.865Z
 thumbnail: /media/vue.js_logo.png
 tags:
   - VuePress
