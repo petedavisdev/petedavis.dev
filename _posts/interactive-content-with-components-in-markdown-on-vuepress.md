@@ -8,7 +8,7 @@ permalink: /:slug
 ---
 VuePress converts all of your markdown files into Vue templates. In my last post I covered some of the fun things your can do in markdown that take advantage of this and touched on the fact that you can use your own Vue components directly inside your .md files. 
 
-``` md
+```md
 <MyComponent />
 ```
 
@@ -23,13 +23,14 @@ In this post I will give 4 ways you can improve your content with components, bu
 <label><input type="radio" v-model="pic" value="kitten" /> Kittens</label>
 
 ## 1. Reusable blocks
+
 The most common reason for using components in your content is simply reusability. 
 
 For example, you have a newsletter subscription form that you want to be able to place anywhere in your content, you don't want to have to paste the entire embed code into your .md file every time.
 
 Here's how I do it. In my `.vuepress/components` folder I have a `SubscribeForm.vue` file which looks a bit like this:
 
-``` vue
+```vue
 <template>
     <!-- Form html from your newsletter service, for example: -->
     <form method="post" action="...">
@@ -46,9 +47,10 @@ Here's how I do it. In my `.vuepress/components` folder I have a `SubscribeForm.
 
 Components in `.vuepress/components` are automatically available to use in your .md files, so now you can drop this component anywhere in your content:
 
-``` md
+```md
 <SubscribeForm />
-``` 
+```
+
 Here's mine. Feel free to try it out :wink:
 
 <TinyLetter />
@@ -57,7 +59,7 @@ Here's mine. Feel free to try it out :wink:
 
 A great feature of the markdown-it conversion in VuePress is that you can write markdown inside html elements by leaving empty lines between the html tags and your markdown like so:
 
-``` md
+```md
 <div>
 
 ## Markdown content
@@ -68,7 +70,7 @@ A great feature of the markdown-it conversion in VuePress is that you can write 
 
 This means you can use slots inside your Vue components and fill them with content from your markdown. This is great if you want parts of your content to have a different style. Here's an example of a profile card component, `ProfileCard.vue`:
 
-``` vue {5}
+```vue
 <template>
 <section class="profile-card">
     <img class="profile-img" :src="$attrs.imgSrc" />
@@ -93,7 +95,7 @@ This means you can use slots inside your Vue components and fill them with conte
 
 Which you would use like this:
 
-``` md
+```md
 <ProfileCard :imgSrc="https://yourvuepresssite.com/media/image.jpg">
 
 ### Profile card example
@@ -107,20 +109,55 @@ Which you would use like this:
 <ProfileCard :imgSrc="imgSrc + '500'">
 
 ### Profile card example
-- Any markdown
-- you put here
-> will be slotted in
+
+* Any markdown
+* you put here
+
+  > will be slotted in
 
 </ProfileCard>
 
 This gives you the freedom to design more interesting content within your pages.
 
-
 ## 3. Interactive content
+
+``` vue
+<template>
+    <section>
+        <div>
+            <slot />
+
+            <label><input type="radio" v-model="choice" value="true"> True</label>
+            <label><input type="radio" v-model="choice" value="false"> False</label>
+
+            <p v-if="choice && choice == answer" class="correct">CORRECT</p>
+            <p v-else-if="choice && choice != answer" class="wrong">WRONG!!!</p>
+        </div>
+        <div>
+            <img :src="imgSrc" />
+        </div>
+    </section>
+</template>
+
+<script>
+export default {
+    props: {
+        answer: String,
+        imgSrc: String
+    },
+    data() {
+        return {
+            choice: null
+        }
+    }
+}
+</script>
+```
 
 <TrueFalseQuiz :imgSrc="imgSrc + '200/400'" :answer="(pic == 'kitten').toString()">
 
 ### True or false...
+
 This is a picture of a kitten
 
 </TrueFalseQuiz>
@@ -129,7 +166,9 @@ You chose {{ pic }} images at the start of this post. Try changing your selectio
 
 ## 4. Build entire apps!
 
-Now that you know you can add components to your .md files, and that the .md file can itself be setup as a component there is nothing stopping you from building web apps with VuePress. 
+Now that you know you can add components to your .md files, and that the .md file can itself be setup as a fully reactive Vue component there is nothing stopping you from building web apps on top of VuePress.
+
+If your aim is to build a data-driven web app, [Nuxt](https://nuxtjs.org/) is likely a better place to start. However, if you want to add app-like capabilities to a largely static site, VuePress is perfect.
 
 <script>
 module.exports = {
