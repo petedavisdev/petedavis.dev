@@ -171,7 +171,7 @@ Quiz question text goes here
 </TrueFalseQuiz>
 ```
 
-<TrueFalseQuiz imgSrc="imgSrc + '200/400'" :answer="(pic == 'kitten').toString()">
+<TrueFalseQuiz :imgSrc="imgSrc + '200/400'" :answer="(pic == 'kitten').toString()">
 
 ### True or false...
 This is a picture of a kitten
