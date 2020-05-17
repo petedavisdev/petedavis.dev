@@ -12,7 +12,7 @@ VuePress converts all of your markdown files into Vue templates. In my last post
 <MyComponent />
 ```
 
-In this post I will demo 3 ways to improve your content with components, but first, what would you rather see in my examples:
+In this post I will demo 3 reasons to use components, but first, what would you rather see in my examples:
 
 <img :src="imgSrc + '130'" style="float:right" />
 
