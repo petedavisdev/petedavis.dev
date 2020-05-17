@@ -6,7 +6,7 @@ tags:
   - VuePress
 permalink: /:slug
 ---
-VuePress converts all of your markdown files into Vue templates. In my last post, I covered some of the [fun things you can do in markdown](https://petedavis.dev/fun-things-you-can-do-in-vuepress-markdown/) that take advantage of this and touched on the fact that you can use Vue components directly inside your .md files. 
+VuePress converts all of your markdown files into Vue templates. In my last post, I covered some of the [fun things you can do in markdown](https://petedavis.dev/fun-things-you-can-do-in-vuepress-markdown/) that take advantage of this and touched on the fact that you can [use Vue components directly inside your .md files](https://v1.vuepress.vuejs.org/guide/using-vue.html#using-components). 
 
 ```md
 <MyComponent />
