@@ -154,7 +154,17 @@ export default {
 </script>
 ```
 
-<TrueFalseQuiz :imgSrc="imgSrc + '200/400'" :answer="(pic == 'kitten').toString()">
+Which you can add to your .md like this:
+
+``` md
+<TrueFalseQuiz answer="true" imgSrc="https://yourvuepresssite.com/media/image.jpg">
+
+Question text goes here
+
+</TrueFalseQuiz>
+```
+
+<TrueFalseQuiz imgSrc="imgSrc + '200/400'" :answer="(pic == 'kitten').toString()">
 
 ### True or false...
 
