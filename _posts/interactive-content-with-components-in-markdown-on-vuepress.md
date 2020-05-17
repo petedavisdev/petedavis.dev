@@ -1,5 +1,5 @@
 ---
-title: Improve your content with custom components in VuePress
+title: 3 reasons to use components in your VuePress markdown
 date: 2020-05-15T18:13:50.865Z
 thumbnail: /media/vue.js_logo.png
 tags:
@@ -12,7 +12,7 @@ VuePress converts all of your markdown files into Vue templates. In my last post
 <MyComponent />
 ```
 
-In this post I will give 4 ways you can improve your content with components, but first, what would you rather see in my examples:
+In this post I will demo 3 ways to improve your content with components, but first, what would you rather see in my examples:
 
 <img :src="imgSrc + '130'" style="float:right" />
 
@@ -22,7 +22,7 @@ In this post I will give 4 ways you can improve your content with components, bu
 
 <label><input type="radio" v-model="pic" value="kitten" /> Kittens</label>
 
-## 1. Reusable blocks
+## 1. Reusing content
 
 The most common reason for using components in your content is simply reusability. 
 
@@ -55,9 +55,9 @@ Here's mine. Feel free to try it out :wink:
 
 <TinyLetter />
 
-## 2. Slotted content
+## 2. Styling content
 
-A great feature of the markdown-it conversion in VuePress is that you can write markdown inside html elements by leaving empty lines between the html tags and your markdown like so:
+A great feature of the markdown-to-html conversion in VuePress is that you can write markdown inside html elements by leaving empty lines between the html tags and your markdown like so:
 
 ```md
 <div>
@@ -119,7 +119,9 @@ Which you would use like this:
 
 This gives you the freedom to design more interesting content within your pages.
 
-## 3. Interactive content
+## 3. Adding interactivity
+
+The examples so far have not really taken advantage of what Vue can do, so let's put that right. Here's an example of how you can add some interactivity to your content with a simple quiz component.
 
 ``` vue
 <template>
@@ -152,14 +154,19 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+/* your styles here */
+</style>
 ```
 
-Which you can add to your .md like this:
+With this saved in your `.vuepress/components`  Which you can add to your .md like this:
 
 ``` md
 <TrueFalseQuiz answer="true" imgSrc="https://yourvuepresssite.com/media/image.jpg">
 
-Question text goes here
+### True or false...
+Quiz question text goes here
 
 </TrueFalseQuiz>
 ```
@@ -167,18 +174,13 @@ Question text goes here
 <TrueFalseQuiz imgSrc="imgSrc + '200/400'" :answer="(pic == 'kitten').toString()">
 
 ### True or false...
-
 This is a picture of a kitten
 
 </TrueFalseQuiz>
 
 You chose {{ pic }} images at the start of this post. Try changing your selection. I've used trick 6 from my previous post to setup the .md file as a single file component, complete with its own data :smile:
 
-## 4. Build entire apps!
-
-Now that you know you can add components to your .md files, and that the .md file can itself be setup as a fully reactive Vue component there is nothing stopping you from building web apps on top of VuePress.
-
-If your aim is to build a data-driven web app, [Nuxt](https://nuxtjs.org/) is likely a better place to start. However, if you want to add app-like capabilities to a largely static site, VuePress is perfect.
+Any component you add can have child components of its own, so there is nothing stopping you from building complex web apps on top of VuePress, which is something I will be experimenting with in future.
 
 <script>
 module.exports = {
