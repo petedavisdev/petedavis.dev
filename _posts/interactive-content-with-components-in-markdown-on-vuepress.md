@@ -1,12 +1,12 @@
 ---
-title: 3 reasons to use components in your VuePress markdown
+title: 3 Reasons to use components in your VuePress markdown
 date: 2020-05-15T18:13:50.865Z
 thumbnail: /media/vue.js_logo.png
 tags:
   - VuePress
 permalink: /:slug
 ---
-VuePress converts all of your markdown files into Vue templates. In my last post I covered some of the fun things your can do in markdown that take advantage of this and touched on the fact that you can use your own Vue components directly inside your .md files. 
+VuePress converts all of your markdown files into Vue templates. In my last post, I covered some of the [fun things you can do in markdown](https://petedavis.dev/fun-things-you-can-do-in-vuepress-markdown/) that take advantage of this and touched on the fact that you can use Vue components directly inside your .md files. 
 
 ```md
 <MyComponent />
@@ -41,7 +41,7 @@ Here's how I do it. In my `.vuepress/components` folder I have a `SubscribeForm.
 </template>
 
 <style scoped>
-    /* Customise your the style of your form here */
+    /* Customise the style of your form here */
 </style>
 ```
 
@@ -121,9 +121,9 @@ This gives you the freedom to design more interesting content within your pages.
 
 ## 3. Adding interactivity
 
-The examples so far have not really taken advantage of what Vue can do, so let's put that right. Here's an example of how you can add some interactivity to your content with a simple quiz component.
+The examples so far have shown how useful components can be without writing a single line of JavaScript. Here's an example of how you can add some interactivity to your content with a simple quiz component with just a little of what Vue has to offer.
 
-``` vue
+```vue
 <template>
     <section>
         <div>
@@ -162,7 +162,7 @@ export default {
 
 With this saved in your `.vuepress/components`  Which you can add to your .md like this:
 
-``` md
+```md
 <TrueFalseQuiz answer="true" imgSrc="https://yourvuepresssite.com/media/image.jpg">
 
 ### True or false...
@@ -174,13 +174,16 @@ Quiz question text goes here
 <TrueFalseQuiz :imgSrc="imgSrc + '200/400'" :answer="(pic == 'kitten').toString()">
 
 ### True or false...
+
 This is a picture of a kitten
 
 </TrueFalseQuiz>
 
-You chose {{ pic }} images at the start of this post. Try changing your selection. I've used trick 6 from my previous post to setup the .md file as a single file component, complete with its own data :smile:
+You chose {{ pic }} images at the start of this post. Try changing your selection. I've used [trick 6 from my previous post](https://petedavis.dev/fun-things-you-can-do-in-vuepress-markdown/#_6-get-interactive-with-a-script-tag) to set up the .md file as a single file component, complete with its own data :smile:
 
-Any component you add can have child components of its own, so there is nothing stopping you from building complex web apps on top of VuePress, which is something I will be experimenting with in future.
+Any component you add can have child components of its own, so you easily can build web apps on top of VuePress. I'll be sharing my experiments with this in future. Now though, I'm going to reuse that `<SubscribeForm />` component again.
+
+<TinyLetter />
 
 <script>
 module.exports = {
