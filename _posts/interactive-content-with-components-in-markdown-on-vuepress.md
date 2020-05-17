@@ -16,7 +16,7 @@ In this post I will give 4 ways you can improve your content with components, bu
 
 <img :src="imgSrc + '130'" style="float:right" />
 
-<label><input type="radio" v-model="pic" value="box" checked /> Gray boxes</label>
+<label><input type="radio" v-model="pic" value="box" checked /> Boring boxes</label>
 
 <label><input type="radio" v-model="pic" value="stock" /> Stock photos</label>
 
@@ -68,12 +68,11 @@ A great feature of the markdown-it conversion in VuePress is that you can write 
 
 This means you can use slots inside your Vue components and fill them with content from your markdown. This is great if you want parts of your content to have a different style. Here's an example of a profile card component, `ProfileCard.vue`:
 
-``` vue
+``` vue {5}
 <template>
 <section class="profile-card">
     <img class="profile-img" :src="$attrs.imgSrc" />
     <div>
-        <small>Profile</small>
         <slot /> <!-- This is where your markdown content will be inserted -->
     </div>
 </section>
@@ -82,18 +81,12 @@ This means you can use slots inside your Vue components and fill them with conte
 <style scoped>
 .profile-card {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-    max-width: 400px;
-    border: white 1px solid;
-    border-radius: 0.5em;
-    align-items: center;
+    /* ... more styles ...*/
 }
 
 .profile-img {
-    box-sizing: border-box;
-    padding: 1em;
     border-radius: 50%;
+    /* ... more styles ...*/
 }
 </style>
 ```
@@ -103,24 +96,40 @@ Which you would use like this:
 ``` md
 <ProfileCard :imgSrc="https://yourvuepresssite.com/media/image.jpg">
 
-### Slotted component example
-> Any markdown can go here.
+### Profile card example
+- Any markdown
+- you put here
+> will be slotted in 
 
 </ProfileCard>
 ```
 
-<ProfileCard :imgSrc="imgSrc + '/500'">
+<ProfileCard :imgSrc="imgSrc + '500'">
 
-### Slotted component example
-> Any markdown can go here.
+### Profile card example
+- Any markdown
+- you put here
+> will be slotted in
 
 </ProfileCard>
 
-Now you can slot your markdown content right inside custom designed components.
+This gives you the freedom to design more interesting content within your pages.
 
 
-## Interactive content
-## Build entire apps!
+## 3. Interactive content
+
+<TrueFalseQuiz :imgSrc="imgSrc + '200/400'" :answer="(pic == 'kitten').toString()">
+
+### True or false...
+This is a picture of a kitten
+
+</TrueFalseQuiz>
+
+You chose {{ pic }} images at the start of this post. Try changing your selection. I've used trick 6 from my previous post to setup the .md file as a single file component, complete with its own data :smile:
+
+## 4. Build entire apps!
+
+Now that you know you can add components to your .md files, and that the .md file can itself be setup as a component there is nothing stopping you from building web apps with VuePress. 
 
 <script>
 module.exports = {
