@@ -122,7 +122,7 @@ This gives you the freedom to design more interesting content within your pages.
 
 ## 3. Adding interactivity
 
-The examples so far have shown how useful components can be without even using the `<script>` part of your single file components. Here's an example of how you can add some interactivity to your content with a simple quiz component.
+The first two examples showed how useful components can be without even without using `<script>` in your single file components. Here's an example of a simple quiz component that shows how component data gives you interactivity.
 
 ```vue
 <template>
@@ -182,7 +182,7 @@ This is a picture of a kitten
 
 You selected {{ pic }} images at the start of this post. Try changing your selection. I've used [trick 6 from my previous post](https://petedavis.dev/fun-things-you-can-do-in-vuepress-markdown/#_6-get-interactive-with-a-script-tag) to set up the .md file as a single file component, complete with its own data :smile:
 
-Any component you add can have child components of its own, so you easily can build web apps into your pages. I'll be sharing my experiments with this in future. Now though, just to reinforce that point about reusability, here's that `<SubscribeForm />` component again :wink:
+This is a very simple example. There is so much more you can do in a Vue component and any component you add can have child components of its own. You can see how easy it would be to build web apps into your pages. I'll be sharing my experiments with this in future. Now though, just to reinforce that point about reusability, here's that `<SubscribeForm />` component again :wink:
 
 <TinyLetter />
 
