@@ -52,6 +52,7 @@ img {
 }
 
 label {
+    display: inline-block;
     margin: 0.5em;
     padding: 0.5em;
     border-radius: 0.2em;
