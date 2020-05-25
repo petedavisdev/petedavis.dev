@@ -87,6 +87,9 @@ VuePress is probably not the right fit
 
 </p>
 <p v-else>
+
+You haven't answered the questions
+
 </p>
 
 <script>
