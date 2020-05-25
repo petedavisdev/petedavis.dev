@@ -4,7 +4,6 @@ date: 2020-05-25T06:20:57.044Z
 thumbnail: /media/vuepress-logo.png
 tags:
   - VuePress
-  - Opinions!
 permalink: /:slug
 ---
 I've chosen \[VuePress] to build this blog and my other side-projects, but it wouldn't be the right choice for every project.
@@ -19,9 +18,9 @@ However, if you are completely code-phobic you'll want to use a [no-code website
 
 ### Are you afraid of code?
 
-<label><input type="radio" name="code" value="minus"> Yes</label>
+<label><input type="radio" v-model="code" value="yes"> Yes</label>
 
-<label><input type="radio" name="code" value="plus"> No</label>
+<label><input type="radio" v-model="code" value="no"> No</label>
 
 ## 2. You don't like Vue
 
@@ -31,9 +30,9 @@ However, if you have tried Vue and decided it's not for you, VuePress is not goi
 
 ### Would you hate using Vue?
 
-<label><input type="radio" name="vue" value="minus"> Yes</label>
+<label><input type="radio" v-model="vue" value="yes"> Yes</label>
 
-<label><input type="radio" name="vue" value="plus"> No</label>
+<label><input type="radio" v-model="vue" value="no"> No</label>
 
 ## 3. You want a large choice of readymade themes
 
@@ -45,9 +44,9 @@ There is a community of VuePress developers sharing their own open-source themes
 
 ### Do you need to find just the right readymade theme?
 
-<label><input type="radio" name="themes" value="minus"> Yes</label>
+<label><input type="radio" v-model="themes" value="yes"> Yes</label>
 
-<label><input type="radio" name="themes" value="plus"> No</label>
+<label><input type="radio" v-model="themes" value="no"> No</label>
 
 ## 4. You're building a large enterprise website
 
@@ -57,9 +56,9 @@ For a large enterprise website it makes sense to separate your content from your
 
 ### Are you building a large enterprise website?
 
-<label><input type="radio" name="enterprise" value="minus"> Yes</label>
+<label><input type="radio" v-model="enterprise" value="yes"> Yes</label>
 
-<label><input type="radio" name="enterprise" value="plus"> No</label>
+<label><input type="radio" v-model="enterprise" value="no"> No</label>
 
 ## 5. You're building a data-driven web app
 
@@ -69,23 +68,23 @@ If you are building an app where the main content is constantly updating or high
 
 ### Are you building a data-driven web app?
 
-<label><input type="radio" name="data" value="minus"> Yes</label>
+<label><input type="radio" v-model="data" value="yes"> Yes</label>
 
-<label><input type="radio" name="data" value="plus"> No</label>
+<label><input type="radio" v-model="data" value="no"> No</label>
 
-## Is VuePress a good fit for your next project?
+## Is VuePress a good choice for building your website?
 
-<div v-if="positive === 5">
+<div v-if="vuepress === 'yes'">
 
-Yes! VuePress is theHere are are couple of templates to get you started:
+Yes! Based on your answers, you should give VuePress a try. Here are are couple of templates to get you started:
 
 - [VuePress with the default theme and Netlify CMS]
 - [VuePress with the default **blog** theme and Netlify CMS]
 
 </div>
-<div v-else-if="negative">
+<div v-else-if="vuepress === 'no'">
 
-VuePress is probably not the right fit.
+No. Based on your answers, VuePress is probably not the right fit this time.
 
 </div>
 <div v-else>
@@ -95,5 +94,24 @@ Answer the questions to find out...
 </div>
 
 <script>
-
+module.exports = {
+  data() {
+    return {
+      code: null,
+      vue: null,
+      themes: null,
+      enterprise: null,
+      data: null
+    }
+  },
+  computed: {
+    vuepress() {
+      if (this.code === 'yes' || this.vue === 'yes' || this.themes === 'yes' || this.enterprise === 'yes' || this.data === 'yes') {
+        return 'no';
+      } else if (this.code === 'no' && this.vue === 'no' && this.themes === 'no' && this.enterprise === 'no' && this.data === 'no') {
+        return 'yes';
+      }
+    }
+  }
+};
 </script>
