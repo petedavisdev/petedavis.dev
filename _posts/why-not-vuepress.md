@@ -7,25 +7,25 @@ tags:
   - Opinions!
 permalink: /:slug
 ---
-I've chosen VuePress for this blog and my other side-projects, but it wouldn't be the right choice for every project.
+I've chosen [VuePress] to build this blog and my other side-projects, but it wouldn't be the right choice for every project.
 
 Here are 5 reasons why you would not use VuePress:
 
 ## 1. You don't want to see the code
 
-VuePress is relatively easy to get started with even if you are a beginner developer. To get the most out of VuePress, you will need to understand the basics of HTML, CSS, JS and Git. These are the core skills for any work on the web, and you could learn them as you go along.
+VuePress is easy to [get started] with, even if you are a beginner web developer. To get the most out of VuePress, you just need a basic understanding of HTML, CSS, JS and Git.
 
-However, if you are completely code-phobic you'll want to use a [no-code website builder](https://www.nocode.tech/category/website-builders). Just beware of getting locked into something where you can't control the cost, code or data.
+However, if you are completely code-phobic you'll want to use a [no-code website builder](https://www.nocode.tech/category/website-builders). Just beware of getting locked into something where you don't have control of the cost, the code or the data.
 
 ### Are you afraid of code?
 
-<label><input type="radio" name="code" value="minus"> No code please!</label>
+<label><input type="radio" name="code" value="minus"> Yes</label>
 
-<label><input type="radio" name="code" value="plus"> I'm OK with code</label>
+<label><input type="radio" name="code" value="plus"> No</label>
 
 ## 2. You don't like Vue
 
-I would recommend VuePress even if you have never used Vue before. Learning Vue is not a prerequisite to using VuePress, and if you want to learn Vue, customising a VuePress theme is as good a place to start as any.
+I would recommend VuePress even if you have never used Vue before. Learning Vue is not a prerequisite to using VuePress. If you want to learn Vue, a VuePress site makes a good playground.
 
 However, if you have tried Vue and decided it's not for you, VuePress is not going to be your first choice. If you prefer not to have a JS framework involved in your static site, try [Eleventy]. However, generating a static site with Vue does make it super easy to create interactive content like this:
 
@@ -78,17 +78,17 @@ If you are building an app where the main content is constantly updating or high
 
 <p v-if="positive === 5">
 
-Yes, [try VuePress here]
+Yes! [try VuePress here]
 
 </p>
-<p v-else-if="negative >= 1">
+<p v-else-if="negative">
 
 VuePress is probably not the right fit
 
 </p>
 <p v-else>
 
-You haven't answered the questions
+Answer the questions to find out
 
 </p>
 
