@@ -1,6 +1,6 @@
 ---
 title: Why not VuePress?
-date: 2020-05-25T06:20:57.044Z
+date: 2020-05-30T02:20:57.044Z
 thumbnail: /media/vuepress-logo.png
 tags:
   - VuePress
@@ -9,7 +9,7 @@ permalink: /:slug
 
 I've chosen [VuePress](https://vuepress.vuejs.org) to build this blog and my other side-projects, but it wouldn't be the right choice for every website.
 
-In this post I'll give the 5 reasons why you might *not* choose to build your website with VuePress. Answer the questions as you go to reach the right conclusion.
+In this post I'll cover 5 reasons why you might *not* choose to build your website with VuePress. Answer the questions as you go to reach the right conclusion.
 
 ## 1. You don't want to see the code
 
@@ -33,9 +33,7 @@ I would recommend VuePress even if you have never used Vue before. Learning Vue 
 
 If you have tried Vue and decided it's not for you, VuePress is not going to be your first choice. If you prefer not to have a JS framework involved in your static site, try [Eleventy](https://www.11ty.dev/). 
 
-I'm sticking with VuePress because it generates static pages, but [hydrates to a Single Page App (SPA)](https://vuepress.vuejs.org/guide/#how-it-works), giving users the best of both worlds. Having Vue in the mix also makes it easy to [add interactivity](/fun-things-you-can-do-in-vuepress-markdown/) to my content.
-
-Of course, if you are a dedicated React dev, you're probably already using [Gatsby](https://www.gatsbyjs.org/).
+However, VuePress is more than just a static site generator. Once a page is loaded it [hydrates to a Single Page App (SPA)](https://vuepress.vuejs.org/guide/#how-it-works), giving you the best of both worlds. Having Vue baked-in also makes it easy to create [interactive content](/fun-things-you-can-do-in-vuepress-markdown/), like the questions in this blog post.
 
 ___
 
@@ -49,13 +47,11 @@ ___
 
 ## 3. You want a large choice of readymade themes
 
-One of the great strengths of VuePress is that the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html) is perfect for technical documentation sites. The downside is that few developers look past this to see what else VuePress can do. 
+One of the great strengths of VuePress is that the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html) is perfect for technical documentation sites. The trouble is, this theme is so nicely designed that relatively few developers have gone to the trouble of developing alternatives. 
 
-There is also a default [blog theme](https://vuepress-theme-blog.ulivz.com/), which is what I'm currently using for this site. You can easily change the colour palette of the default themes (as I have done here), but to customise further or develop your own theme you'll have to be fairly confident in your own design and front-end development skills.
+There is also a default [blog theme](https://vuepress-theme-blog.ulivz.com/), which is what I'm currently using for this site. You can easily change the colour palette of the default themes (as I have done here), but to customise further or develop your own theme you will have to be fairly confident in your own design and front-end development skills.
 
-There is a community of VuePress developers sharing their own open-source themes, but you will not find a vast selection of battle-tested themes to suit every kind of website.
-
-For me, this isn't a problem because creating themes is the fun part.
+There is a community of VuePress developers sharing their own open-source themes, but you will not find a vast selection of well-used themes. For me, this isn't a problem because creating themes is the fun part and I'm hoping to start publishing themes of my own soon.
 
 ___
 
@@ -67,21 +63,21 @@ ___
 
 ___
 
-## 4. You need a more powerful content management solution
+## 4. You have complex content management requirements
 
 The main way to create VuePress site content is with Markdown files saved in your Git repository. You manage drafts and publish content using your normal Git workflow. To make content authoring easy for people who don't use Git, you can add a Git-based Content Management System (CMS) like [Netlify CMS](/add-netlify-cms-to-vuepress/) or [Forestry](https://forestry.io/).
 
 There are huge advantages to this Markdown + Git approach to content:
 
-- Full version and control with easy rollback
+- Full version control with easy rollback
 - Fast builds and easy local development
 - No back-end, database or third-party integrations to maintain
 
-This approach only becomes a problem if you have a huge, complicated website or if you need to use your content across multiple channels. In these cases, I would suggest pairing a headless CMS like [Contentful](https://www.contentful.com/) with Static Site Generator that is designed to compile content from APIs like [Gridsome](https://gridsome.org/).
+This approach only becomes a problem if you have a huge, complicated website or if you're content is across multiple sources or channels. In these cases, I would suggest pairing a headless CMS like [Contentful](https://www.contentful.com/) with a Static Site Generator that is designed to compile content from APIs like [Gridsome](https://gridsome.org/).
 
 ___
 
-#### Do you really need database-backed/API-based CMS?
+#### Do you really need a database-backed/API-based CMS?
 
 <label><input type="radio" v-model="enterprise" value="yes"> Yes</label>
 
@@ -137,7 +133,7 @@ If you're still curious - here's how you can get up-and-running quickly with [Vu
 </div>
 <div v-else>
 
-Answer all the questions above to reach the right conclusion!
+Answer the 5 questions above to get your conclusion :wink:
 ___
 
 </div>
