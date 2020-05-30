@@ -9,7 +9,7 @@ permalink: /:slug
 
 I've chosen [VuePress](https://vuepress.vuejs.org) to build this blog and my other side-projects, but it wouldn't be the right choice for every website.
 
-In this post I'll cover 5 reasons why you might *not* choose to build your website with VuePress. Answer the questions as you go to reach the right conclusion.
+This post covers 5 reasons why you might *not* choose to build your website with VuePress. Answer the questions as you go to reach the right conclusion.
 
 ## 1. You don't want to see the code
 
@@ -49,9 +49,9 @@ ___
 
 One of the great strengths of VuePress is that the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html) is perfect for technical documentation sites. The trouble is, this theme is so nicely designed that relatively few developers have gone to the trouble of developing alternatives. 
 
-There is also a default [blog theme](https://vuepress-theme-blog.ulivz.com/), which is what I'm currently using for this site. You can easily change the colour palette of the default themes (as I have done here), but to customise further or develop your own theme you will have to be fairly confident in your own design and front-end development skills.
+There is also a default [blog theme](https://vuepress-theme-blog.ulivz.com/), which is what I'm currently using for this site. You can easily change the colour palette of the default themes (as I have done here), but to customise further or develop your own theme you will have to be fairly confident in your design and front-end development skills.
 
-There is a community of VuePress developers sharing their own open-source themes, but you will not find a vast selection of well-used themes. For me, this isn't a problem because creating themes is the fun part and I'm hoping to start publishing themes of my own soon.
+There is a community of VuePress developers sharing open-source themes, but you will not find a vast selection of well-used themes. For me, this isn't a problem because creating themes is the fun part and I'm hoping to start sharing themes soon.
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 One of the big selling points of VuePress is that there is no need for a database. Like any website, you can fetch data from APIs dynamically in a VuePress site if you want to. However, VuePress is best when the majority of the content you display will be fairly static.
 
-If you are building an app where the main content is constantly updating or highly personalised, why would you generate a static site? Instead you could try adding [Vue Apollo](https://apollo.vuejs.org/) to a Vue app or starting with [Nuxt](https://nuxtjs.org/). I'll leave the database research up to you!
+If you are building an app where the main content is constantly updating or highly personalised, why would you generate a static site? Instead, you could try adding [Vue Apollo](https://apollo.vuejs.org/) to a Vue app or starting with [Nuxt](https://nuxtjs.org/). I'll leave the database research up to you!
 
 ___
 
