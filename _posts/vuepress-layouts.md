@@ -8,16 +8,16 @@ tags:
   - Tutorial
 permalink: /:slug
 ---
-When you design a VuePress theme, you may need a bunch of different layouts for different types of page. For example, you might have these in your 'theme/layouts' folder:
+I'm currently designing a VuePress theme which will have a bunch of different layouts for different types of page, like so:
 
 - 404.vue
-- Article.vue
 - Collection.vue
-- Document.vue
+- Doc.vue
 - Home.vue
-- Layout.vue (this one is required)
+- Layout.vue (this one is the default)
+- Post.vue
 
-For each page, you can specify the layout it uses in the Frontmatter at the top of your markdown:
+For each page, I can specify the layout it uses in the Frontmatter at the top of your markdown:
 
 ``` md
 ---
@@ -39,11 +39,10 @@ Replacing this with a multipurpose component that also handles common layout fea
 
 There is a better way.
 
-## 1. Set up `Layout.vue` as your master layout
+## 1. Create a master layout
 
 Let's say you want the following features on every page:
 
 - Header
 - Main
 - Footer
-
