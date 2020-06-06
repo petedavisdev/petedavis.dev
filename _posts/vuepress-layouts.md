@@ -8,7 +8,9 @@ tags:
   - Tutorial
 permalink: /:slug
 ---
-I'm currently designing a VuePress theme which will have a bunch of different layouts for different types of page, like so:
+In VuePress themes, layouts are used to 
+
+When you design a I'm currently designing a VuePress theme which will have a bunch of different layouts for different types of page, like so:
 
 - 404.vue
 - Collection.vue
