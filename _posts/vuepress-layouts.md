@@ -78,6 +78,14 @@ To make this possible, simply add some named slots to the template. Layout.vue w
 import Logo from '@theme/components/Logo.vue'
 import Nav from '@theme/components/Nav.vue'
 import EndCredit from '@theme/components/EndCredit.vue'
+
+export default {
+  components: {
+    Logo,
+    Nav,
+    EndCredit
+  }
+}
 </script>
 ```
 
