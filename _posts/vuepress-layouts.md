@@ -50,7 +50,7 @@ Let's say you want the following html structure on every page:
 </footer>
 ```
 
-On some layouts you will want to insert additional features in different places within this structure. For example, on your posts you may want to include post info (data, author, tags...) at the start of the main section and some social media sharing buttons just after your content.
+On some layouts you will want to insert additional features in different places within this structure. For example, on your posts you may want to include post info (data, author, tags...) at the start of the main section and some social media sharing buttons and a newsletter subscription form just after your content.
 
 To make this possible, simply add some named slots to the template. Layout.vue will look like this...
 
@@ -64,7 +64,9 @@ To make this possible, simply add some named slots to the template. Layout.vue w
 
     <main>
       <slot name="mainStart" />
+
       <Content />
+
       <slot name="mainEnd" />
     </main>
 
@@ -101,6 +103,7 @@ export default {
 
     <template v-slot:mainEnd>
       <ShareButtons />
+      <SubscriptionForm />
     </template>
   </Layout>
 </template>
@@ -108,11 +111,13 @@ export default {
 <script>
 import PostInfo from '@theme/components/PostInfo.vue'
 import ShareButtons from '@theme/components/ShareButtons.vue'
+import SubscriptionForm from '@theme/components/SubscriptionForm.vue'
 
 export default {
   components: {
     PostInfo,
     ShareButtons,
+    SubscriptionForm
   }
 }
 </script>
@@ -120,3 +125,4 @@ export default {
 
 > Note: Layout.vue is globally available in VuePress, so you don't need to import it to use it in your other layouts.
 
+You are likely to need a few more slots in your Layout.vue file to make it work as a base for all your other layouts. Just add what you need and name appropriately.
