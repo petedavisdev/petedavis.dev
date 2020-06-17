@@ -6,7 +6,7 @@ tags:
   - VuePress
 permalink: /:slug
 ---
-VuePress is most commonly used to build for documentation sites and GitHub Pages is most commonly used to host documentation sites, so it makes sense to use them together.
+https://github.com/petedavisdev/VuePress-with-Netlify-CMShttps://github.com/petedavisdev/VuePress-with-Netlify-CMSVuePress is most commonly used to build for documentation sites and GitHub Pages is most commonly used to host documentation sites, so it makes sense to use them together.
 
 Unfortunately this seems to be something that people struggle with.
 
