@@ -12,6 +12,8 @@ permalink: /:slug
 
 ### They should just work together, right?
 
+Not quite.
+
 The first thing to realise is that GitHub won't build your site for you. In fact, if you just set GitHub Pages to use your **docs** folder, it will build you a Jekyll site :confused:
 
 If you want your VuePress site on GitHub Pages, you first have to build it yourself and then deploy the content of the **.vuepress/dist** folder.
