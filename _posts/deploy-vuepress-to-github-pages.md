@@ -24,7 +24,7 @@ The second thing is that there is no way to tell GitHub to deploy the content of
 
 The solution to this is to deploy to a branch called **gh-pages**. This is a special branch name that GitHub recognises and deploys automatically.
 
-The VuePress docs include [instructions on how to add a deploy.sh file](https://vuepress.vuejs.org/guide/deploy.html#github-pages) to your repo, which is especially useful if you want to set up automatic deployment as part of a CI process. 
+The VuePress docs include [instructions on how to add a **deploy.sh** file](https://vuepress.vuejs.org/guide/deploy.html#github-pages) to your repo, which is especially useful if you want to set up automatic deployment as part of a CI process. 
 
 However, if you're looking for the easiest way to start deploying to GitHub Pages, you can do it with one command:
 
@@ -34,7 +34,9 @@ npm run build && npx gh-pages docs/.vuepress/dist
 
 That's all there is to it! :smile:
 
-After you run this command, you will find a link to your deployed site in your GitHub repository settings, which will look something like this:  **https://username.github.io/repo-name/**
+After you run this command, you will find a link to your deployed site in your GitHub repository settings, which will look something like this:  
+
+**https://username.github.io/repo-name/**
 
 ### A little config
 
