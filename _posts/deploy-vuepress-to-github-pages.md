@@ -1,9 +1,11 @@
 ---
-title: The easy way to deploy a VuePress site to GitHub Pages
+title: Deploy your VuePress site to GitHub Pages - the easy way
 date: 2020-06-17T19:57:13.209Z
 thumbnail: /media/vuepress-logo.png
 tags:
   - VuePress
+  - Tips and tricks
+  - Tutorials
 permalink: /:slug
 ---
 [VuePress](https://vuepress.vuejs.org/) is most commonly used to build documentation sites. 
