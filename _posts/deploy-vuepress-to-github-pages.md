@@ -7,6 +7,7 @@ tags:
 permalink: /:slug
 ---
 [VuePress](https://vuepress.vuejs.org/) is most commonly used to build documentation sites. 
+
 [GitHub Pages](https://pages.github.com/) is most commonly used to host documentation sites.
 
 ### They should just work together, right?
