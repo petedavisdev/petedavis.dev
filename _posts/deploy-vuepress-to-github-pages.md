@@ -55,9 +55,9 @@ So you don't have to remember the command, add this to your scripts in your **pa
 
 If you're wondering what the `npx` is about, that's a way to use an npm package without having to install it as a dependency. If you prefer, you can run `npm install -D gh-pages` and then remove `npx` from above script.
 
-### Demo time
+### Demo time :clock:
 
-Finally, it's always nice to demo a working example:
+Here's a working example:
 
 [petedavisdev.github.io/VuePress-with-Netlify-CMS/](https://petedavisdev.github.io/VuePress-with-Netlify-CMS/)
 
