@@ -11,13 +11,13 @@ permalink: /:slug
 
 ### They should just work together, right?
 
-The first thing to realise is that GitHub won't build your site for you. In fact, if you just point GitHub at your **docs** folder, it will build a Jekyll site for you :confused:
+The first thing to realise is that GitHub won't build your site for you. In fact, if you just set GitHub to use your **docs** folder, it will build you a Jekyll site :confused:
 
-If you want a VuePress site on GitHub Pages, you first have to build it yourself and then deploy the content of the **.vuepress/dist** folder.
+If you want your VuePress site on GitHub Pages, you first have to build it yourself and then deploy the content of the **.vuepress/dist** folder.
 
-The second thing is that there is no way to tell GitHub to deploy the content of your **dist** folder. That's probably a good thing as it's best practice to .gitignore compiled files in your codebase. So where do you deploy to?
+The second thing is that there is no way to tell GitHub to deploy the content of your **dist** folder. That's probably a good thing as it's best practice to `.gitignore` compiled files in your codebase. So where do you deploy to?
 
-### The magic gh-pages branch :sparkles:
+### The magic `gh-pages` branch :sparkles:
 
 The solution to this is to deploy to a branch called **gh-pages**. This is a special branch name that GitHub recognises and deploys automatically.
 
