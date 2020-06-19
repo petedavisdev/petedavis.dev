@@ -30,9 +30,9 @@ However, if you're looking for the easiest way to start deploying to GitHub Page
 npm run build && npx gh-pages docs/.vuepress/dist
 ```
 
-That's all there is to it!
+That's all there is to it! :smile:
 
-After you run this command, you will find a link to your deployed site in your GitHub Repository settings, which will be something like **https://username.github.io/repo-name/**
+After you run this command, you will find a link to your deployed site in your GitHub repository settings, which will look something like this:  **https://username.github.io/repo-name/**
 
 ### A little config
 
