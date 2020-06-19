@@ -16,23 +16,30 @@ The second thing is that you don't want to have your dist files in your codebase
 
 The solution to this is to deploy to a branch called **gh-pages**. This is a special branch name reserved for this purpose. GitHub recognises is and automatically deploys the content of this branch for you.
 
-The VuePress docs include [instructions on how to add a deploy.sh file to your repo](https://vuepress.vuejs.org/guide/deploy.html#github-pages) which is great, especially if you want to set up automatic deployment as part of a CI process.
+The VuePress docs include [instructions on how to add a deploy.sh file to your repo](https://vuepress.vuejs.org/guide/deploy.html#github-pages), which is especially useful if you want to set up automatic deployment as part of a CI process. 
 
-If that looks intimidating, this [npm package](https://www.npmjs.com/package/gh-pages) means you can deploy with a single command.
+However, if you're looking for an easy way to start deploying to GitHub Pages, you can do it with one command:
 
 ```
 npm run build && npx gh-pages docs/.vuepress/dist
 ```
 
-So you don't have to remember this, you'll want to add this to your scripts in your **package.json** file...
+That's all there is to it!
+
+After you run this command, you will find a link to your deployed site in your GitHub Repository settings, which will be something like **https://username.github.io/repo-name/**
+
+Because your site is not hosted at the root of this subdomain, you'll need to add the following inside your **.vuepress/config.js** file to make sure your links work:
+
+```
+    base: "/repo-name/",
+```
+
+So you don't have to remember the command, add this to your scripts in your **package.json** file...
 
 ```
     "deploy": "npm run build && npx gh-pages docs/.vuepress/dist"
 ```
-... and then run `npm run deploy` to deploy.
+... and then run `npm run deploy`.
 
-Set the right base, e.g. `"/name-of-your-repository/"`
+If you're wondering what the `npx` is about, that's a way to use an npm package without having to install it as a dependency. If you prefer, you can run `npm install -D gh-pages` and then remove `npx` from above script.
 
-> Using `npx` is optional. It means that you grab the package from npm when you need it. This adds about 5 seconds to each deployment, which isn't a big deal as you're not deploying constantly. If you prefer run `npm install -D gh-pages` and then remove `npx` from the deploy script.
-
-One more thing you need to know. In order for links to work properly in your app you'll need to set the correct base in your .vuepress/config.js file.
