@@ -8,7 +8,7 @@ tags:
   - Tutorial
 permalink: /:slug
 ---
-I'm currently working on a base theme for VuePress theme designers. This theme will come with a bunch of different layouts for different types of page.
+I'm recently started building on a [base theme](https://github.com/petedavisdev/vuepress-theme-base) for VuePress theme designers. This theme will come with a bunch of different [layouts](https://vuepress.vuejs.org/theme/writing-a-theme.html#layout-component) for different types of page.
 
 - layouts
   - 404.vue
@@ -19,11 +19,30 @@ I'm currently working on a base theme for VuePress theme designers. This theme w
   - Post.vue
   - Product.vue
 
-Most websites have a consistent header, main menu and footer on all pages, so you need a way to wrap all your layouts in a common HTML structure. So how do you share common features across your layouts?
+I quickly ran into two challenges:
 
-## Avoid overriding GlobalLayout.vue
+1. I want to be able to choose a default layout for each content directory so that I don't have to specify the Layout in the frontmatter of every .md file.
 
-I looked for a solution in the VuePress docs andfound something called [globalLayout](https://vuepress.vuejs.org/theme/option-api.html#globallayout). This is a core part of VuePress that you can override by configuring your theme's `index.js` to point at your own GlobalLayout.vue file.
+2. I want to ensure a consistent HTML structure with some common features (e.g. header, nav, footer) in the same position on every layout, but I need to be able to add specific features in different positions on each layout.
+
+# 1. Default layouts
+
+Let's say you have a website with the following content structure:
+
+- index.md
+- guide.md
+- blog.md
+- docs
+  - doc1.md
+  - doc2.md
+- posts
+  - post1.md
+  - post2.md
+  - post3.md
+
+You want all of the pages in the **docs** directory to using the **Doc.vue** layout by default and you want all of the pages in the **posts** directory to use the **Post.vue** layout.
+
+To achieve this you need to look at how VuePress determines which layout to apply to each .md file as it renders your site. This happens in GlobalLayout.vue, a core component in VuePress that you can override by including a GlobalLayout.vue file in your theme/layouts folder.
 
 **Don't do this!**
 
