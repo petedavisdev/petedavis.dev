@@ -55,7 +55,7 @@ So you don't have to remember the command, add this to your scripts in your **pa
 ```
 ... and then run `npm run deploy`.
 
-If you're wondering what the `npx` is about, that's a way to use an npm package without having to install it as a dependency. If you prefer, you can run `npm install -D gh-pages` and then remove `npx` from above script.
+If you're wondering what the `npx` is about, that's a way to use an npm package without having to install it as a dependency. If you prefer, you can run `npm install -D gh-pages` and then remove `npx` from the above script.
 
 ## Demo time :clock:
 
