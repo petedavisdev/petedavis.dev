@@ -12,7 +12,7 @@ permalink: /:slug
 
 [GitHub Pages](https://pages.github.com/) is most commonly used to host documentation sites.
 
-### They should just work together, right?
+## They should just work together, right?
 
 Not quite.
 
@@ -22,7 +22,7 @@ If you want your VuePress site on GitHub Pages, you first have to build it yours
 
 The second thing is that there is no way to tell GitHub to deploy the content of your **dist** folder. That's probably a good thing as it's best practice to `.gitignore` compiled files in your codebase. So where do you deploy to?
 
-### The magic `gh-pages` branch :sparkles:
+## The magic `gh-pages` branch :sparkles:
 
 The solution to this is to deploy to a branch called **gh-pages**. This is a special branch name that GitHub recognises and deploys automatically.
 
@@ -40,7 +40,7 @@ After you run this command, you will find a link to your deployed site in your G
 
 **https://username.github.io/repo-name/**
 
-### A little config
+## A little config
 
 Because your site is not hosted at the root of this subdomain, you'll need to add the following inside your **.vuepress/config.js** file to make sure your links work:
 
@@ -57,7 +57,7 @@ So you don't have to remember the command, add this to your scripts in your **pa
 
 If you're wondering what the `npx` is about, that's a way to use an npm package without having to install it as a dependency. If you prefer, you can run `npm install -D gh-pages` and then remove `npx` from above script.
 
-### Demo time :clock:
+## Demo time :clock:
 
 Here's a working example:
 
