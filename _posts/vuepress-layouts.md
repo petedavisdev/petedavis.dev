@@ -1,5 +1,5 @@
 ---
-title: VuePress layouts
+title: Working with layouts in VuePress
 date: 2020-06-06T05:44:29.957Z
 thumbnail: /media/vuepress-logo.png
 tags:
@@ -8,16 +8,25 @@ tags:
   - Tutorial
 permalink: /:slug
 ---
-I'm recently started building on a [base theme](https://github.com/petedavisdev/vuepress-theme-base) for VuePress theme designers. This theme will come with a bunch of different [layouts](https://vuepress.vuejs.org/theme/writing-a-theme.html#layout-component) for different types of page.
+I'm currently working on a [base theme](https://github.com/petedavisdev/vuepress-theme-base) for VuePress theme designers. In the process I've figured out two nice tricks for working with multiple layouts in a VuePress.
 
-- layouts
-  - 404.vue
-  - Collection.vue
-  - Doc.vue
-  - Home.vue
-  - Layout.vue (this one is the required default)
-  - Post.vue
-  - Product.vue
+## What are layouts in VuePress?
+
+[Layouts](https://v1.vuepress.vuejs.org/theme/writing-a-theme.html#layout-component) in VuePress provide all of the features that surround the content of a given page, such as headers, navigation, sidebars and footers. 
+
+In VuePress you can specify the layout you want for any given page in the [frontmatter](https://v1.vuepress.vuejs.org/guide/frontmatter.html) at the start of the .md file:
+
+``` md
+---
+title: Awesome t-shirt
+layout: Product
+---
+```
+If you don't specify a layout, VuePress defaults to using Layout.vue for every page, so it's up to you to make sure every page in your shop has `layout: Product` specified in its Frontmatter :frowning:
+
+## Set a default layout for each directory
+
+Let's look a how VuePres
 
 I quickly ran into two challenges:
 
@@ -30,25 +39,43 @@ I quickly ran into two challenges:
 Let's say you have a website with the following content structure:
 
 - index.md
-- guide.md
-- blog.md
-- docs
-  - doc1.md
-  - doc2.md
-- posts
+- blog
   - post1.md
   - post2.md
-  - post3.md
+  - ...
+- guide
+  - doc1.md
+  - doc2.md
+  - ...
+- shop/
+  - product1.md
+  - product2.md
+  - ...
 
-You want all of the pages in the **docs** directory to using the **Doc.vue** layout by default and you want all of the pages in the **posts** directory to use the **Post.vue** layout.
+All pages in the **blog** directory should default to the **Post.vue** layout.
 
-To achieve this you need to look at how VuePress determines which layout to apply to each .md file as it renders your site. This happens in GlobalLayout.vue, a core component in VuePress that you can override by including a GlobalLayout.vue file in your theme/layouts folder.
+All pages in the **guide** directory should default to the **Doc.vue** layout.
 
-**Don't do this!**
+All pages in the **shop** directory should default to the **Product.vue** layout.
 
-You'll notice the docs has a "Danger Zone" flag. That's because the component you are overriding has one specific purpose - to determine which is the correct layout for each page. If you override it, you are taking responsibility for a core bit of VuePress logic and giving yourself the opportunity to break things.
+To achieve this we need to look at how VuePress determines which layout to apply to each .md file as it generates your site. This happens in [GlobalLayout.vue](https://vuepress.vuejs.org/theme/option-api.html#globallayout), a core component in VuePress that you can override by including a GlobalLayout.vue file in your **theme/layouts** folder.
 
-There is a better way.
+You'll notice this is flagged with "Danger Zone" in the docs ::open_mouth::! That's because by overriding this component, you are taking responsibility for a core bit of VuePress logic, but I'll guide you through it.
+
+First, in .vuepress/config.js we're going to set up our desired default layouts:
+
+``` js
+module.exports = {
+  themeConfig: {
+    defaultLayouts: [
+      { directory: 'blog', layout: 'Post' },
+      { directory: 'guide', layout: 'Doc' },
+      { directory: 'shop', layout: 'Product' },
+    ],
+}
+```
+
+To use this, we need to add some logic that checks the directory of the current page
 
 ## Create a base layout
 
