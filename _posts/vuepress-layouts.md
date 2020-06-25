@@ -60,7 +60,7 @@ All pages in the **shop** directory should default to the **Product.vue** layout
 
 To achieve this we need to look at how VuePress determines which layout to apply to each .md file as it generates your site. This happens in [GlobalLayout.vue](https://vuepress.vuejs.org/theme/option-api.html#globallayout), a core component in VuePress that you can override by including a GlobalLayout.vue file in your **theme/layouts** folder.
 
-You'll notice this is flagged with "Danger Zone" in the docs ::open_mouth::! That's because by overriding this component, you are taking responsibility for a core bit of VuePress logic, but I'll guide you through it.
+You'll notice this is flagged with "Danger Zone" in the docs ::open_mouth::! That's because by overriding this component, you are taking responsibility for a core bit of VuePress logic, so make sure you understand the js that you're adding.
 
 First, in .vuepress/config.js we're going to set up our desired default layouts:
 
@@ -75,7 +75,16 @@ module.exports = {
 }
 ```
 
-To use this, we need to add some logic that checks the directory of the current page
+To use this, we need to add some logic that checks the directory of the current page. We still want any layout set in the frontmatter to take priority, then the defaults set in `themeConfig` should be applied if they exist before defaulting to Layout.vue.
+
+That bit of logic will look something like this:
+
+``` js
+return this.isLayout(this.$frontmatter.layout) || this.hasDefaultLayout() || 'Layout';
+
+```
+For the complete code, take a look at [this file in my vuepress-theme-base](https://github.com/petedavisdev/vuepress-theme-base/blob/master/theme/layouts/GlobalLayout.vue) repo.
+
 
 ## Create a base layout
 
