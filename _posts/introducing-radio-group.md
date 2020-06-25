@@ -1,5 +1,5 @@
 ---
-title: Introducing <radio-group>
+title: Introducing radio-group
 date: 2020-06-25T00:19:12.574Z
 thumbnail: /media/vuepress-logo.png
 tags:
