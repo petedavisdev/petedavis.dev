@@ -85,7 +85,6 @@ return this.isLayout(this.$frontmatter.layout) || this.hasDefaultLayout() || 'La
 ```
 For the complete code, take a look at [this file in my vuepress-theme-base](https://github.com/petedavisdev/vuepress-theme-base/blob/master/theme/layouts/GlobalLayout.vue) repo.
 
-
 ## Create a base layout
 
 Let's say you want the following html structure on every page:
