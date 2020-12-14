@@ -6,7 +6,9 @@ tags:
   - Vue
 permalink: /:slug
 ---
-## Multiple root elements :carrot: :carrot: :carrot:
+Here are my favorite new features of Vue 3.
+
+## Multiple root elements :carrot::carrot::carrot:
 
 There is no need for wrapper elements in your component template. This makes me happy :smile:
 
@@ -92,7 +94,7 @@ This means you can add multiple v-models to a component:
 />
 ```
 
-## Reacting to changes inside arrays and objects :dash:
+## Deeper reactivity :dash:
 
 Vue 3 reacts to changes to items within arrays and properties inside objects. It just works! You can do:
 
@@ -103,7 +105,7 @@ this.user.name = "Pete"
 
 Vue 3 will react to these changes automatically!
 
-## The Composition API :bricks:
+## The Composition API :building_construction:
 
 Last, but definitely not least, this is the most talked-about feature of Vue 3. 
 
