@@ -60,4 +60,4 @@ Things I love about this:
 
 1. Using TypeScript to `declare` the props that the component expects makes this easier to understand
 2. It's the composition API, but neater. No need to return everything at the end, just export as you go along
-3. Users the dynamic power of CSS variables within the browser. Much nicer than using `:style` attributes in your template.
+3. We are using the dynamic power of CSS variables within the browser. Much nicer than binding `:style` attributes in your template.
