@@ -46,7 +46,7 @@ declare const props: {
   color: string,
 }
 
-export const computedMsg = computed(() => props.msg + '!!!')
+export const computedText = computed(() => props.text + '!!!')
 </script>
 
 <style scoped vars="{ color }">
