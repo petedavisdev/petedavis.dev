@@ -41,6 +41,7 @@ Then use the build-in 'Teleport' component and tell it where to teleport to:
 The teleported elements are still part of the component and respond and render according to the functionality of the component, but they are appended inside the target element in the DOM. This is great for UI features like popups or sidebars that display separately from the component that controls them.
 
 ## Suspense fallbacks
+
 Suspense is used to render fallback content while the default is unavailble, for example:
 
 ```html
@@ -90,6 +91,7 @@ This means you can add multiple v-models to a component:
   v-model:email="useremail"
 />
 ```
+
 ## Reacting to changes inside arrays and objects
 
 Vue 3 reacts to changes to items within arrays and properties inside objects. It just works! You can do:
@@ -98,6 +100,7 @@ Vue 3 reacts to changes to items within arrays and properties inside objects. It
 this.vegetables[0] = "Artichoke"
 this.user.name = "Pete"
 ```
+
 Vue 3 will react to these changes automatically!
 
 ## The Composition API
@@ -106,14 +109,18 @@ Last, but definitely not least, this is the most talked-about feature of Vue 3.
 
 The composition API is an alternative to the Options API, but they can be used together. It can be used for splitting and sharing functionality between components and it also works great with TypeScript.
 
-If you're using the composition API, it's worth trying `<script setup>` experimental syntax.
+If you're using the composition API, it's worth trying [`<script setup>` experimental syntax](https://github.com/vuejs/rfcs/blob/sfc-improvements/active-rfcs/0000-sfc-script-setup.md):
 
 ```html
-<script setup>
-  import { ref } from 'vue'
+<script setup="props" lang="ts">
+import { computed } from 'vue'
 
-  export const count = ref(0)
-  export const inc = () => count.value++
+// declare props using TypeScript syntax
+declare const props: {
+  msg: string
+}
+
+export const computedMsg = computed(() => props.msg + '!!!')
 </script>
 ```
 
