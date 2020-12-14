@@ -6,9 +6,9 @@ tags:
   - Vue
 permalink: /:slug
 ---
-## Multiple root elements
+## Multiple root elements :carrot: :carrot: :carrot:
 
-There is no need for wrapper elements in your component template. This just works:
+There is no need for wrapper elements in your component template. This makes me happy :smile:
 
 ```html
 <template>
@@ -19,7 +19,7 @@ There is no need for wrapper elements in your component template. This just work
 </template>
 ```
 
-## Teleporting elements
+## Teleporting elements :cyclone:
 
 Vue 3 lets you move elements to different places in the DOM.
 
@@ -40,7 +40,7 @@ Then use the build-in 'Teleport' component and tell it where to teleport to:
 
 The teleported elements are still part of the component and respond and render according to the functionality of the component, but they are appended inside the target element in the DOM. This is great for UI features like popups or sidebars that display separately from the component that controls them.
 
-## Suspense fallbacks
+## Suspense fallbacks :hourglass:
 
 Suspense is used to render fallback content while the default is unavailble, for example:
 
@@ -56,7 +56,7 @@ Suspense is used to render fallback content while the default is unavailble, for
 </Suspense>
 ```
 
-## The `emits` option
+## The `emits` option :tada:
 
 Used to define the events that a component is capable of emitting:
 
@@ -75,7 +75,7 @@ You still emit events in the same way:
 
 The benefits are all in the dev experience, with better IDE support and more readable code.
 
-## Multiple `v-model`s
+## Multiple `v-model`s :clipboard:
 
 You now write v-model like this:
 
@@ -92,7 +92,7 @@ This means you can add multiple v-models to a component:
 />
 ```
 
-## Reacting to changes inside arrays and objects
+## Reacting to changes inside arrays and objects :dash:
 
 Vue 3 reacts to changes to items within arrays and properties inside objects. It just works! You can do:
 
@@ -103,11 +103,11 @@ this.user.name = "Pete"
 
 Vue 3 will react to these changes automatically!
 
-## The Composition API
+## The Composition API :bricks:
 
 Last, but definitely not least, this is the most talked-about feature of Vue 3. 
 
-The composition API is an alternative to the Options API, but they can be used together. It can be used for splitting and sharing functionality between components and it also works great with TypeScript.
+The composition API is an alternative to the Options API, but they can be used together. It can be used for splitting and sharing functionality between components and it also works great with TypeScript. It can also be used to [roll your own state management](https://ghalex.com/state-management-in-vue-3/) if you don't want to use Vuex
 
 If you're using the composition API, it's worth trying [`<script setup>` experimental syntax](https://github.com/vuejs/rfcs/blob/sfc-improvements/active-rfcs/0000-sfc-script-setup.md):
 
