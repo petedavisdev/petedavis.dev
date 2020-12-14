@@ -54,6 +54,25 @@ Suspense is used to render fallback content while the default is unavailble, for
 </Suspense>
 ```
 
+## The `emits` option
+
+Used to define the events that a component is capable of emitting:
+
+```js
+export default {
+  props: ['acceptText'],
+  emits: ['accepted']
+}
+```
+
+You still emit events in the same way:
+
+```html
+<button @click="$emit('accepted')">{{ acceptText }}</button>
+```
+
+The benefits are all in the dev experience, with better IDE support and more readable code.
+
 ## Multiple `v-model`s
 
 You now write v-model like this:
