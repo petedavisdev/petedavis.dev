@@ -23,23 +23,24 @@ There is no need for wrapper elements in your component template. This just work
 
 Vue 3 lets you move elements to different places in the DOM.
 
-First set up the target somewhere in your app like so:
+First decide on a target you would like your elements to teleport into:
 
 ```html
-<div id="teleport-target"></div>
+<header id="page-header"></header>
 ```
 
-Then use the build-in 'Teleport' component to make the magic happen:
+Then use the build-in 'Teleport' component and tell it where to teleport to:
 
 ```html
-<Teleport to="#teleport-target">
+<Teleport to="#page-header">
   <button>The button magically appears in the target div!</button>
   <p>So will this paragraph!</p>
 <Teleport>
 ```
-The teleported elements are still part of the component and respond and render according to the functionality of the component, they just display somewhere else on the page. This is great for UI features like popups or sidebars that display separately from the component that controls them.
 
-## Suspense
+The teleported elements are still part of the component and respond and render according to the functionality of the component, but they are appended inside the target element in the DOM. This is great for UI features like popups or sidebars that display separately from the component that controls them.
+
+## Suspense fallbacks
 Suspense is used to render fallback content while the default is unavailble, for example:
 
 ```html
@@ -105,4 +106,15 @@ Last, but definitely not least, this is the most talked-about feature of Vue 3.
 
 The composition API is an alternative to the Options API, but they can be used together. It can be used for splitting and sharing functionality between components and it also works great with TypeScript.
 
+If you're using the composition API, it's worth trying `<script setup>` experimental syntax.
 
+```html
+<script setup>
+  import { ref } from 'vue'
+
+  export const count = ref(0)
+  export const inc = () => count.value++
+</script>
+```
+
+I'll be looking at Vue 3 and TypeScript in my next post.
