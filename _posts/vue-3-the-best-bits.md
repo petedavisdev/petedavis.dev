@@ -1,11 +1,24 @@
 ---
-title: Vue 3 - the best bits
+title: "Vue 3: the best bits"
 date: 2020-12-14T10:57:33.018Z
 thumbnail: /media/vue.js_logo.png
 tags:
   - Vue
 permalink: /:slug
 ---
+## Multiple root elements
+
+There is no need for wrapper elements in your component template. This just works:
+
+```html
+<template>
+  <header>Lots</header>
+  <aside>of</aside>
+  <main>root</main>
+  <footer>elements!</footer>
+</template>
+```
+
 ## Teleporting elements
 
 Vue 3 lets you move elements to different places in the DOM.
@@ -26,19 +39,6 @@ Then use the build-in 'Teleport' component to make the magic happen:
 ```
 The teleported elements are still part of the component and respond and render according to the functionality of the component, they just display somewhere else on the page. This is great for UI features like popups or sidebars that display separately from the component that controls them.
 
-## Multiple root elements
-
-There is no need for wrapper elements in your component template. This just works:
-
-```html
-<template>
-  <header>Lots</header>
-  <aside>of</aside>
-  <main>root</main>
-  <footer>elements!</footer>
-</template>
-```
-
 ## Suspense
 Suspense is used to render fallback content while the default is unavailble, for example:
 
@@ -54,7 +54,7 @@ Suspense is used to render fallback content while the default is unavailble, for
 </Suspense>
 ```
 
-## v-model Syntax change
+## Multiple `v-model`s
 
 You now write v-model like this:
 
