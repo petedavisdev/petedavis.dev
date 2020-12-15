@@ -94,7 +94,7 @@ This means you can add multiple v-models to a component:
 />
 ```
 
-## Deeper reactivity :dash:
+## Deeper reactivity :zap:
 
 Vue 3 reacts to changes to items within arrays and properties inside objects. It just works! You can do:
 
