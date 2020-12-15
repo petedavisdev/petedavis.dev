@@ -111,19 +111,6 @@ Last, but definitely not least, this is the most talked-about feature of Vue 3.
 
 The composition API is an alternative to the Options API, but they can be used together. It can be used for splitting and sharing functionality between components and it also works great with TypeScript. It can also be used to [roll your own state management](https://ghalex.com/state-management-in-vue-3/) if you don't want to use Vuex
 
-If you're using the composition API, it's worth trying [`<script setup>` experimental syntax](https://github.com/vuejs/rfcs/blob/sfc-improvements/active-rfcs/0000-sfc-script-setup.md):
-
-```html
-<script setup="props" lang="ts">
-import { computed } from 'vue'
-
-// declare props using TypeScript syntax
-declare const props: {
-  msg: string
-}
-
-export const computedMsg = computed(() => props.msg + '!!!')
-</script>
-```
+If you're using the composition API, it's keeping an eye on the [RFC for the experimental `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227).
 
 I'll be looking at Vue 3 and TypeScript in my next post.
