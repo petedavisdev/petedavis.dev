@@ -6,7 +6,7 @@ permalink: /:slug
 
 ## URL Marker
 
-With this Chrome extension, you will never confuse your local, test and live site again!
+With this Chrome extension, you will never confuse your local, test, and live site again!
 
 ### Privacy Policy
 1. **No tracking** - URL Marker does not use cookies or any other tracking technology.
