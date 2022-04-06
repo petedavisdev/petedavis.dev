@@ -1,7 +1,9 @@
 ---
-title: My Chrome Extensions
+title: extensions
 permalink: /:slug
 ---
+# My browser extensions
+
 ## URL Marker
 
 With this Chrome extension, you will never confuse your local, test and live site again!
