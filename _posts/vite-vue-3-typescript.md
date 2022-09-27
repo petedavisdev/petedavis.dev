@@ -1,5 +1,5 @@
 ---
-title: Vite + Vue 3 + TypeScript
+title: Experimenting with Vite + Vue 3 + TypeScript
 date: 2020-12-14T15:19:34.314Z
 thumbnail: /media/vue.js_logo.png
 tags:
@@ -10,7 +10,7 @@ permalink: /:slug
 ---
 ## All the new toys!
 
-I like shiney new things, so I'm building a Vue 3 app, written with TypeScript and built with Vite.
+I like shiny new things, so I'm tinkering with a Vue 3 app, written with TypeScript and built with Vite.
 
 ### Why Vue 3?
 
