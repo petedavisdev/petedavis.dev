@@ -14,7 +14,7 @@ I like shiney new things, so I'm building a Vue 3 app, written with TypeScript a
 
 ### Why Vue 3?
 
-Like Vue 2, but with even more awesome! Here are the best bits of Vue 3.
+Like Vue 2, but with even more awesome! [Here are the best bits of Vue 3](/vue-3-the-best-bits/).
 
 I'm also using two experimental features of Vue 3:
 
