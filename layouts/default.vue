@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<header>Pete Davis</header>
-		<NuxtPage />
+		<slot />
 		<footer>&copy;{{ new Date().getFullYear() }} Pete Davis</footer>
 	</div>
 </template>
