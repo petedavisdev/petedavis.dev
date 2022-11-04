@@ -3,8 +3,9 @@
 
 body {
 	--dark: #112;
+	--dark-accent: #e0a;
 	--light: #eee;
-	--accent: #e0a;
+	--light-accent: #c08;
 
 	font-family: "Maven Pro", sans-serif;
 	font-size: 20px;
@@ -16,14 +17,14 @@ body {
 	transition: background-color 0.6s ease-out, color 0.3s ease-out;
 }
 
-body > * {
-	max-width: 700px;
-	margin-inline: auto;
-}
-
 body:has(#light:checked) {
 	background-color: var(--light);
 	color: var(--dark);
+	accent-color: var(--light-accent);
+}
+
+body:has(#light:checked) a {
+	color: var(--light-accent);
 }
 
 #light {
@@ -37,6 +38,11 @@ body:has(#light:checked) {
 
 #light:checked ~ .on {
 	display: none;
+}
+
+body > * {
+	max-width: 700px;
+	margin-inline: auto;
 }
 
 a {
