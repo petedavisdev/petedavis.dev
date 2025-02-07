@@ -4,14 +4,21 @@
 body {
 	--color-background: #112;
 	--color-text: #ddd;
-	--color-link: #e0a;
+	--color-link: #ec4899;
 	--color-underline: #ccc;
+	--gradient-background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(17, 17, 34, 1) 50%,
+		rgba(0, 0, 0, 1) 100%
+	);
 
 	font-family: 'Maven Pro', sans-serif;
 	font-size: 20px;
 	line-height: 1.4;
 	padding: 1.5em;
 	background-color: var(--color-background);
+	background: var(--gradient-background);
 	color: var(--color-text);
 	transition: background-color 0.6s ease-out, color 0.3s;
 }
@@ -21,6 +28,12 @@ body:has(#light:checked) {
 	--color-text: #334;
 	--color-link: #08c;
 	--color-underline: #445;
+	--gradient-background: linear-gradient(
+		0deg,
+		rgba(238, 238, 238, 1) 0%,
+		rgba(255, 255, 255, 1) 50%,
+		rgba(238, 238, 238, 1) 100%
+	);
 }
 
 #light {
@@ -35,7 +48,6 @@ body:has(#light:checked) {
 
 a {
 	color: var(--color-link);
-	text-decoration-color: var(--color-underline);
 	text-decoration-skip-ink: none;
 	text-decoration-thickness: 2px;
 	text-underline-offset: 2px;
@@ -43,7 +55,7 @@ a {
 }
 
 a:hover {
-	text-decoration-color: var(--color-link);
+	text-decoration-color: var(--color-underline);
 }
 
 ul {
